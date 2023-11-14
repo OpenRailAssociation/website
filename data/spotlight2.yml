@@ -1,0 +1,42 @@
+####################### Open Source #########################
+style: "spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: opensource
+title : "The choice of Open Innovation through Open Source"
+content: |
+  <blockquote>
+    "no matter who you are, most of the smartest people work for someone else"
+  </blockquote>
+  <p>
+      According to Joy's Law, attributed to Sun Microsystems co-founder Bill
+      Joy, the brightest people - at the heart of corporate innovation - often
+      work for others.
+  </p>
+
+  <p>
+      To face this situation, the largest companies in the world are adopting
+      so-called open innovation strategies. Open innovation allows both to
+      foster internal innovation thanks to the contribution of resources outside
+      the company (flow called outside - in); and to stimulate innovation within
+      the broader ecosystem by allowing the development of ideas outside the
+      company's borders (flow called inside - out).
+  </p>
+
+  <blockquote>
+      <b>Open source is a form of open innovation designed for software
+      development and complex systems.</b>
+  </blockquote>
+
+  <p>
+      From Microsoft to IBM, Tesla to Airbus, open-source methods and solutions
+      are no longer in question. Open source consists in opening the source code
+      of a software so that everyone can read it, use it, and suggest
+      improvements. Everyone can adapt the software to their own requirements
+      and needs, while sharing their innovations with a large community.
+      Development issues are therefore shared bugs, their resolution and the
+      efforts made to fix them are public, as well as the progress of new
+      features.
+  </p>
+
+  <h2 style="text-align: right;">Reliability / Security /
+      Interoperability</h2>
+image: "images/opentrain-cmophoto-net-unsplash.jpg"

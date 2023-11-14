@@ -1,0 +1,15 @@
+####################### Contact #########################
+
+title: Get in touch
+email: contact@openrailassociation.org
+before_email: |
+  <p>
+      You can simply and reach us by sending us an email to
+      <br />
+after_email: |
+  </p>
+  <p>
+      You are also welcome to join the <a href="https://framalistes.org/sympa/info/openrail-general" target="_blank">general OpenRail mailing list</a>
+      for general discussion and announcements. This is the
+      best way to get informed about updates.
+  </p>

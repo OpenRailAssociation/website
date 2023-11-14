@@ -1,0 +1,33 @@
+####################### Members #########################
+
+title: Current Members
+introduction: |
+  Companies below have agreed on the principles and believe in the benefits of
+  building an Open Source Association for Railways.<br>
+  We are strongly convinced that Open Source is a great opportunity for
+  Railways.<br>
+  We would be very pleased to accept new members and make our community grow!
+
+listclass: style1 medium
+
+members:
+  - name: UIC
+    link: https://uic.org
+    imgsrc: images/logo-uic_full.jpg
+    imgheight: 150
+    imgmargin: 0
+  - name: Deutsche Bahn
+    link: https://deutschebahn.com
+    imgsrc: images/logo-DB.png
+    imgheight: 80
+    imgmargin: 35
+  - name: SNCF
+    link: https://sncf.com
+    imgsrc: images/logo-sncf.png
+    imgheight: 150
+    imgmargin: 0
+  - name: SBB CFF FFS
+    link: https://www.sbb.ch
+    imgsrc: images/logo-sbb_compact.png
+    imgheight: 150
+    imgmargin: 0
