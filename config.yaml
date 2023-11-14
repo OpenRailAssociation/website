@@ -1,0 +1,43 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+theme: hugo-openrail
+title: OpenRail Association
+copyright: "{year}"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+baseURL: "https://openrailassociation.org"
+relativeURLs: "true"
+publishDir: public
+summaryLength: 40
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+Params:
+  description: >-
+    The OpenRail Association provides a safe and not-for-profit platform for the
+    development of Open Source software in the railways sector.
+  logo: images/banner.jpg
+  favicon: true
+  asset:
+    fontawesome_css:
+      - css/fontawesome-all.min.css
+      - css/openrail-custom.css
+    fontawesome_js:
+      - js/fontawesome-all.min.js
+permalinks:
+  news: "/news/:2006/:title/"

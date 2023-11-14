@@ -1,0 +1,44 @@
+####################### OpenRail #########################
+style: "spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "why"
+title : "Why OpenRail Association?"
+content: |
+  <p>
+      Over the years, many private or commercial initiatives have
+      resulted in valuable, but mostly "in- house" applications or
+      frameworks. These disconnected initiatives necessarily
+      overlap, within a context of constrained IT development
+      resources.
+  </p>
+
+  <h3>Efficiency and Rationalization of efforts</h3>
+  <p>
+      The objective of the OpenRail Association Initiative is to
+      provide an open space to foster innovation and software
+      development in the railway sector.
+  </p>
+  <p>
+      Software development activity is now an inherent part of
+      rail operations, and all players have IT teams working on
+      internal projects. Often using tools provided by private
+      software publishers, these teams continually create value.
+      They know the needs and constraints of the business. They
+      can innovate and propose reliable technical solutions. They
+      are already doing this, but in isolation.
+      <br>OpenRail Association wishes to federate all the efforts
+      that are made by IT teams around the world in open,
+      collaborative, scalable and robust software projects.
+  </p>
+  <blockquote>
+      <b>IT projects by the railways and for the
+          railways.</b>
+  </blockquote>
+
+  <h3>Meeting Basic Needs</h3>
+  <p>
+      The rail industry collectively needs a set of affordable,
+      well-understood, reliable, and maintained software tools to
+      perform basic analyses of their customers' needs, business
+      assets, or environmental impact of their operations.
+  </p>
+image: "images/alexander-popov-I0_UBfHbnkI-unsplash.jpg"

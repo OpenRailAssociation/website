@@ -1,0 +1,6 @@
+[submodule "themes/hugo-story"]
+	path = themes/hugo-story
+	url = https://github.com/OpenRailAssociation/website-hugo-theme
+[submodule "themes/hugo-openrail"]
+	path = themes/hugo-openrail
+	url = https://github.com/OpenRailAssociation/website-hugo-theme
