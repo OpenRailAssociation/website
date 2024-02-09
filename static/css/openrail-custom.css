@@ -41,3 +41,21 @@ section.news-list:first-of-type {
 #siteheading {
   padding: 4rem 7rem 0 7rem;
 }
+
+/* Membership buttons */
+.less-top-margin {
+  margin-top: 1rem !important;
+}
+.less-bottom-margin {
+  margin-bottom: 1rem !important;
+}
+
+#members-overview section {
+  border: 0;
+}
+
+@media screen and (min-width: 981px) {
+  #members-overview section {
+    width: 25%;
+  }
+}

@@ -1,14 +1,13 @@
 ####################### Members #########################
 
-title: Current Members
+title: Membership
 introduction: |
-  Companies below have agreed on the principles and believe in the benefits of
-  building an Open Source Association for Railways.<br>
-  We are strongly convinced that Open Source is a great opportunity for
-  Railways.<br>
-  We would be very pleased to accept new members and make our community grow!
+  The organisations listed below have agreed on the principles and believe in
+  the benefits of an Open Source foundation for the railway sector. They have
+  founded and joined the OpenRail Association, and firmly believe that Open
+  Source is a great opportunity for this industry.
 
-listclass: style1 medium
+listclass: style1 medium less-bottom-margin less-top-margin
 
 members:
   - name: UIC
@@ -31,3 +30,17 @@ members:
     imgsrc: images/logo-sbb_compact.png
     imgheight: 150
     imgmargin: 0
+
+join_title: And how about you?
+join_text: |
+  We are looking forward to accept new members and make our community grow.
+join_links:
+  - name: Statutes
+    link: "documents/OpenRail-Association-Statutes.pdf"
+    class: small wide
+  - name: Membership form
+    link: "documents/OpenRail-Membership-Form.docx"
+    class: small wide
+  - name: Get in touch
+    link: "#contact"
+    class: small wide
