@@ -13,7 +13,7 @@ While most talks at FOSDEM circulated around programming, cloud, or system admin
 
 ### How Open Source is being used from planning to operations
 
-The talks in the devroom were following a consistent story: we started with a primer into the open standards and open data that powers the sector. We then looked at data to model pessenger data, followed by simulations and building timetables. Afterwards, we've seen examples how all this information is being used in the day-to-day operations in companies and community projects. Via the respective links you can find the video recording and slides of each talk, so please enjoy these great presentations:
+The talks in the devroom were following a consistent story: we started with a primer into the open standards and open data that powers the sector. We then looked at data to model passenger data, followed by simulations and building timetables. Afterwards, we've seen examples how all this information is being used in the day-to-day operations in companies and community projects. Via the respective links you can find the video recording and slides of each talk, so please enjoy these great presentations:
 
 | Title | Speaker | Link |
 |---|---|---|
