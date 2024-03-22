@@ -1,0 +1,31 @@
+{{- /*  Template for all files in /content/, unless specified separately (like /news)  */ -}}
+<!DOCTYPE HTML>
+<!--
+  Hugo Story by CaressOfSteel
+  A (modular, highly tweakable) responsive one-page theme for Hugo.
+  Ported from Story by HTML5UP.
+  This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
+-->
+<html>
+
+  {{ partial "head" . }}
+
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+      {{ partial "nav" site.Data.nav }}
+      <section class="association spotlight style2 orient-left content-align-left onscroll-image-fade-in">
+        <div class="inner medium">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+        </div>
+      </section>
+      {{ partial "footer" site.Data.footer }}
+    <!-- Wrapper -->
+    </div>
+
+    {{ partial "scripts" . }}
+
+  </body>
+</html>

@@ -14,6 +14,21 @@ p {
   padding: 4rem 7rem 0 7rem;
 }
 
+// Never center text on subpages
+@media screen and (orientation: portrait) {
+  .spotlight.style2 {
+    text-align: left !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// SINGLE PAGES
+
+// Always make inner container full width
+div.inner.medium {
+  width: 100%;
+}
+
 
 // -----------------------------------------------------------------------------
 // NEWS
@@ -21,13 +36,6 @@ section.news,
 section.news-list {
 
   &.spotlight.style2 {
-
-    // Never center text
-    p,
-    h2,
-    h3 {
-      text-align: left !important;
-    }
 
     // Reduce padding
     @media (orientation: landscape) {
