@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-theme: hugo-openrail
+theme: openrail
 title: OpenRail Association
 copyright: "{year}"
 

@@ -1,0 +1,36 @@
+<!-- Supporters -->
+<section class="wrapper style1 align-center" id="members">
+  <div class="inner">
+    <h2>{{ .title }}</h2>
+    <p>
+      {{ with .introduction }}{{ . | safeHTML }}{{ end }}
+    </p>
+    <div class="items {{ .listclass }}" id="members-overview">
+      {{ range .members }}
+      <section>
+        <a href="{{ .link }}" target="_blank">
+          <img src="{{ .imgsrc }}" height="{{ .imgheight }}" style="margin: {{ .imgmargin }}px;" alt="{{ .name }} logo" />
+        </a>
+        <h3>{{ .name }}</h3>
+      </section>
+      {{ end }}
+    </div>
+    <div class="index align-left">
+      <section>
+        <header>
+          <h3>{{ .join_title }}</h3>
+        </header>
+        <div class="content">
+          <p>{{ .join_text }}</p>
+          <ul class="actions less-bottom-margin">
+            {{ range .join_links }}
+            <li>
+              <a href="{{ .link }}" class="button smooth-scroll-middle {{ .class }}">{{ .name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>

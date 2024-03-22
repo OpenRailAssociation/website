@@ -1,0 +1,14 @@
+{{ define "main" }}
+	{{/* Variables with global info to be given via dict to scoped partials */}}
+	{{ $pages := .Site.RegularPages.ByPublishDate.Reverse }}
+
+	{{ partial "nav" site.Data.nav }}
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "spotlight" site.Data.spotlight1 }}
+	{{ partial "spotlight" site.Data.spotlight2 }}
+	{{ partial "news" (dict "news" site.Data.news "pages" $pages) }}
+	{{ partial "members" site.Data.members }}
+	{{ partial "contact" site.Data.contact }}
+	{{ partial "footer" site.Data.footer }}
+
+{{ end }}
