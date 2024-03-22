@@ -21,7 +21,6 @@ summaryLength: 40
 
 disableKinds:
   - taxonomy
-  - taxonomyTerm
 
 ## -----------------------------------------------
 ## Site Parameters
