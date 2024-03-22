@@ -1,0 +1,48 @@
+{{- /*  Template for all files in /content/news/  */ -}}
+<!DOCTYPE HTML>
+<!--
+  Hugo Story by CaressOfSteel
+  A (modular, highly tweakable) responsive one-page theme for Hugo.
+  Ported from Story by HTML5UP.
+  This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
+-->
+<html>
+
+  {{ partial "head" . }}
+
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+      {{ partial "nav" site.Data.nav }}
+
+      <div id="siteheading"><h2>{{ .Title }}</h2></div>
+
+      {{/*  Range all posts  */}}
+      {{ range .Pages }}
+      <section class="news-list spotlight style2 orient-left content-align-left onscroll-image-fade-in {{ .Params.image.class }}">
+        <div class="inner medium">
+          <header>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Date.Format "02 January 2006" }}</p>
+          </header>
+          <p>{{ .Summary }} <a href="{{ .RelPermalink }}"><br /><strong>Continue reading »</strong></a></p>
+      </div>
+      {{ if .Params.image }}
+      <div class="image">
+        <img src="{{ relURL .Params.image.src }}"
+            alt="{{ .Params.image.alt }}" />
+      </div>
+      {{ end }}
+      </section>
+      {{ end }} {{/* end range */}}
+      {{ partial "footer" site.Data.footer }}
+    <!-- Wrapper -->
+    </div>
+
+    {{ template "_internal/google_analytics.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
+    {{ partial "scripts" . }}
+
+  </body>
+</html>

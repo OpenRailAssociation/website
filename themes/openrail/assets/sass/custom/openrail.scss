@@ -1,0 +1,86 @@
+// -----------------------------------------------------------------------------
+// GENERAL
+p {
+  margin-bottom: 1rem;
+}
+
+// Hidden headline, esp. h1
+.hiddenhead {
+  display: none;
+}
+
+// Site heading
+#siteheading {
+  padding: 4rem 7rem 0 7rem;
+}
+
+
+// -----------------------------------------------------------------------------
+// NEWS
+section.news,
+section.news-list {
+
+  &.spotlight.style2 {
+
+    // Never center text
+    p,
+    h2,
+    h3 {
+      text-align: left !important;
+    }
+
+    // Reduce padding
+    @media (orientation: landscape) {
+      padding: 3rem 7rem 2rem 7rem;
+    }
+
+  }
+}
+
+// Position news images rather on top
+@media screen and (orientation: landscape) {
+  section.news {
+    align-items: flex-start !important;
+
+    div.image {
+      margin-top: 100px !important;
+    }
+  }
+}
+
+// Reduce image size in image listing, and on news items on small screens
+.news-list.spotlight.style2 .image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.news.spotlight.style .image {
+  @media screen and (min-width: 469px) and (max-width: 736px) {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+// No box shadow for first section
+section.news-list:first-of-type {
+  box-shadow: none !important;
+}
+
+
+// -----------------------------------------------------------------------------
+// MEMBERSHIP
+.less-top-margin {
+  margin-top: 1rem !important;
+}
+
+.less-bottom-margin {
+  margin-bottom: 1rem !important;
+}
+
+#members-overview section {
+  border: 0;
+
+  @media screen and (min-width: 981px) {
+    width: 25%;
+  }
+}

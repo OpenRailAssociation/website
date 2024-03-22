@@ -1,0 +1,20 @@
+name = "Hugo Story - OpenRail edition"
+description = "A (modular, highly tweakable) responsive one-page theme for Hugo. Forked for the sole purpose of the OpenRail Association website"
+
+min_version = "0.123.0 Extended"
+tags = ["blog","clean","html5up","modular","one-page","portfolio","responsive"]
+features = ["font-awesome","favicon","one-page","responsive","sass","scss"]
+
+license = "CC-BY-3.0"
+licenselink = "https://github.com/OpenRailAssociation/website/blob/main/LICENSE.txt"
+
+[author]
+    name = "OpenRail Association"
+    homepage = "https://openrailassociation.org"
+    repo = "https://github.com/OpenRailAssociation/website"
+
+# If porting an existing theme
+[original]
+    author = "HTML5UP"
+    homepage = "https://html5up.net"
+    repo = "https://html5up.net/story"

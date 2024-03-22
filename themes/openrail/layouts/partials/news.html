@@ -1,0 +1,18 @@
+				<!-- News -->
+                <section class="wrapper style1 align-center" id="news">
+                    <div class="inner medium">
+                        <h2>{{ .news.title }}</h2>
+                        {{ range (where .pages "Section" "news" ) }}
+                        <p>
+                            <a href="{{ .RelPermalink }}">
+                                <em>{{ .Date.Format "02 Jan 2006" }}:</em> {{ .Title }}
+                            </a>
+                        </p>
+                        {{ end }}
+                        <ul class="actions stacked">
+                            {{ range .news.buttons }}
+                            <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </section>

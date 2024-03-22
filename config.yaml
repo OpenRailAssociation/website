@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-theme: hugo-openrail
+theme: openrail
 title: OpenRail Association
 copyright: "{year}"
 
@@ -36,7 +36,6 @@ Params:
   asset:
     fontawesome_css:
       - css/fontawesome-all.min.css
-      - css/openrail-custom.css
     fontawesome_js:
       - js/fontawesome-all.min.js
 permalinks:
