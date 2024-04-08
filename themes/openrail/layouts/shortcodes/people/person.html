@@ -1,36 +1,33 @@
 {{ $data := (index .Site.Data.people .Params.id) -}}
-<section class="person">
-  <div class="inner">
-    <img src="/images/people/{{ $data.img }}" height="150" style="margin: 0px;" alt="Picture of {{ $data.name }}">
-    <h3>{{ $data.name }}</h3>
-    {{ with $data.openrail_role -}}
-    <p>{{ . }}</p>
+<section class="person" id="{{ .Params.id }}">
+  <img src="/images/people/{{ $data.img }}" alt="Picture of {{ $data.name }}">
+  <h3>{{ $data.name }}</h3>
+  {{ with $data.openrail_role -}}
+  <p>{{ . }}</p>
+  {{ end -}}
+  {{ with $data.organisation -}}
+  <p>{{ with $data.organisation_role -}}{{ . }} at {{ end }}<strong>{{ . }}</strong></p>
+  {{ end -}}
+  {{ if $data.links -}}
+  <ul>
+    {{ with $data.links.linkedin -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a></li>
     {{ end -}}
-    {{ with $data.organisation -}}
-    <p>{{ with $data.organisation_role -}}{{ . }} at {{ end }}<strong>{{ . }}</strong></p>
+    {{ with $data.links.mastodon -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-mastodon" title="Mastodon"></i></a></li>
     {{ end -}}
-    {{ if $data.links -}}
-    <ul>
-      {{ with $data.links.linkedin -}}
-      <li><a href="{{ . }}"><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a></li>
-      {{ end -}}
-      {{ with $data.links.mastodon -}}
-      <li><a href="{{ . }}"><i class="fa-brands fa-mastodon" title="Mastodon"></i></a></li>
-      {{ end -}}
-      {{ with $data.links.x -}}
-      <li><a href="{{ . }}"><i class="fa-brands fa-x-twitter" title="x"></i></a></li>
-      {{ end -}}
-      {{ with $data.links.facebook -}}
-      <li><a href="{{ . }}"><i class="fa-brands fa-facebook" title="Facebook"></i></a></li>
-      {{ end -}}
-      {{ with $data.links.github -}}
-      <li><a href="{{ . }}"><i class="fa-brands fa-github" title="GitHub"></i></a></li>
-      {{ end -}}
-      {{ with $data.links.email -}}
-      <li><a href="{{ . }}"><i class="fa-regular fa-envelope" title="E-mail"></i></a></li>
-      {{ end -}}
-    </ul>
+    {{ with $data.links.x -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-x-twitter" title="x"></i></a></li>
     {{ end -}}
-
-  </div>
+    {{ with $data.links.facebook -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-facebook" title="Facebook"></i></a></li>
+    {{ end -}}
+    {{ with $data.links.github -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-github" title="GitHub"></i></a></li>
+    {{ end -}}
+    {{ with $data.links.email -}}
+    <li><a href="{{ . }}"><i class="fa-regular fa-envelope" title="E-mail"></i></a></li>
+    {{ end -}}
+  </ul>
+  {{ end -}}
 </section>

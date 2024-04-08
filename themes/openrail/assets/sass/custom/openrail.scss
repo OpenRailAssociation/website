@@ -96,22 +96,46 @@ section.news-list:first-of-type {
 // -----------------------------------------------------------------------------
 // PEOPLE, PERSONS
 
-section.person {
-  h3, p {
-    margin-bottom: 0;
-  }
-  p {
-    font-size: 0.8rem;
-  }
+div.people-gallery {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 
-  ul {
-    list-style: none;
-    padding-left: 0;
+  section.person {
 
-    li {
-      display: inline;
+    min-width: 200px !important;
+    width: 0;
+
+    // Image
+    img {
+      object-fit: cover;
+      height: 200px;
+      width: 200px;
+    }
+
+    // Text
+    h3,
+    p {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+
+    ul {
+      list-style: none;
       padding-left: 0;
-      margin-right: 5px;
+
+      li {
+        display: inline;
+        padding-left: 0;
+        margin-right: 5px;
+      }
     }
   }
 }
