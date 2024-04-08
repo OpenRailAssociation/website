@@ -6,9 +6,9 @@
         <ul class="icons">
             {{ with .github }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>{{end}}
             {{ with .mastodon }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-mastodon"><span class="label">Mastodon</span></a></li>{{end}}
-            {{ with .twitter }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>{{end}}
+            {{ with .twitter }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-x-twitter"><span class="label">Twitter</span></a></li>{{end}}
             {{ with .linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>{{end}}
-            {{ with .email }}<li><a href="{{.}}" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
+            {{ with .email }}<li><a href="{{.}}" class="icon style2 regular fa-envelope"><span class="label">Email</span></a></li>{{end}}
         </ul>
         <p>{{ .more | safeHTML }}</p>
 </div>
