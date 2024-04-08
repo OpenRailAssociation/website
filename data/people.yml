@@ -1,0 +1,16 @@
+nicole-goebel:
+  name: Nicole Göbel
+  img: nicole-goebel.jpg
+  organisation: DB Systel GmbH
+  organisation_role: CEO
+  openrail_role: Vice-Chairman
+  links:
+    linkedin: https://www.linkedin.com/in/nicole-goebel/
+jochen-decker:
+  name: Jochen Decker
+  img: jochen-decker.jpg
+  organisation: SBB CFF FFS
+  organisation_role: CIO
+  openrail_role: Chairman
+  links:
+    linkedin: https://www.linkedin.com/in/jochen-decker-62526241/

@@ -8,6 +8,9 @@ Our goals are transparency....
 
 ## Board of Directors
 
-bla
+Pretext about who the BoD is
 
-{{< people >}}
+{{< people/gallery >}}
+  {{< people/person id="jochen-decker" >}}
+  {{< people/person id="nicole-goebel" >}}
+{{< /people/gallery >}}
