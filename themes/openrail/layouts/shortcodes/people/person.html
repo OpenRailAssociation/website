@@ -1,12 +1,12 @@
 {{ $data := (index .Site.Data.people .Params.id) -}}
 <section class="person" id="{{ .Params.id }}">
-  <img src="/images/people/{{ $data.img }}" alt="Picture of {{ $data.name }}">
-  <h3>{{ $data.name }}</h3>
+  <img src="/images/people/{{ with $data.img }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Picture of {{ $data.name }}">
+  <h4>{{ $data.name }}</h4>
   {{ with $data.openrail_role -}}
   <p>{{ . }}</p>
   {{ end -}}
   {{ with $data.organisation -}}
-  <p>{{ with $data.organisation_role -}}{{ . }} at {{ end }}<strong>{{ . }}</strong></p>
+  <p>{{ with $data.organisation_role -}}{{ . }} at {{ end }}<strong class="nowrap">{{ . }}</strong></p>
   {{ end -}}
   {{ if $data.links -}}
   <ul>
@@ -17,7 +17,7 @@
     <li><a href="{{ . }}"><i class="fa-brands fa-mastodon" title="Mastodon"></i></a></li>
     {{ end -}}
     {{ with $data.links.x -}}
-    <li><a href="{{ . }}"><i class="fa-brands fa-x-twitter" title="x"></i></a></li>
+    <li><a href="{{ . }}"><i class="fa-brands fa-x-twitter" title="X (formerly Twitter)"></i></a></li>
     {{ end -}}
     {{ with $data.links.facebook -}}
     <li><a href="{{ . }}"><i class="fa-brands fa-facebook" title="Facebook"></i></a></li>

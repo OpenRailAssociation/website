@@ -19,7 +19,7 @@ nicole-goebel:
   img: nicole-goebel.jpg
   organisation: DB Systel GmbH
   organisation_role: CEO
-  openrail_role: Vice-Chairman
+  openrail_role: Vice-Chair
   links:
     linkedin: https://www.linkedin.com/in/nicole-goebel/
 jochen-decker:
@@ -27,7 +27,7 @@ jochen-decker:
   img: jochen-decker.jpg
   organisation: SBB CFF FFS
   organisation_role: CIO
-  openrail_role: Chairman
+  openrail_role: Chair
   links:
     linkedin: https://www.linkedin.com/in/jochen-decker-62526241/
 jean-michel-evanghelou:
@@ -35,7 +35,7 @@ jean-michel-evanghelou:
   img: jean-michel-evanghelou.jpg
   organisation: UIC
   organisation_role: Director Telecom, Signalling & Digital Applications, Director Financial Controlling & Project Operations
-  openrail_role: Vice-Chairman
+  openrail_role: Vice-Chair
   links:
     linkedin: https://www.linkedin.com/in/jeanmichelevanghelou/
 frederic-novello:
@@ -43,7 +43,7 @@ frederic-novello:
   img: frederic-novello.jpg
   organisation: SNCF
   organisation_role: Deputy Group CIO
-  openrail_role: Vice-Chairman
+  openrail_role: Vice-Chair
   links:
     linkedin: https://www.linkedin.com/in/frederic-novello/
 
@@ -93,7 +93,7 @@ loic-hamelin:
     linkedin: https://www.linkedin.com/in/loic-hamelin/
 simon-clavier:
   name: Simon Clavier
-  img: simon-clavier.jpg
+  # img: simon-clavier.jpg
   organisation: SNCF
   organisation_role: Open Source Software Strategist
   openrail_role:

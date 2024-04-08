@@ -97,6 +97,7 @@ section.news-list:first-of-type {
 // PEOPLE, PERSONS
 
 div.people-gallery {
+  // Width of person container, same as image and "box"
   $person-width: 250px;
 
   display: flex;
@@ -108,7 +109,7 @@ div.people-gallery {
     min-width: $person-width !important;
     width: 0;
 
-    // Image
+    // Image of person
     img {
       object-fit: cover;
       height: $person-width;
@@ -116,25 +117,38 @@ div.people-gallery {
       border-radius: 15px;
     }
 
-    // Text
-    h3 {
+    // Name of person
+    h4 {
       font-size: 1.1rem;
       margin-bottom: 0;
+      font-weight: 400;
     }
 
+    // Text below person
     p {
       font-size: 0.8rem;
       margin-bottom: 0.2rem;
+
+      // Do not wrap organisation name
+      strong.nowrap {
+        white-space: nowrap;
+      }
     }
 
+    // Links, e.g. LinkedIn
     ul {
       list-style: none;
       padding-left: 0;
+      margin-bottom: 0;
 
       li {
         display: inline;
         padding-left: 0;
         margin-right: 5px;
+
+        i {
+          color: #444;
+        }
       }
     }
   }
