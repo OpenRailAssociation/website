@@ -97,34 +97,34 @@ section.news-list:first-of-type {
 // PEOPLE, PERSONS
 
 div.people-gallery {
+  $person-width: 250px;
+
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 
   section.person {
 
-    min-width: 200px !important;
+    min-width: $person-width !important;
     width: 0;
 
     // Image
     img {
       object-fit: cover;
-      height: 200px;
-      width: 200px;
+      height: $person-width;
+      width: $person-width;
+      border-radius: 15px;
     }
 
     // Text
-    h3,
-    p {
-      margin-bottom: 0;
-    }
-
     h3 {
       font-size: 1.1rem;
+      margin-bottom: 0;
     }
 
     p {
       font-size: 0.8rem;
+      margin-bottom: 0.2rem;
     }
 
     ul {

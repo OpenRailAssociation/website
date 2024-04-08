@@ -1,3 +1,19 @@
+# Template
+# first-lastname:
+#   name: First Lastname
+#   img: first-last.jpg
+#   organisation: Company
+#   organisation_role: Master of Disaster
+#   openrail_role: WG X Chair
+#   links:
+#     linkedin: https://www.linkedin.com/in/.../
+#     mastodon: https://...
+#     x: https://...
+#     facebook: https://...
+#     github: https://...
+#     email: first.last@example.com
+
+# Board
 nicole-goebel:
   name: Nicole Göbel
   img: nicole-goebel.jpg
@@ -14,3 +30,80 @@ jochen-decker:
   openrail_role: Chairman
   links:
     linkedin: https://www.linkedin.com/in/jochen-decker-62526241/
+jean-michel-evanghelou:
+  name: Jean-Michel Evanghelou
+  img: jean-michel-evanghelou.jpg
+  organisation: UIC
+  organisation_role: Director Telecom, Signalling & Digital Applications, Director Financial Controlling & Project Operations
+  openrail_role: Vice-Chairman
+  links:
+    linkedin: https://www.linkedin.com/in/jeanmichelevanghelou/
+frederic-novello:
+  name: Frédéric Novello
+  img: frederic-novello.jpg
+  organisation: SNCF
+  organisation_role: Deputy Group CIO
+  openrail_role: Vice-Chairman
+  links:
+    linkedin: https://www.linkedin.com/in/frederic-novello/
+
+# OpenRail Team
+mahalia-stephan:
+  name: Mahalia Stephan
+  img: mahalia-stephan.jpg
+  organisation: SBB CFF FFS
+  organisation_role: Product Owner Digitalization
+  openrail_role:
+  links:
+    linkedin: https://www.linkedin.com/in/mahalia-stephan/
+cornelius-schumacher:
+  name: Cornelius Schumacher
+  img: cornelius-schumacher.jpg
+  organisation: DB Systel GmbH
+  organisation_role: Open Source Steward
+  openrail_role: Chair Technical Committee
+  links:
+    linkedin: https://www.linkedin.com/in/cschum/
+    github: https://github.com/cornelius
+peter-keller:
+  name: Peter Keller
+  img: peter-keller.jpg
+  organisation: SBB CFF FFS
+  organisation_role: Subject Matter Expert
+  openrail_role:
+  links:
+    linkedin: https://www.linkedin.com/in/peterandreaskeller/
+max-mehl:
+  name: Max Mehl
+  img: max-mehl.jpg
+  organisation: DB Systel GmbH
+  organisation_role: Open Source Strategy & Governance
+  openrail_role:
+  links:
+    linkedin: https://www.linkedin.com/in/mxmehl/
+    github: https://github.com/mxmehl
+    mastodon: https://mastodon.social/@mxmehl
+loic-hamelin:
+  name: Loïc Hamelin
+  img: loic-hamelin.jpg
+  organisation: SNCF Réseau
+  organisation_role: OSRD Program Director
+  openrail_role:
+  links:
+    linkedin: https://www.linkedin.com/in/loic-hamelin/
+simon-clavier:
+  name: Simon Clavier
+  img: simon-clavier.jpg
+  organisation: SNCF
+  organisation_role: Open Source Software Strategist
+  openrail_role:
+  links:
+    linkedin: https://www.linkedin.com/in/clavier/
+oana-vlasceanu:
+  name: Oana Vlasceanu
+  img: oana-vlasceanu.jpg
+  organisation: UIC
+  organisation_role: Head of Quality Management
+  openrail_role:
+  links:
+    linkedin: https://www.linkedin.com/in/oana-vlasceanu-6a935a12/
