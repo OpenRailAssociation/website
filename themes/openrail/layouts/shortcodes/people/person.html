@@ -1,7 +1,7 @@
 {{ $data := (index .Site.Data.people .Params.id) -}}
 <section class="person" id="{{ .Params.id }}">
   <img src="/images/people/{{ with $data.img }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Picture of {{ $data.name }}">
-  <h4>{{ $data.name }}</h4>
+  <h5>{{ $data.name }}</h5>
   {{ with $data.openrail_role -}}
   <p><em>{{ . }}</em></p>
   {{ end -}}

@@ -1,5 +1,13 @@
 // -----------------------------------------------------------------------------
 // GENERAL
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -118,7 +126,7 @@ div.people-gallery {
     }
 
     // Name of person
-    h4 {
+    h5 {
       font-size: 1.1rem;
       margin-bottom: 0;
       font-weight: 400;
