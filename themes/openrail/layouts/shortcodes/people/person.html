@@ -3,7 +3,7 @@
   <img src="/images/people/{{ with $data.img }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Picture of {{ $data.name }}">
   <h4>{{ $data.name }}</h4>
   {{ with $data.openrail_role -}}
-  <p>{{ . }}</p>
+  <p><em>{{ . }}</em></p>
   {{ end -}}
   {{ with $data.organisation -}}
   <p>{{ with $data.organisation_role -}}{{ . }} at {{ end }}<strong class="nowrap">{{ . }}</strong></p>
