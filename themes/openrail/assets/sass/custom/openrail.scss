@@ -29,6 +29,20 @@ p {
   }
 }
 
+// Generic class for margin reduction
+.less-top-margin {
+  margin-top: 1rem !important;
+}
+
+.less-bottom-margin {
+  margin-bottom: 1rem !important;
+}
+
+// Button lists ul shall wrap
+ul.actions {
+  flex-wrap: wrap;
+}
+
 // -----------------------------------------------------------------------------
 // SINGLE PAGES
 
@@ -85,13 +99,6 @@ section.news-list:first-of-type {
 
 // -----------------------------------------------------------------------------
 // MEMBERSHIP
-.less-top-margin {
-  margin-top: 1rem !important;
-}
-
-.less-bottom-margin {
-  margin-bottom: 1rem !important;
-}
 
 #members-overview section {
   border: 0;
@@ -107,10 +114,16 @@ section.news-list:first-of-type {
 div.people-gallery {
   // Width of person container, same as image and "box"
   $person-width: 250px;
+  $person-width-small: 150px;
+  $max-person-columns: 5;
+  $person-gap: 30px;
 
   display: flex;
-  gap: 30px;
+  gap: $person-gap;
   flex-wrap: wrap;
+
+  // Max. $person-columns persons next to each other
+  max-width: calc((#{$person-width} + #{$person-gap}) * #{$max-person-columns});
 
   section.person {
 
@@ -159,5 +172,13 @@ div.people-gallery {
         }
       }
     }
+
+  @media screen and (max-width: 767px) {
+    min-width: $person-width-small !important;
+    img {
+      height: $person-width-small;
+      width: $person-width-small;
+    }
+  }
   }
 }
