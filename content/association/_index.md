@@ -2,8 +2,13 @@
 title: About OpenRail Association
 ---
 
-The OpenRail Association provides a safe and not-for-profit platform for the development of Open Source software in the railways sector.
+**The OpenRail Association provides a safe and not-for-profit platform for the development of Open Source software in the railways sector.**
 
+### Joining the association {#join}
+
+New members are welcome to join the OpenRail Association. They will become part of the [current OpenRail members]({{% relref "/#members" %}}) who have agreed on the association's principles and believe in the benefits of an Open Source organisation for the railway sector.
+
+{{< join-links >}}
 
 ### Structure and people {#structure}
 
