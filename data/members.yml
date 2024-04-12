@@ -45,6 +45,9 @@ membership_links:
   - name: Statutes
     link: "/documents/OpenRail-Association-Statutes.pdf"
     class: small wide
+  - name: Compliance and Antitrust Policy
+    link: "/documents/OpenRail-Compliance-and-Antritrust-Policy.pdf"
+    class: small wide
   - name: Get in touch
     link: "/#contact"
     class: small wide
