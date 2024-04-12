@@ -53,7 +53,7 @@ mahalia-stephan:
   img: mahalia-stephan.jpg
   organisation: SBB CFF FFS
   organisation_role: Product Owner Digitalization
-  openrail_role:
+  openrail_role: Association Development
   links:
     linkedin: https://www.linkedin.com/in/mahalia-stephan/
 cornelius-schumacher:
@@ -78,7 +78,7 @@ max-mehl:
   img: max-mehl.jpg
   organisation: DB Systel GmbH
   organisation_role: Open Source Strategy & Governance
-  openrail_role:
+  openrail_role: Technical Infrastructure, Communication & Community
   links:
     linkedin: https://www.linkedin.com/in/mxmehl/
     github: https://github.com/mxmehl
@@ -96,7 +96,7 @@ simon-clavier:
   # img: simon-clavier.jpg
   organisation: SNCF
   organisation_role: Open Source Software Strategist
-  openrail_role:
+  openrail_role: Communication & Community
   links:
     linkedin: https://www.linkedin.com/in/clavier/
 oana-vlasceanu:
@@ -104,6 +104,6 @@ oana-vlasceanu:
   img: oana-vlasceanu.jpg
   organisation: UIC
   organisation_role: Head of Quality Management
-  openrail_role:
+  openrail_role: Administration, Communication & Community
   links:
     linkedin: https://www.linkedin.com/in/oana-vlasceanu-6a935a12/
