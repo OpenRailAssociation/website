@@ -72,6 +72,7 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: .
+          custom-url: openrailassociation.org
 
   # Deployment job
   deploy:
