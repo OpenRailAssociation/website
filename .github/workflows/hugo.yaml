@@ -6,7 +6,14 @@ on:
       - main # Deploy branch
 
   # Run on PRs, but only build
+  # "closed" is not default, but needed to remove deployment after closing PR
   pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -42,9 +49,25 @@ jobs:
         run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
+          name: public_html
           path: ./public
+
+  # Preview job
+  preview:
+    runs-on: ubuntu-22.04
+    needs: build
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public_html
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./build/
 
   # Deployment job
   deploy:
@@ -56,6 +79,17 @@ jobs:
     # Only deploy if on main branch
     if: github.ref == 'refs/heads/main'
     steps:
+      # Download artifact
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public_html
+      # Upload as pages artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./public
+      # Deploy pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
