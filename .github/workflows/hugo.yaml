@@ -59,10 +59,13 @@ jobs:
     runs-on: ubuntu-22.04
     needs: build
     steps:
+      - uses: actions/checkout@v4
+
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: public_html
+          path: ./public
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
@@ -84,11 +87,12 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: public_html
+          path: ./public
       # Upload as pages artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .
+          path: ./public
       # Deploy pages
       - name: Deploy to GitHub Pages
         id: deployment
