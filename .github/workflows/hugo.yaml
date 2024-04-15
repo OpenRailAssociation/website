@@ -73,6 +73,7 @@ jobs:
         with:
           source-dir: .
           custom-url: openrailassociation.org
+          preview-branch: main
 
   # Deployment job
   deploy:
