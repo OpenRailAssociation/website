@@ -67,7 +67,7 @@ jobs:
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./build/
+          source-dir: .
 
   # Deployment job
   deploy:
@@ -88,7 +88,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./public
+          path: .
       # Deploy pages
       - name: Deploy to GitHub Pages
         id: deployment
