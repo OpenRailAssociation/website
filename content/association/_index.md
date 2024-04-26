@@ -2,17 +2,18 @@
 title: About OpenRail Association
 ---
 
-**The OpenRail Association provides a safe and not-for-profit platform for the development of Open Source software in the railways sector.**
+**The OpenRail Association provides a neutral space for collaborative development of Open Source software in the railway sector.\
+It is incorporated as a non-profit organisation according to Belgian law as AISBL.**
 
 ### Joining the association {#join}
 
-New members are welcome to join the OpenRail Association. They will become part of the [current OpenRail members]({{% relref "/#members" %}}) who have agreed on the association's principles and believe in the benefits of an Open Source organisation for the railway sector.
+New members are welcome to join the OpenRail Association. They will become part of the [current OpenRail members]({{% relref "/#members" %}}) who have agreed on the association's principles and realize the benefits of an Open Source organisation for the railway sector.
 
 {{< join-links >}}
 
 ### Structure and people {#structure}
 
-The OpenRail Association consists of multiple bodies, some related to foster Open Source collaboration and the development of the organisation on a more general level, some others very close to the OpenRail projects. All involved people are equally convinced of the benefits of Open Source for the railway sector.
+The OpenRail Association consists of multiple working bodies with different tasks, committed to the common goal of facilitating Open Source collaboration.
 
 #### Board of Directors {#board}
 

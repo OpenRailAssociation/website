@@ -28,8 +28,7 @@ disableKinds:
 
 Params:
   description: >-
-    The OpenRail Association provides a safe and not-for-profit platform for the
-    development of Open Source software in the railways sector.
+    The OpenRail Association provides a neutral space for collaborative development of Open Source software in the railway sector. It is incorporated as a non-profit organisation according to Belgian law as AISBL.
   logo: images/banner.jpg
   favicon: true
   asset:
