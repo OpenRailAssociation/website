@@ -36,7 +36,7 @@ join_text: |
   We are looking forward to accept new members and make our community grow.
 join_link:
   text: "Learn more about how to join"
-  link: "/association/#join"
+  link: "/about/#join"
 
 membership_links:
   - name: Membership form
