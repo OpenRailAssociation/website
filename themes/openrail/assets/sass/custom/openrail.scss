@@ -1,5 +1,13 @@
 // -----------------------------------------------------------------------------
 // GENERAL
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -14,6 +22,35 @@ p {
   padding: 4rem 7rem 0 7rem;
 }
 
+// Never center text on subpages
+@media screen and (orientation: portrait) {
+  .spotlight.style2 {
+    text-align: left !important;
+  }
+}
+
+// Generic class for margin reduction
+.less-top-margin {
+  margin-top: 1rem !important;
+}
+
+.less-bottom-margin {
+  margin-bottom: 1rem !important;
+}
+
+// Button lists ul shall wrap
+ul.actions {
+  flex-wrap: wrap;
+}
+
+// -----------------------------------------------------------------------------
+// SINGLE PAGES
+
+// Always make inner container full width
+div.inner.medium {
+  width: 100%;
+}
+
 
 // -----------------------------------------------------------------------------
 // NEWS
@@ -21,13 +58,6 @@ section.news,
 section.news-list {
 
   &.spotlight.style2 {
-
-    // Never center text
-    p,
-    h2,
-    h3 {
-      text-align: left !important;
-    }
 
     // Reduce padding
     @media (orientation: landscape) {
@@ -69,18 +99,86 @@ section.news-list:first-of-type {
 
 // -----------------------------------------------------------------------------
 // MEMBERSHIP
-.less-top-margin {
-  margin-top: 1rem !important;
-}
-
-.less-bottom-margin {
-  margin-bottom: 1rem !important;
-}
 
 #members-overview section {
   border: 0;
 
   @media screen and (min-width: 981px) {
     width: 25%;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// PEOPLE, PERSONS
+
+div.people-gallery {
+  // Width of person container, same as image and "box"
+  $person-width: 250px;
+  $person-width-small: 150px;
+  $max-person-columns: 5;
+  $person-gap: 30px;
+
+  display: flex;
+  gap: $person-gap;
+  flex-wrap: wrap;
+
+  // Max. $person-columns persons next to each other
+  max-width: calc((#{$person-width} + #{$person-gap}) * #{$max-person-columns});
+
+  section.person {
+
+    min-width: $person-width !important;
+    width: 0;
+
+    // Image of person
+    img {
+      object-fit: cover;
+      height: $person-width;
+      width: $person-width;
+      border-radius: 15px;
+    }
+
+    // Name of person
+    h5 {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      font-weight: 400;
+    }
+
+    // Text below person
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 0.2rem;
+
+      // Do not wrap organisation name
+      strong.nowrap {
+        white-space: nowrap;
+      }
+    }
+
+    // Links, e.g. LinkedIn
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        display: inline;
+        padding-left: 0;
+        margin-right: 5px;
+
+        i {
+          color: #444;
+        }
+      }
+    }
+
+  @media screen and (max-width: 767px) {
+    min-width: $person-width-small !important;
+    img {
+      height: $person-width-small;
+      width: $person-width-small;
+    }
+  }
   }
 }

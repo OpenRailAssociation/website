@@ -22,13 +22,7 @@
         </header>
         <div class="content">
           <p>{{ .join_text }}</p>
-          <ul class="actions less-bottom-margin">
-            {{ range .join_links }}
-            <li>
-              <a href="{{ .link }}" class="button smooth-scroll-middle {{ .class }}">{{ .name }}</a>
-            </li>
-            {{ end }}
-          </ul>
+          <p><a href="{{ urls.RelURL .join_link.link }}" class="button smooth-scroll-middle small wide">{{ .join_link.text }}</a></p>
         </div>
       </section>
     </div>

@@ -1,0 +1,33 @@
+{{ $data := (index .Site.Data.people .Params.id) -}}
+<section class="person" id="{{ .Params.id }}">
+  <img src="/images/people/{{ with $data.img }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Picture of {{ $data.name }}">
+  <h5>{{ $data.name }}</h5>
+  {{ with $data.openrail_role -}}
+  <p><em>{{ . }}</em></p>
+  {{ end -}}
+  {{ with $data.organisation -}}
+  <p>{{ with $data.organisation_role -}}{{ . }} at {{ end }}<strong class="nowrap">{{ . }}</strong></p>
+  {{ end -}}
+  {{ if $data.links -}}
+  <ul>
+    {{ with $data.links.linkedin -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a></li>
+    {{ end -}}
+    {{ with $data.links.mastodon -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-mastodon" title="Mastodon"></i></a></li>
+    {{ end -}}
+    {{ with $data.links.x -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-x-twitter" title="X (formerly Twitter)"></i></a></li>
+    {{ end -}}
+    {{ with $data.links.facebook -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-facebook" title="Facebook"></i></a></li>
+    {{ end -}}
+    {{ with $data.links.github -}}
+    <li><a href="{{ . }}"><i class="fa-brands fa-github" title="GitHub"></i></a></li>
+    {{ end -}}
+    {{ with $data.links.email -}}
+    <li><a href="mailto:{{ . }}"><i class="fa-regular fa-envelope" title="E-mail"></i></a></li>
+    {{ end -}}
+  </ul>
+  {{ end -}}
+</section>

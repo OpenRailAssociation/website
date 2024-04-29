@@ -1,0 +1,7 @@
+<ul class="actions less-bottom-margin">
+  {{ range .Site.Data.members.membership_links }}
+  <li>
+    <a href="{{ urls.RelURL .link }}" class="button smooth-scroll-middle {{ .class }}">{{ .name }}</a>
+  </li>
+  {{ end }}
+</ul>

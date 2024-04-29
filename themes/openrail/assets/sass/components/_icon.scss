@@ -27,9 +27,21 @@
 			}
 		}
 
+		&.regular {
+			&:before {
+				font-weight: 400;
+			}
+		}
+
 		&.brands {
 			&:before {
-				font-family: 'Font Awesome 5 Brands';
+				font-family: 'Font Awesome 6 Brands';
+			}
+		}
+
+		&.regular {
+			&:before {
+				font-family: 'Font Awesome 6 Free';
 			}
 		}
 
