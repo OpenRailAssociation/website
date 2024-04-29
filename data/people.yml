@@ -93,7 +93,7 @@ loic-hamelin:
     linkedin: https://www.linkedin.com/in/loic-hamelin/
 simon-clavier:
   name: Simon Clavier
-  # img: simon-clavier.jpg
+  img: simon-clavier.jpg
   organisation: SNCF
   organisation_role: Open Source Software Strategist
   openrail_role: OpenRail Team Member
