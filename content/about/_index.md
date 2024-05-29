@@ -3,7 +3,7 @@ title: About OpenRail Association
 ---
 
 **The OpenRail Association provides a neutral space for collaborative development of Open Source software in the railway sector.\
-It is incorporated as a non-profit organisation according to Belgian law as AISBL.**
+It is incorporated as a non-profit organisation according to Belgian law as [AISBL](https://fpa.freecad.org/handbook/corporate/AISBL/rationale.html).**
 
 ### Joining the association {#join}
 
