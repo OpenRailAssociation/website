@@ -27,7 +27,7 @@ The talks in the devroom were following a consistent story: we started with a pr
 | **Railway signaling: detecting conflicts in a complex world** | Younes Khoudli | [Abstract and video](https://fosdem.org/2024/schedule/event/fosdem-2024-2665-railway-signaling-detecting-conflicts-in-a-complex-world/) |
 | **How we at Deutsche Bahn develop IoT use cases quickly and cost-effectively** | Holger Koch | [Abstract and video](https://fosdem.org/2024/schedule/event/fosdem-2024-2409-how-we-at-deutsche-bahn-develop-iot-use-cases-quickly-and-cost-effectively/) |
 | **Transportr: the Past, the Present and the Future** | Mikolai Gütschow | [Abstract and video](https://fosdem.org/2024/schedule/event/fosdem-2024-2363-transportr-the-past-the-present-and-the-future/) |
-| **Software needs of a volunteer operated heritage railway** | Nils Pickert | [Abstract and video](https://fosdem.org/2024/schedule/event/fosdem-2024-2602-closing-railways-and-open-transport-devroom/) |
+| **Software needs of a volunteer operated heritage railway** | Nils Pickert | [Abstract and video](https://fosdem.org/2024/schedule/event/fosdem-2024-1772-software-needs-of-a-volunteer-operated-heritage-railway/) |
 
 
 ### About FOSDEM
