@@ -13,8 +13,8 @@ members:
   - name: UIC
     link: https://uic.org
     imgsrc: images/members/uic.jpg
-    imgheight: 150
-    imgmargin: 0
+    imgheight: 100
+    imgmargin: 25
   - name: Deutsche Bahn
     link: https://deutschebahn.com
     imgsrc: images/members/db.png
@@ -23,13 +23,18 @@ members:
   - name: SNCF
     link: https://sncf.com
     imgsrc: images/members/sncf.png
-    imgheight: 150
-    imgmargin: 0
+    imgheight: 80
+    imgmargin: 35
   - name: SBB CFF FFS
     link: https://www.sbb.ch
     imgsrc: images/members/sbb.png
-    imgheight: 150
-    imgmargin: 0
+    imgheight: 90
+    imgmargin: 30
+  - name: Entur
+    link: https://entur.no
+    imgsrc: images/members/entur.png
+    imgheight: 50
+    imgmargin: 50
 
 join_title: And how about you?
 join_text: |
