@@ -12,22 +12,22 @@ listclass: style1 medium less-bottom-margin less-top-margin
 members:
   - name: UIC
     link: https://uic.org
-    imgsrc: images/logo-uic_full.jpg
+    imgsrc: images/members/uic.jpg
     imgheight: 150
     imgmargin: 0
   - name: Deutsche Bahn
     link: https://deutschebahn.com
-    imgsrc: images/logo-DB.png
+    imgsrc: images/members/db.png
     imgheight: 80
     imgmargin: 35
   - name: SNCF
     link: https://sncf.com
-    imgsrc: images/logo-sncf.png
+    imgsrc: images/members/sncf.png
     imgheight: 150
     imgmargin: 0
   - name: SBB CFF FFS
     link: https://www.sbb.ch
-    imgsrc: images/logo-sbb_compact.png
+    imgsrc: images/members/sbb.png
     imgheight: 150
     imgmargin: 0
 
