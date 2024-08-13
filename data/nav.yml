@@ -6,6 +6,8 @@ links:
     link: "/#opensource"
   - name: News
     link: "/news/"
+  - name: Projects
+    link: "/#projects"
   - name: Members
     link: "/#members"
   - name: Contact
