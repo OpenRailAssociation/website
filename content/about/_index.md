@@ -28,7 +28,7 @@ The Board of Directors is the executive body of the association, vested with thi
   {{< people/person id="nicole-goebel" >}}
   <!-- BoD further members -->
   <!-- TC Chair -->
-  {{< people/person id="cornelius-schumacher" >}}
+  {{< people/person id="loic-hamelin" >}}
 {{< /people/gallery >}}
 
 ### OpenRail Team {#openrail-team}

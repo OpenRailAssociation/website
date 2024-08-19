@@ -61,7 +61,7 @@ cornelius-schumacher:
   img: cornelius-schumacher.jpg
   organisation: DB Systel GmbH
   organisation_role: Open Source Steward
-  openrail_role: Chair Technical Committee
+  openrail_role: Open Source Management
   links:
     linkedin: https://www.linkedin.com/in/cschum/
     github: https://github.com/cornelius
@@ -88,7 +88,7 @@ loic-hamelin:
   img: loic-hamelin.jpg
   organisation: SNCF Réseau
   organisation_role: OSRD Program Director
-  openrail_role: OpenRail Team Member
+  openrail_role: Chair Technical Committee
   links:
     linkedin: https://www.linkedin.com/in/loic-hamelin/
 simon-clavier:
