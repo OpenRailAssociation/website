@@ -27,6 +27,7 @@ The Board of Directors is the executive body of the association, vested with thi
   {{< people/person id="jean-michel-evanghelou" >}}
   {{< people/person id="nicole-goebel" >}}
   <!-- BoD further members -->
+  {{< people/person id="brede-dammen" >}}
   <!-- TC Chair -->
   {{< people/person id="loic-hamelin" >}}
 {{< /people/gallery >}}
