@@ -31,7 +31,7 @@ members:
     imgheight: 90
     imgmargin: 30
   - name: Entur
-    link: https://entur.no
+    link: https://developer.entur.org
     imgsrc: images/members/entur.png
     imgheight: 50
     imgmargin: 50
