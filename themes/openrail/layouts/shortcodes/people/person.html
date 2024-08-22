@@ -11,25 +11,25 @@
   {{ if $data.links -}}
   <ul>
     {{ with $data.links.linkedin -}}
-    <li><a href="{{ . }}"><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a></li>
+    <li><a href="{{ . }}" target="_blank"><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a></li>
     {{ end -}}
     {{ with $data.links.mastodon -}}
-    <li><a href="{{ . }}"><i class="fa-brands fa-mastodon" title="Mastodon"></i></a></li>
+    <li><a href="{{ . }}" target="_blank"><i class="fa-brands fa-mastodon" title="Mastodon"></i></a></li>
     {{ end -}}
     {{ with $data.links.x -}}
-    <li><a href="{{ . }}"><i class="fa-brands fa-x-twitter" title="X (formerly Twitter)"></i></a></li>
+    <li><a href="{{ . }}" target="_blank"><i class="fa-brands fa-x-twitter" title="X (formerly Twitter)"></i></a></li>
     {{ end -}}
     {{ with $data.links.facebook -}}
-    <li><a href="{{ . }}"><i class="fa-brands fa-facebook" title="Facebook"></i></a></li>
+    <li><a href="{{ . }}" target="_blank"><i class="fa-brands fa-facebook" title="Facebook"></i></a></li>
     {{ end -}}
     {{ with $data.links.github -}}
-    <li><a href="{{ . }}"><i class="fa-brands fa-github" title="GitHub"></i></a></li>
+    <li><a href="{{ . }}" target="_blank"><i class="fa-brands fa-github" title="GitHub"></i></a></li>
     {{ end -}}
     {{ with $data.links.chat -}}
-    <li><a href="{{ . }}"><i class="fa-solid fa-message" title="Chat message"></i></a></li>
+    <li><a href="{{ . }}" target="_blank"><i class="fa-solid fa-message" title="Chat message"></i></a></li>
     {{ end -}}
     {{ with $data.links.email -}}
-    <li><a href="mailto:{{ . }}"><i class="fa-regular fa-envelope" title="E-mail"></i></a></li>
+    <li><a href="mailto:{{ . }}" target="_blank"><i class="fa-regular fa-envelope" title="E-mail"></i></a></li>
     {{ end -}}
   </ul>
   {{ end -}}
