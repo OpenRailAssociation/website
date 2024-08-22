@@ -46,6 +46,16 @@ frederic-novello:
   openrail_role: Vice-Chair
   links:
     linkedin: https://www.linkedin.com/in/frederic-novello/
+brede-dammen:
+  name: Brede Dammen
+  img: brede-dammen.jpg
+  organisation: Entur
+  organisation_role: Product owner, national journey planner
+  openrail_role: Director
+  links:
+    linkedin: https://www.linkedin.com/in/brededammen/
+    github: https://github.com/BredeD
+    matrix: "@brede:matrix.org"
 
 # OpenRail Team
 mahalia-stephan:
