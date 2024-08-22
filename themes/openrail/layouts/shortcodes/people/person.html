@@ -25,6 +25,9 @@
     {{ with $data.links.github -}}
     <li><a href="{{ . }}"><i class="fa-brands fa-github" title="GitHub"></i></a></li>
     {{ end -}}
+    {{ with $data.links.chat -}}
+    <li><a href="{{ . }}"><i class="fa-solid fa-message" title="Chat message"></i></a></li>
+    {{ end -}}
     {{ with $data.links.email -}}
     <li><a href="mailto:{{ . }}"><i class="fa-regular fa-envelope" title="E-mail"></i></a></li>
     {{ end -}}
