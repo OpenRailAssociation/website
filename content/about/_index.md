@@ -50,6 +50,6 @@ The OpenRail Team is a dedicated working body to support and orchestrate the ass
 
 The OpenRail Association's Technical Committee (TC) is responsible for selecting and overseeing the association's projects to ensure that they are aligned with the association's goals and values. The committee works in collaboration with the Board of Directors to make informed decisions on which projects to support and provides the necessary guidance to ensure their success.
 
-The Technical Committee is also responsible for the necessary software and service infrastructure for code hosting and other common tools to facilitate Open Source collaboration. It may delegate operation but shall be reponsible for overseeing the overall management of such tools.
+The Technical Committee is also responsible for the necessary software and service infrastructure for code hosting and other common tools to facilitate Open Source collaboration. It may delegate operation but shall be responsible for overseeing the overall management of such tools.
 
 All members, material and charters can be found on the [TC's GitHub repository](https://github.com/OpenRailAssociation/technical-committee).
