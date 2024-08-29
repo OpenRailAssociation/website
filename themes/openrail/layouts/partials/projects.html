@@ -23,7 +23,9 @@
         {{ with $data }}
           <h3>{{ .name }}</h3>
           <p>{{ .description.en.shortDescription }}</p>
-          <a href="{{ .url }}">GitHub</a>
+          {{ with .url }}
+            <a href="{{ . }}">GitHub</a>
+          {{ end }}
           <p>Status: {{ .developmentStatus }}</p>
         {{ end }}
       </section>
