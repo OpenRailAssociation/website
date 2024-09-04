@@ -8,9 +8,8 @@ introduction: |
 listclass: style1 medium less-bottom-margin less-top-margin
 
 projects:
-  - publiccode: https://raw.githubusercontent.com/OpenRailAssociation/landscape/main/data/openrail/osrd.yml
-  - publiccode: https://github.com/OpenRailAssociation/landscape/raw/main/data/openrail/rcm-oss.yml
-  - publiccode: https://github.com/OpenRailAssociation/landscape/raw/main/data/openrail/dac-migration-dss.yml
-  - publiccode: https://github.com/OpenRailAssociation/landscape/raw/main/data/openrail/nge.yml
-  - publiccode: https://github.com/OpenRailAssociation/landscape/raw/main/data/openrail/liblrs.yml
-
+  - publiccode: https://raw.githubusercontent.com/OpenRailAssociation/osrd/dev/publiccode.yml
+  - publiccode: https://raw.githubusercontent.com/OpenRailAssociation/landscape/main/data/openrail/rcm-oss.yml
+  - publiccode: https://raw.githubusercontent.com/OpenRailAssociation/landscape/main/data/openrail/dac-migration-dss.yml
+  - publiccode: https://raw.githubusercontent.com/OpenRailAssociation/landscape/main/data/openrail/nge.yml
+  - publiccode: https://raw.githubusercontent.com/OpenRailAssociation/landscape/main/data/openrail/liblrs.yml
