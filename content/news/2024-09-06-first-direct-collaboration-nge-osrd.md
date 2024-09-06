@@ -1,6 +1,6 @@
 ---
 title: First direct collaboration of OpenRail projects
-date: 2024-09-05
+date: 2024-09-06
 image:
   src: images/news/collaboration-people.jpg
   alt: Four people holding each others' wrists
