@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-theme: openrail
+theme: ["openrail", "hugomods-images"]
 title: OpenRail Association
 copyright: "{year}"
 
@@ -36,5 +36,18 @@ Params:
       - css/fontawesome-all.min.css
     fontawesome_js:
       - js/fontawesome-all.min.js
+
+  # hugomods-images config
+  hugomods:
+    images:
+      # Disable WebP
+      modern_format:
 permalinks:
   news: "/news/:2006/:title/"
+
+# Modules
+module:
+  mounts:
+  # Make all static content available as assets by default
+  - source: static/
+    target: assets/

@@ -173,12 +173,36 @@ div.people-gallery {
       }
     }
 
-  @media screen and (max-width: 767px) {
-    min-width: $person-width-small !important;
-    img {
-      height: $person-width-small;
-      width: $person-width-small;
+    @media screen and (max-width: 767px) {
+      min-width: $person-width-small !important;
+
+      img {
+        height: $person-width-small;
+        width: $person-width-small;
+      }
     }
   }
+}
+
+// -----------------------------------------------------------------------------
+// IMAGES, especially hugomods-image related (like Bootstrap)
+
+picture {
+  @media screen and (min-width: 768px) {
+    &.float-start {
+      float: left;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+    }
+
+    &.float-end {
+      float: right;
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      margin-right: 0px;
+    }
   }
 }
