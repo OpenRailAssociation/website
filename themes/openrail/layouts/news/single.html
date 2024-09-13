@@ -25,8 +25,9 @@
       </div>
       {{ if .Params.image }}
       <div class="image">
-        <img src="{{ relURL .Params.image.src }}"
-            alt="{{ .Params.image.alt }}" />
+        {{- with (resources.Get .Params.image.src).Resize "x600" }}
+        <img src="{{ .RelPermalink }}" alt="{{ .Params.image.alt }}" />
+        {{- end }}
       </div>
       {{ end }}
       </section>
