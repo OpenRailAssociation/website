@@ -100,11 +100,36 @@ section.news-list:first-of-type {
 // -----------------------------------------------------------------------------
 // MEMBERSHIP
 
-#members-overview section {
-  border: 0;
+.flex {
+  display: flex;
 
-  @media screen and (min-width: 981px) {
-    width: 25%;
+  &.flex-4-per-row {
+    $baseheight: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; // Center images vertically
+    gap: 10px 50px;
+
+    div {
+      display: flex;
+      flex-basis: 21%;
+      flex-direction: column;
+      align-items: center; // Ensure the content (image and text) is centered within each div
+      flex-grow: 1;
+
+      img {
+        height: $baseheight;
+        max-width: $baseheight;
+        max-height: $baseheight;
+        object-fit: contain;
+        margin-bottom: 5px; // Space between image and text
+      }
+
+      p {
+        margin-top: 0px;
+        font-size: 1.3rem;
+      }
+    }
   }
 }
 

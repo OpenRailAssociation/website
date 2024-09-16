@@ -5,14 +5,15 @@
     <p>
       {{ with .introduction }}{{ . | safeHTML }}{{ end }}
     </p>
-    <div class="items {{ .listclass }}" id="members-overview">
+    <div class="{{ .listclass }}" id="members-overview">
       {{ range .members }}
-      <section>
+      <div>
         <a href="{{ .link }}" target="_blank">
-          <img src="{{ .imgsrc }}" height="{{ .imgheight }}" style="margin: {{ .imgmargin }}px;" alt="{{ .name }} logo" />
+          {{- $img_resized := (resources.Get .imgsrc).Resize "300x" }}
+          <img src="{{ $img_resized.RelPermalink }}" alt="{{ .name }} logo" />
         </a>
-        <h3>{{ .name }}</h3>
-      </section>
+        <p>{{ .name }}</p>
+      </div>
       {{ end }}
     </div>
     <div class="index align-left">
