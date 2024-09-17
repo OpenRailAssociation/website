@@ -11,6 +11,7 @@ listclass: less-bottom-margin less-top-margin flex-cards
 base_img_size: 200px
 
 members:
+  # Platinum
   - name: UIC
     link: https://uic.org
     imgsrc: images/members/uic.jpg
@@ -24,9 +25,19 @@ members:
   - name: SBB CFF FFS
     link: https://www.sbb.ch
     imgsrc: images/members/sbb.png
+  # Gold
+  - name: Infrabel
+    link: https://infrabel.be/en
+    imgsrc: images/members/infrabel.png
+  # Silver
   - name: Entur
     link: https://developer.entur.org
     imgsrc: images/members/entur.png
+  # Associate
+  - name: Flatland Association
+    link: https://www.flatland-association.org/
+    imgsrc: images/members/flatland.jpg
+    resize: -40px
 
 join_title: And how about you?
 join_text: |
