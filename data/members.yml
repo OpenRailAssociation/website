@@ -7,7 +7,8 @@ introduction: |
   founded and joined the OpenRail Association, and firmly believe that Open
   Source is a great opportunity for this industry.
 
-listclass: less-bottom-margin less-top-margin flex flex-4-per-row
+listclass: less-bottom-margin less-top-margin flex-cards
+base_img_size: 200px
 
 members:
   - name: UIC
@@ -16,6 +17,7 @@ members:
   - name: Deutsche Bahn
     link: https://deutschebahn.com
     imgsrc: images/members/db.png
+    resize: -30px
   - name: SNCF
     link: https://sncf.com
     imgsrc: images/members/sncf.png

@@ -100,35 +100,44 @@ section.news-list:first-of-type {
 // -----------------------------------------------------------------------------
 // MEMBERSHIP
 
-.flex {
+.flex-cards {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; // Center images vertically
+  gap: 10px 50px;
 
-  &.flex-4-per-row {
-    $baseheight: 200px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; // Center images vertically
-    gap: 10px 50px;
+  div.card.flex-4-per-row {
+    // Size of the image container. Default: 200px
+    $base_img_size: var(--base_img_size, 200px);
+    // Resize the image when --resize is set. Usually a minus value to make logos the felt same size
+    // Default: $base_img_size
+    $img_square: calc(#{$base_img_size} + (var(--resize, 0px)));
 
-    div {
+    display: flex;
+    flex-basis: 21%;
+    flex-direction: column;
+    align-items: center; // Ensure the content (image and text) is centered within each div
+    flex-grow: 1;
+    min-width: $base_img_size;
+    min-height: $base_img_size;
+
+    .image-wrapper {
       display: flex;
-      flex-basis: 21%;
-      flex-direction: column;
       align-items: center; // Ensure the content (image and text) is centered within each div
-      flex-grow: 1;
+      height: $base_img_size;
+      margin-bottom: 5px; // Space between image and text
 
       img {
-        height: $baseheight;
-        max-width: $baseheight;
-        max-height: $baseheight;
+        max-width: $img_square;
+        max-height: $img_square;
         object-fit: contain;
-        margin-bottom: 5px; // Space between image and text
       }
+    }
 
-      p {
-        margin-top: 0px;
-        font-size: 1.3rem;
-      }
+    p {
+      margin-top: 0px;
+      font-size: 1.3rem;
     }
   }
 }

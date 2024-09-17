@@ -5,13 +5,15 @@
     <p>
       {{ with .introduction }}{{ . | safeHTML }}{{ end }}
     </p>
-    <div class="{{ .listclass }}" id="members-overview">
+    <div class="{{ .listclass }}" id="members-overview" style="--base_img_size: {{ .base_img_size }}">
       {{ range .members }}
-      <div>
-        <a href="{{ .link }}" target="_blank">
-          {{- $img_resized := (resources.Get .imgsrc).Resize "300x" }}
-          <img src="{{ $img_resized.RelPermalink }}" alt="{{ .name }} logo" />
-        </a>
+      <div class="card flex-4-per-row" {{ with .resize }}style="--resize:{{ . }};" {{ end }}>
+        <div class="image-wrapper">
+          <a href="{{ .link }}" target="_blank">
+            {{- $img_resized := (resources.Get .imgsrc).Resize "300x" }}
+            <img src="{{ $img_resized.RelPermalink }}" alt="{{ .name }} logo" />
+          </a>
+        </div>
         <p>{{ .name }}</p>
       </div>
       {{ end }}
