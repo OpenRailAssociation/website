@@ -100,11 +100,45 @@ section.news-list:first-of-type {
 // -----------------------------------------------------------------------------
 // MEMBERSHIP
 
-#members-overview section {
-  border: 0;
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; // Center images vertically
+  gap: 10px 50px;
 
-  @media screen and (min-width: 981px) {
-    width: 25%;
+  div.card.flex-4-per-row {
+    // Size of the image container. Default: 200px
+    $base_img_size: var(--base_img_size, 200px);
+    // Resize the image when --resize is set. Usually a minus value to make logos the felt same size
+    // Default: $base_img_size
+    $img_square: calc(#{$base_img_size} + (var(--resize, 0px)));
+
+    display: flex;
+    flex-basis: 21%;
+    flex-direction: column;
+    align-items: center; // Ensure the content (image and text) is centered within each div
+    flex-grow: 1;
+    min-width: $base_img_size;
+    min-height: $base_img_size;
+
+    .image-wrapper {
+      display: flex;
+      align-items: center; // Ensure the content (image and text) is centered within each div
+      height: $base_img_size;
+      margin-bottom: 5px; // Space between image and text
+
+      img {
+        max-width: $img_square;
+        max-height: $img_square;
+        object-fit: contain;
+      }
+    }
+
+    p {
+      margin-top: 0px;
+      font-size: 1.3rem;
+    }
   }
 }
 
@@ -173,12 +207,36 @@ div.people-gallery {
       }
     }
 
-  @media screen and (max-width: 767px) {
-    min-width: $person-width-small !important;
-    img {
-      height: $person-width-small;
-      width: $person-width-small;
+    @media screen and (max-width: 767px) {
+      min-width: $person-width-small !important;
+
+      img {
+        height: $person-width-small;
+        width: $person-width-small;
+      }
     }
   }
+}
+
+// -----------------------------------------------------------------------------
+// IMAGES, especially hugomods-image related (like Bootstrap)
+
+picture {
+  @media screen and (min-width: 768px) {
+    &.float-start {
+      float: left;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+    }
+
+    &.float-end {
+      float: right;
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      margin-right: 0px;
+    }
   }
 }

@@ -17,4 +17,4 @@ With our official incorporation, we are now ready to accept project proposals an
 
 To ensure the success of these endeavors, we will establish routines and guidelines to support the hosting of professional Open Source projects. This framework will enable all OpenRail projects to thrive, benefit from synergies and collaboration, and ultimately contribute to the advancement of the entire railway sector.
 
-Interested in finding out more? Discover how you can join the [OpenRail Association and its community]({{< relref "/about" >}}) and become a part of this transformative initiative.
+Interested in finding out more? Discover how you can join the [OpenRail Association and its community]({{% relref "/about" %}}) and become a part of this transformative initiative.

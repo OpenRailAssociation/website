@@ -7,34 +7,26 @@ introduction: |
   founded and joined the OpenRail Association, and firmly believe that Open
   Source is a great opportunity for this industry.
 
-listclass: style1 medium less-bottom-margin less-top-margin
+listclass: less-bottom-margin less-top-margin flex-cards
+base_img_size: 200px
 
 members:
   - name: UIC
     link: https://uic.org
     imgsrc: images/members/uic.jpg
-    imgheight: 100
-    imgmargin: 25
   - name: Deutsche Bahn
     link: https://deutschebahn.com
     imgsrc: images/members/db.png
-    imgheight: 80
-    imgmargin: 35
+    resize: -30px
   - name: SNCF
     link: https://sncf.com
     imgsrc: images/members/sncf.png
-    imgheight: 80
-    imgmargin: 35
   - name: SBB CFF FFS
     link: https://www.sbb.ch
     imgsrc: images/members/sbb.png
-    imgheight: 90
-    imgmargin: 30
   - name: Entur
     link: https://developer.entur.org
     imgsrc: images/members/entur.png
-    imgheight: 50
-    imgmargin: 50
 
 join_title: And how about you?
 join_text: |

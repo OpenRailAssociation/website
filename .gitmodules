@@ -1,0 +1,3 @@
+[submodule "themes/hugomods-images"]
+	path = themes/hugomods-images
+	url = https://github.com/hugomods/images.git
