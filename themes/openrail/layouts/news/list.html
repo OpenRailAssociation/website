@@ -20,7 +20,7 @@
 
       {{/*  Range all posts  */}}
       {{ range .Pages }}
-      <section class="news-list spotlight style2 orient-left content-align-left onscroll-image-fade-in {{ .Params.image.class }}">
+      <section class="news-list spotlight style2 orient-left content-align-left {{ .Params.image.class }}">
         <div class="inner medium">
           <header>
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
