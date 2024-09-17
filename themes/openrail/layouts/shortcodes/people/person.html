@@ -1,6 +1,11 @@
 {{ $data := (index .Site.Data.people .Params.id) -}}
 <section class="person" id="{{ .Params.id }}">
-  <img src="/images/people/{{ with $data.img }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Picture of {{ $data.name }}">
+  {{- $img := "images/people/default.jpg" }}
+  {{- with $data.img }}
+  {{- $img = path.Join "images/people" . }}
+  {{- end }}
+  {{- $img_resized := (resources.Get $img).Fill "300x300 Center" }}
+  <img src="{{ $img_resized.RelPermalink }}" alt="Picture of {{ $data.name }}">
   <h5>{{ $data.name }}</h5>
   {{ with $data.openrail_role -}}
   <p><em>{{ . }}</em></p>
