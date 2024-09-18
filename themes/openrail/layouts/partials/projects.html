@@ -1,0 +1,35 @@
+<!-- Projects -->
+<section class="wrapper style1 align-center" id="projects">
+  <div class="inner">
+    <h2>{{ .title }}</h2>
+    <p>
+      {{ with .introduction }}{{ . | safeHTML }}{{ end }}
+    </p>
+    <div class="items {{ .listclass }}" id="projects-overview">
+      {{- range .projects }}
+      <section>
+        {{- $data := dict }}
+        {{- $url := .publiccode }}
+        {{- with resources.GetRemote $url }}
+          {{- with .Err }}
+            {{- errorf "%s" . }}
+          {{- else }}
+            {{- $data = . | transform.Unmarshal }}
+          {{- end }}
+        {{- else }}
+          {{- errorf "Unable to get remote resource %q" $url }}
+        {{- end }}
+
+        {{- with $data }}
+          <h3>{{ .name }}</h3>
+          <p>{{ chomp .description.en.shortDescription }}</p>
+          {{- with .url }}
+            <a href="{{ . }}">GitHub</a>
+          {{- end }}
+          <p>Status: {{ .developmentStatus }}</p>
+        {{- end }}
+      </section>
+      {{- end }}
+    </div>
+  </div>
+</section>
