@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+{{ partial "head" . }}
+
+<body class="is-preload">
+
+  <!-- Wrapper -->
+  <div id="wrapper" class="divided">
+    {{ partial "nav" site.Data.nav }}
+    <section class="wrapper style1 align-left">
+      <div class="inner medium">
+        <h2>Page Not Found</h2>
+        <p>The page you requested cannot be found. This should not have happened.</p>
+        <p>Please feel free to contact us about broken links.</p>
+      </div>
+    </section>
+    {{ partial "footer" site.Data.footer }}
+  </div>
+
+  {{ partial "scripts" . }}
+
+</body>
+
+</html>
