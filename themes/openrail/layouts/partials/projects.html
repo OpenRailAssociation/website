@@ -6,30 +6,30 @@
       {{ with .introduction }}{{ . | safeHTML }}{{ end }}
     </p>
     <div class="items {{ .listclass }}" id="projects-overview">
-      {{ range .projects }}
+      {{- range .projects }}
       <section>
-        {{ $data := dict }}
-        {{ $url := .publiccode }}
-        {{ with resources.GetRemote $url }}
-          {{ with .Err }}
-            {{ errorf "%s" . }}
-          {{ else }}
-            {{ $data = . | transform.Unmarshal }}
-          {{ end }}
-        {{ else }}
-          {{ errorf "Unable to get remote resource %q" $url }}
-        {{ end }}
+        {{- $data := dict }}
+        {{- $url := .publiccode }}
+        {{- with resources.GetRemote $url }}
+          {{- with .Err }}
+            {{- errorf "%s" . }}
+          {{- else }}
+            {{- $data = . | transform.Unmarshal }}
+          {{- end }}
+        {{- else }}
+          {{- errorf "Unable to get remote resource %q" $url }}
+        {{- end }}
 
-        {{ with $data }}
+        {{- with $data }}
           <h3>{{ .name }}</h3>
-          <p>{{ .description.en.shortDescription }}</p>
-          {{ with .url }}
+          <p>{{ chomp .description.en.shortDescription }}</p>
+          {{- with .url }}
             <a href="{{ . }}">GitHub</a>
-          {{ end }}
+          {{- end }}
           <p>Status: {{ .developmentStatus }}</p>
-        {{ end }}
+        {{- end }}
       </section>
-      {{ end }}
+      {{- end }}
     </div>
   </div>
 </section>
