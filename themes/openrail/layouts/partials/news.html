@@ -2,11 +2,10 @@
                 <section class="wrapper style1 align-center" id="news">
                     <div class="inner medium">
                         <h2>{{ .news.title }}</h2>
-                        {{ range (where .pages "Section" "news" ) }}
+                        {{ range first 3 (where .pages "Section" "news" ) }}
                         <p>
-                            <a href="{{ .RelPermalink }}">
-                                <em>{{ .Date.Format "02 Jan 2006" }}:</em> {{ .Title }}
-                            </a>
+                            <em>{{ .Date.Format "02 Jan 2006" }}:</em>
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                         </p>
                         {{ end }}
                         <ul class="actions stacked">
