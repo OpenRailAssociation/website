@@ -31,7 +31,7 @@ Joining as a Silver member, **Entur** is a Norwegian company that provides digit
 
 Finally, as an Associate member, the **Flatland Association** strengthens our ties with academia. The non-profit organization, based in Bern, Switzerland, was founded in July 2023. The Flatland Association aims to promote open research and the translation of research findings into practical applications, particularly in the field of resource optimization using computer science methods.
 
-> Flatland quote here: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+> "The Flatland Association is honored to join the OpenRail Association, contributing our expertise in open and translational research. We help industries openly share their challenges with the global research community, offering a platform that fosters collaboration through benchmarks and digital tools. Rooted in solving resource allocation problems, we have evolved to facilitate open research and the development of Open Source approaches to tackle the complex challenges of the railway sector and beyond. By enabling a global network of researchers and enthusiasts to address industry-relevant challenges, we aim to drive innovation and support the discovery of replicable, sustainable solutions for the future of transportation." -- **Erik Nygren**, President Flatland Association
 
 ### Join Us in Shaping the Future of Transportation
 
