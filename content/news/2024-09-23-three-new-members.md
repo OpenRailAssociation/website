@@ -36,3 +36,5 @@ Finally, as an Associate member, the **Flatland Association** strengthens our ti
 ### Join Us in Shaping the Future of Transportation
 
 As we welcome these new members, we're excited about the fresh perspectives and expertise they bring to the OpenRail Association. We're committed to building a collaborative network where all voices can contribute to shaping the future of transportation. If your organisation shares our vision for an open and innovative sector, we encourage you to join us. Together, we can tackle challenges and create practical solutions that benefit everyone involved. Your involvement makes a real difference.
+
+All members and board members will be present at [InnoTrans 2024](https://www.innotrans.de/en/). Don't miss the opportunity to talk to us if you are there.
