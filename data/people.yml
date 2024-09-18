@@ -56,6 +56,14 @@ brede-dammen:
     linkedin: https://www.linkedin.com/in/brededammen/
     github: https://github.com/BredeD
     chat: https://matrix.to/#/@brede:matrix.org
+peter-franken:
+  name: Peter Franken
+  img: peter-franken.jpg
+  organisation: Infrabel
+  organisation_role: Deputy CIO, Head of Real Time & End User Solutions
+  openrail_role: Director
+  links:
+    linkedin: https://www.linkedin.com/in/peter-franken-81753b155/
 
 # OpenRail Team
 mahalia-stephan:
