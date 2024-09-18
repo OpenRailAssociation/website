@@ -6,7 +6,7 @@ image:
   alt: A handshake in front of a train
 ---
 
-DB, SBB, SNCF and UIC are working on a joint initiative to create an open-source association dedicated to railway business.
+DB, SBB, SNCF and UIC are working on a joint initiative to create an Open Source association dedicated to railway business.
 
 As announced by UIC's Director General, François Davenne, at the association's most recent General Assembly in December 2021, the aim of the association, to be called the "OpenRail Association", will be to provide an open space enabling cooperative innovation and software development for railways.
 
