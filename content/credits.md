@@ -10,5 +10,5 @@ We thank the following persons and projects:
 * The [port of the design to Hugo](https://github.com/caressofsteel/hugo-story) made by [@caressofsteel](https://github.com/caressofsteel).
 * Photos by
   * [Jakub Nawrot](https://unsplash.com/jacob_lens)
-  * [Alexander Popov](https://unsplash.com/5step5)
+  * [Alexander Popov](https://unsplash.com/5tep5)
   * [cmophoto.net](https://unsplash.com/cmophoto)
