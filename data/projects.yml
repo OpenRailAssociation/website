@@ -1,9 +1,9 @@
 title: OpenRail Projects
 introduction: |
   These are the open source projects which are officially hosted by the
-  OpenRail Association. They have been accepted through the incubation process.
+  OpenRail Association. They have been accepted through the <a href="https://github.com/OpenRailAssociation/technical-committee/blob/main/incubation_process.md">incubation process</a>.
   If you would like to suggest a new project to the OpenRail Association please
-  have a look at the questionnaire for new projects.
+  have a look at the <a href="https://github.com/OpenRailAssociation/technical-committee/blob/main/new-project-questionnaire.md">questionnaire for new projects</a>.
 
 listclass: style1 medium less-bottom-margin less-top-margin
 
