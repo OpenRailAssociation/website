@@ -64,6 +64,14 @@ peter-franken:
   openrail_role: Director
   links:
     linkedin: https://www.linkedin.com/in/peter-franken-81753b155/
+erik-nygren:
+  name: Erik Nygren
+  img: erik-nygren.jpg
+  organisation: Flatland Association
+  organisation_role: President
+  openrail_role: Director
+  links:
+    linkedin: https://www.linkedin.com/in/eriknygrench/
 
 # OpenRail Team
 mahalia-stephan:
