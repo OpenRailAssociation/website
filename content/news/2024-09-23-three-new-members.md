@@ -27,7 +27,7 @@ Joining as a Silver member, **Entur** is a Norwegian company that provides digit
 
 > Entur quote here: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-![Flatland Logo](/images/members/flatland.jpg?width=180#float-start)
+![Flatland Logo](/images/members/flatland-logo.jpg?width=180#float-start)
 
 Finally, as an Associate member, the **Flatland Association** strengthens our ties with academia. The non-profit organization, based in Bern, Switzerland, was founded in July 2023. The Flatland Association aims to promote open research and the translation of research findings into practical applications, particularly in the field of resource optimization using computer science methods.
 
