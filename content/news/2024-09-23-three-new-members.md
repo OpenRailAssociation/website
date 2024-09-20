@@ -23,9 +23,9 @@ Our newest Gold member is **Infrabel**. Infrabel is the Belgian railway infrastr
 
 ![Entur Logo](/images/members/entur.png?width=180#float-end)
 
-Joining as a Silver member, **Entur** is a Norwegian company that provides digital services for public transportation, offering a nationwide platform for ticketing and travel planning. They aggregate data from various transport operators, making it easier for passengers to plan journeys and purchase tickets across different modes of transportation. Entur aims to simplify travel within Norway by integrating information and services into one cohesive system.
+Joining as a Silver member, **Entur** is a Norwegian company that provides digital services for public transportation and mobility, offering a nationwide platform for travel planning and ticketing. They aggregate data from all transport operators in Norway, making it easier for passengers to plan journeys and purchase tickets across different modes of transportation. Entur aims to simplify travel within Norway by integrating information and services into one cohesive system.
 
-> Entur quote here: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+> "To reach political goals for more green and sustainable mobility, Entur is established as a digital enabler within the mobility sector in Norway. Through strategic work for using open digital standards, open data and services, and Open Source technical platforms, Entur established digital infrastructure for the mobility sector in Norway. We believe an open, collaborative approach is the key to developing the sector and making it easier to help people choose public transport as their primary choice for transport both nationally and across borders." -- **Christel Borge**, CEO Entur
 
 ![Flatland Logo](/images/members/flatland-logo.jpg?width=180#float-start)
 
