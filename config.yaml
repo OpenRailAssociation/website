@@ -11,7 +11,7 @@ copyright: "{year}"
 ## -----------------------------------------------
 
 baseURL: "https://openrailassociation.org"
-relativeURLs: "true"
+relativeURLs: "false"
 publishDir: public
 summaryLength: 40
 
