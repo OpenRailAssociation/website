@@ -26,7 +26,7 @@
 
 	<!-- FontAwesome CSS -->
 	{{ range .Site.Params.asset.fontawesome_css -}}
-		<link rel="stylesheet" href="{{ . | absURL }}">
+		<link rel="stylesheet" href="{{ . | relURL }}">
 	{{- end }}
 
 </head>
