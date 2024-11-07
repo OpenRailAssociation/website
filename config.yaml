@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-theme: ["openrail", "hugomods-images"]
+theme: ["openrail", "hugomods-images", "hugo-cloak-email"]
 title: OpenRail Association
 copyright: "{year}"
 
