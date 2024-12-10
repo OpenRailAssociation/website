@@ -29,6 +29,7 @@ The Board of Directors is the executive body of the association, vested with thi
   <!-- BoD further members -->
   {{< people/person id="brede-dammen">}}
   {{< people/person id="erik-nygren" img_anchor="Top" >}}
+  {{< people/person id="fatima-zohra-el-ouerkhaoui" img_anchor="Top">}}
   {{< people/person id="loic-hamelin" >}} <!-- TC Chair -->
   {{< people/person id="peter-franken" img_anchor="Top" >}}
 {{< /people/gallery >}}
