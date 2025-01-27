@@ -12,4 +12,6 @@ The Hugo Story theme we forked and modified for this website is licensed under t
 
 The website and its content is licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/) as well, unless otherwise stated. Note that especially logos of the OpenRail Association, member companies, or projects may be covered by additional trademarks and usage restrictions.
 
+The badges in the directory `static/badges` were initially created through [Shields.io](https://shields.io) under the [CC0 1.0 Universal](https://github.com/badges/shields/blob/master/LICENSE) license.
+
 We send our thanks to the Open Source projects and contributors this website depends on. See [Credits](https://openrailassociation.org/credits/).
