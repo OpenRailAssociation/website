@@ -120,7 +120,7 @@ loic-hamelin:
   img: loic-hamelin.jpg
   organisation: SNCF Réseau
   organisation_role: OSRD Program Director
-  openrail_role: Chair Technical Committee
+  openrail_role: OpenRail Team Member
   links:
     linkedin: https://www.linkedin.com/in/loic-hamelin/
 simon-clavier:
@@ -139,3 +139,15 @@ oana-vlasceanu:
   openrail_role: Administration
   links:
     linkedin: https://www.linkedin.com/in/oana-vlasceanu-6a935a12/
+
+# Technical Committee
+florian-amsallem:
+  name: Florian Amsallem
+  img: florian-amsallem.jpg
+  organisation: SNCF Réseau
+  organisation_role: OSRD Backend Technical Lead
+  openrail_role: Chair Technical Committee
+  links:
+    linkedin: https://www.linkedin.com/in/florian-amsallem/
+    github: https://github.com/flomonster
+    chat: https://matrix.to/#/@flomonster:osrd.fr
