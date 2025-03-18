@@ -7,7 +7,7 @@ image:
   class: image-position-center
 ---
 
-Do good and talk about it -- after focusing on the first part during its first year, the OpenRail Association is now catching up on the second. A great example is our Chair, Jochen Decker (SBB), and Vice-Chair, Nicole Göbel (DB), delivering a keynote at the Hamburg IT Strategy Days 2025, one of Europe's largest events for CIOs and IT decision-makers.
+Do good and talk about it -- after focusing on the first part during its first year, the OpenRail Association is now catching up on the second. Following this, our Chair, Jochen Decker (SBB), and Vice-Chair, Nicole Göbel (DB), delivered a keynote at the Hamburg IT Strategy Days 2025, one of Europe's largest events for CIOs and IT decision-makers.
 
 Under the title **"OpenRail Association: Using Open Source to Achieve Greater Interoperability and Efficiency in the Railway Industry"**, Nicole and Jochen highlighted how the global railway sector faces common challenges in improving efficiency and interoperability, particularly through digitalisation. They emphasised that Open Source provides a proven, low-barrier, community-driven model of collaboration which is widely adopted across many industries. This approach led to the founding of the OpenRail Association, a neutral Open Source platform designed to foster independence, interoperability, and efficiency in the railway sector's digital transformation.
 
