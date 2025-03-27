@@ -1,41 +1,18 @@
-{{- /*  Template for all files in /content/news/  */ -}}
-<!DOCTYPE HTML>
-<!--
-  Hugo Story by CaressOfSteel
-  A (modular, highly tweakable) responsive one-page theme for Hugo.
-  Ported from Story by HTML5UP.
-  This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
--->
-<html>
-
-  {{ partial "head" . }}
-
-  <body class="is-preload">
-
-    <!-- Wrapper -->
-    <div id="wrapper" class="divided">
-      {{ partial "nav" site.Data.nav }}
-      <section class="news spotlight style2 orient-left content-align-left {{ .Params.image.class }}">
-        <div class="inner medium">
-        <header>
-          <h2>{{ .Title }}</h2>
-          <p>{{ .Date.Format "02 January 2006" }}</p>
-        </header>
-        {{ .Content }}
-      </div>
-      {{ if .Params.image }}
-      <div class="image">
-        {{- with (resources.Get .Params.image.src).Resize "x600" }}
-        <img src="{{ .RelPermalink }}" alt="{{ .Params.image.alt }}" />
-        {{- end }}
-      </div>
-      {{ end }}
-      </section>
-      {{ partial "footer" site.Data.footer }}
-    <!-- Wrapper -->
-    </div>
-
-    {{ partial "scripts" . }}
-
-  </body>
-</html>
+{{- define "main" }}
+  <section class="news spotlight style2 orient-left content-align-left {{ .Params.image.class }}">
+    <div class="inner medium">
+    <header>
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Date.Format "02 January 2006" }}</p>
+    </header>
+    {{ .Content }}
+  </div>
+  {{ if .Params.image }}
+  <div class="image">
+    {{- with (resources.Get .Params.image.src).Resize "x600" }}
+    <img src="{{ .RelPermalink }}" alt="{{ .Params.image.alt }}" />
+    {{- end }}
+  </div>
+  {{ end }}
+  </section>
+{{- end }}
