@@ -10,7 +10,12 @@
             {{ with .linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>{{end}}
             {{ with .email }}<li><a href="{{.}}" class="icon style2 regular fa-envelope"><span class="label">Email</span></a></li>{{end}}
         </ul>
-        <p>{{ .more | safeHTML }}</p>
+        <p>
+            {{- range $i, $v := .links }}
+                {{ if $i }} | {{ end }}
+                <a href="{{ relURL .link }}">{{ .text }}</a>
+            {{- end }}
+        </p>
 </div>
 </footer>
 

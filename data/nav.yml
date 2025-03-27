@@ -1,14 +1,14 @@
 logo: "images/logo-OpenRail-association.wide.png"
 links:
   - name: Association
-    link: "/about/"
+    link: "about/"
   - name: Open Source
-    link: "/#opensource"
+    link: "#opensource"
   - name: News
-    link: "/news/"
+    link: "news/"
   - name: Projects
-    link: "/#projects"
+    link: "#projects"
   - name: Members
-    link: "/#members"
+    link: "#members"
   - name: Contact
-    link: "/#contact"
+    link: "#contact"
