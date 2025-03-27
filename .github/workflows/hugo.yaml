@@ -111,12 +111,7 @@ jobs:
   deploy-preview:
     runs-on: ubuntu-22.04
     needs: build
-    # Set environment variables
-    env:
-      domain: openrailassociation.org
-      preview_subdomain: web-preview
-      preview_segment: pr-${{ github.event.number }}
-    # Only deploy if on main branch
+    # Only deploy if pull request
     if: ${{ github.event.pull_request }}
     steps:
       - name: Download artifact
@@ -128,7 +123,7 @@ jobs:
       - name: Copy website to host
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: ${{ env.domain }}
+          host: ${{ env.uberspace_host }}
           username: ${{ env.uberspace_user }}
           key: ${{ secrets.SSH_KEY }}
           port: 22
