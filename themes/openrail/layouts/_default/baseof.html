@@ -14,6 +14,7 @@
     <!-- Wrapper -->
     <div id="wrapper" class="divided">
       {{- partial "nav" site.Data.nav }}
+      {{- partial "staging-warning" . }}
       {{- block "main" . }}{{- end }}
       {{- partial "footer" site.Data.footer }}
     <!-- Wrapper -->

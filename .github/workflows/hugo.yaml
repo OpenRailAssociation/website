@@ -73,7 +73,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
 
       - name: Build preview site
-        run: hugo -b https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/
+        run: hugo -e staging -b https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/
         if: ${{ github.event.pull_request }}
 
       - name: Upload artifact
