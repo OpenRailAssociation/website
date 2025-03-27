@@ -6,5 +6,9 @@ mastodon: "https://floss.social/@openrail"
 email: "/#contact"
 linkedin: "https://www.linkedin.com/company/openrailassociation/"
 
-more: |
-  <a href="https://github.com/OpenRailAssociation/website/">This website is Open Source</a> | <a href="/credits/">Credits</a>
+# <a href="https://github.com/OpenRailAssociation/website/">This website is Open Source</a> | <a href="/credits/">Credits</a>
+links:
+  - text: This website is Open Source
+    link: https://github.com/OpenRailAssociation/website/
+  - text: Credits
+    link: credits/
