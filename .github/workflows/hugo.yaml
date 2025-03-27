@@ -7,6 +7,11 @@ on:
 
   # Run on PRs, but only build
   pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -33,9 +38,24 @@ env:
   uberspace_virtual_base: /var/www/virtual
 
 jobs:
+  # Set vars
+  vars:
+    runs-on: ubuntu-22.04
+    outputs:
+      pr_closed_merged: ${{ steps.pr_status.outputs.pr_closed_merged }}
+      datetime: ${{ steps.datetime.outputs.datetime }}
+    steps:
+      - id: pr_status
+        run: echo "pr_closed_merged=${{ github.event.pull_request.closed_at || github.event.pull_request.merged }}" >> "$GITHUB_OUTPUT"
+      - id: datetime
+        run: echo "datetime=$(date '+%Y-%m-%d %H:%M:%S %Z')" >> "$GITHUB_OUTPUT"
+
   # Build job
   build:
     runs-on: ubuntu-22.04
+    needs: vars
+    # Only if PR not closed or merged
+    if: needs.vars.outputs.pr_closed_merged == 'false'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -85,12 +105,14 @@ jobs:
   #         # TODO: Implement https://github.com/lycheeverse/lychee/issues/989 once it's done. Will help with LinkedIn rate limits
 
   # Deployment jobs
-  deploy:
+  deploy-production:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-22.04
-    needs: build
+    needs:
+      - vars
+      - build
     # Only deploy if on main branch
     if: github.ref == 'refs/heads/main'
     steps:
@@ -111,9 +133,11 @@ jobs:
 
   deploy-preview:
     runs-on: ubuntu-22.04
-    needs: build
-    # Only deploy if pull request
-    if: ${{ github.event.pull_request }}
+    needs:
+      - vars
+      - build
+    # Only deploy if non-closed/non-merged pull request
+    if: github.event.pull_request && needs.vars.outputs.pr_closed_merged == 'false'
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -142,4 +166,38 @@ jobs:
           message: |
             Pull Request Live Preview
             :---:
-            | <p><br />:rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /></p>
+            | <p><br />:rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /><br /></p>
+            | <p>Last updated: ${{ needs.vars.outputs.datetime }}</p>
+
+  remove-preview:
+    runs-on: ubuntu-22.04
+    needs:
+      - vars
+    # Only deploy if non-closed/non-merged pull request
+    if: github.event.pull_request && needs.vars.outputs.pr_closed_merged != 'false'
+    steps:
+      - name: Create deletion notice
+        run: mkdir -p public && echo "This PR has been closed or merged. The preview has been removed." > public/index.html
+
+      - name: Copy empty folder to host
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ env.uberspace_host }}
+          username: ${{ env.uberspace_user }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          timeout: 1m
+          command_timeout: 2m
+          target: ${{ env.uberspace_virtual_base }}/${{ env.uberspace_user }}/${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}
+          source: "public/*"
+          rm: true
+          strip_components: 1
+
+      - name: Inform about preview removal
+        uses: marocchino/sticky-pull-request-comment@52423e01640425a022ef5fd42c6fb5f633a02728 # v2.9.1
+        with:
+          header: pr-preview
+          message: |
+            Pull Request Live Preview
+            :---:
+            | <p><br />:x: Preview has been removed.<br /><br /></p>
