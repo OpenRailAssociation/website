@@ -1,47 +1,24 @@
-{{- /*  Template for all files in /content/news/  */ -}}
-<!DOCTYPE HTML>
-<!--
-  Hugo Story by CaressOfSteel
-  A (modular, highly tweakable) responsive one-page theme for Hugo.
-  Ported from Story by HTML5UP.
-  This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
--->
-<html>
 
-  {{ partial "head" . }}
+{{- define "main" }}
+  <div id="siteheading"><h2>{{ .Title }}</h2></div>
 
-  <body class="is-preload">
-
-    <!-- Wrapper -->
-    <div id="wrapper" class="divided">
-      {{ partial "nav" site.Data.nav }}
-
-      <div id="siteheading"><h2>{{ .Title }}</h2></div>
-
-      {{/*  Range all posts  */}}
-      {{ range .Pages }}
-      <section class="news-list spotlight style2 orient-left content-align-left {{ .Params.image.class }}">
-        <div class="inner medium">
-          <header>
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>{{ .Date.Format "02 January 2006" }}</p>
-          </header>
-          <p>{{ .Summary }} <a href="{{ .RelPermalink }}"><br /><strong>Continue reading »</strong></a></p>
-      </div>
-      {{ if .Params.image }}
-      <div class="image">
-        {{- with (resources.Get .Params.image.src).Resize "x300" }}
-        <img src="{{ .RelPermalink }}" alt="{{ .Params.image.alt }}" />
-        {{- end }}
-      </div>
-      {{ end }}
-      </section>
-      {{ end }} {{/* end range */}}
-      {{ partial "footer" site.Data.footer }}
-    <!-- Wrapper -->
-    </div>
-
-    {{ partial "scripts" . }}
-
-  </body>
-</html>
+  {{/*  Range all posts  */}}
+  {{ range .Pages }}
+  <section class="news-list spotlight style2 orient-left content-align-left {{ .Params.image.class }}">
+    <div class="inner medium">
+      <header>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Date.Format "02 January 2006" }}</p>
+      </header>
+      <p>{{ .Summary }} <a href="{{ .RelPermalink }}"><br /><strong>Continue reading »</strong></a></p>
+  </div>
+  {{ if .Params.image }}
+  <div class="image">
+    {{- with (resources.Get .Params.image.src).Resize "x300" }}
+    <img src="{{ .RelPermalink }}" alt="{{ .Params.image.alt }}" />
+    {{- end }}
+  </div>
+  {{ end }}
+  </section>
+  {{ end }} {{/* end range */}}
+{{- end }}

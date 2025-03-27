@@ -1,8 +1,7 @@
-{{ define "main" }}
+{{- define "main" }}
 	{{/* Variables with global info to be given via dict to scoped partials */}}
 	{{ $pages := .Site.RegularPages.ByPublishDate.Reverse }}
 
-	{{ partial "nav" site.Data.nav }}
 	{{ partial "banner" site.Data.banner }}
 	{{ partial "spotlight" site.Data.spotlight1 }}
 	{{ partial "spotlight" site.Data.spotlight2 }}
@@ -10,6 +9,4 @@
 	{{ partial "projects" site.Data.projects }}
 	{{ partial "members" site.Data.members }}
 	{{ partial "contact" site.Data.contact }}
-	{{ partial "footer" site.Data.footer }}
-
-{{ end }}
+{{- end }}
