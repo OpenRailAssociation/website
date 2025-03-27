@@ -139,6 +139,14 @@ oana-vlasceanu:
   openrail_role: Administration
   links:
     linkedin: https://www.linkedin.com/in/oana-vlasceanu-6a935a12/
+melanie-wollnik:
+  name: Melanie Wollnik
+  img: melanie-wollnik.jpg
+  organisation: DB Systel GmbH
+  organisation_role: Agility Master Unit Level
+  openrail_role: Facilitator/Team Development
+  links:
+    linkedin: https://www.linkedin.com/in/melanie-wollnik/
 
 # Technical Committee
 florian-amsallem:
