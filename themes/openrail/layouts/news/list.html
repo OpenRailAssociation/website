@@ -23,7 +23,7 @@
       <section class="news-list spotlight style2 orient-left content-align-left {{ .Params.image.class }}">
         <div class="inner medium">
           <header>
-            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             <p>{{ .Date.Format "02 January 2006" }}</p>
           </header>
           <p>{{ .Summary }} <a href="{{ .RelPermalink }}"><br /><strong>Continue reading »</strong></a></p>
