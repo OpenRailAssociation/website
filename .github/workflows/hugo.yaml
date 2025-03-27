@@ -142,5 +142,4 @@ jobs:
           message: |
             Pull Request Live Preview
             :---:
-            | <p></p> :rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /><br />
-            | <h6>Built to branch [`gh-pages`](https://github.com/mxmehl/hugo-preview-test/tree/gh-pages) at 2025-03-27 11:34 UTC. <br> Preview will be ready when the [GitHub Pages deployment](https://github.com/mxmehl/hugo-preview-test/deployments) is complete. <br><br> </h6>
+            | <p><br />:rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /></p>
