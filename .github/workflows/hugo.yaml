@@ -15,6 +15,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  pull-requests: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -133,3 +134,12 @@ jobs:
           source: "public/*"
           rm: true
           strip_components: 1
+
+      - name: Inform about Preview URL
+        uses: marocchino/sticky-pull-request-comment@52423e01640425a022ef5fd42c6fb5f633a02728 # v2.9.1
+        with:
+          header: pr-preview
+          message: |
+            Pull Request Live Preview
+            :---:
+            | <p><br />:rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /></p>
