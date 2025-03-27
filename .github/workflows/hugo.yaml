@@ -19,18 +19,22 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: "preview-pages"
   cancel-in-progress: false
+
+# Set environment variables
+env:
+  domain: openrailassociation.org
+  preview_subdomain: web-preview
+  preview_segment: pr-${{ github.event.number }}
+  uberspace_host: uberspace1.openrailassociation.org
+  uberspace_user: openrail
+  uberspace_virtual_base: /var/www/virtual
 
 jobs:
   # Build job
   build:
     runs-on: ubuntu-22.04
-    # Set environment variables
-    env:
-      domain: openrailassociation.org
-      preview_subdomain: web-preview
-      preview_segment: pr-${{ github.event.number }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -79,27 +83,58 @@ jobs:
   #         fail: false
   #         # TODO: Implement https://github.com/lycheeverse/lychee/issues/989 once it's done. Will help with LinkedIn rate limits
 
-  # # Deployment job
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-22.04
-  #   needs: build
-  #   # Only deploy if on main branch
-  #   if: github.ref == 'refs/heads/main'
-  #   steps:
-  #     - name: Download artifact
-  #       uses: actions/download-artifact@v4
-  #       with:
-  #         name: public
-  #         path: ./public
+  # Deployment jobs
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-22.04
+    needs: build
+    # Only deploy if on main branch
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+          path: ./public
 
-  #     - name: Upload pages artifact
-  #       uses: actions/upload-pages-artifact@v3
-  #       with:
-  #         path: ./public
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  deploy-preview:
+    runs-on: ubuntu-22.04
+    needs: build
+    # Set environment variables
+    env:
+      domain: openrailassociation.org
+      preview_subdomain: web-preview
+      preview_segment: pr-${{ github.event.number }}
+    # Only deploy if on main branch
+    if: ${{ github.event.pull_request }}
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+          path: ./public
+
+      - name: Copy website to host
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ env.domain }}
+          username: ${{ env.uberspace_user }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          timeout: 1m
+          command_timeout: 2m
+          target: ${{ env.uberspace_virtual_base }}/${{ env.uberspace_user }}/${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}
+          source: "public/*"
+          rm: true
+          strip_components: 1
