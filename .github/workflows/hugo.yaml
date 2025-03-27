@@ -7,6 +7,11 @@ on:
 
   # Run on PRs, but only build
   pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -37,6 +42,8 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
+      - run: echo "${{ github.event.pull_request.closed_at }}"
+      - run: echo "${{ github.event.pull_request.merged }}"
       - uses: actions/checkout@v4
         with:
           submodules: recursive # Get submdules
@@ -142,4 +149,4 @@ jobs:
           message: |
             Pull Request Live Preview
             :---:
-            | <p><br />:rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /></p>
+            | <p><br />:rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /><br /></p>
