@@ -43,6 +43,7 @@ The OpenRail Team is a dedicated working body to support and orchestrate the ass
   {{< people/person id="loic-hamelin" >}}
   {{< people/person id="mahalia-stephan" >}}
   {{< people/person id="max-mehl" >}}
+  {{< people/person id="melanie-wollnik" >}}
   {{< people/person id="oana-vlasceanu" >}}
   {{< people/person id="peter-keller" >}}
   {{< people/person id="simon-clavier" >}}
