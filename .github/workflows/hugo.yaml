@@ -100,7 +100,7 @@ jobs:
 
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           args: '-r 5 -u "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Apple WebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" --include-fragments --exclude sncf.com --exclude nge.flatland.cloud --max-concurrency 1 .'
           # Fail on errors
