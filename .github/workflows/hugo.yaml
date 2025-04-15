@@ -30,9 +30,10 @@ concurrency:
 
 # Set environment variables
 env:
-  domain: openrailassociation.org
-  preview_subdomain: web-preview
-  preview_segment: pr-${{ github.event.number }}
+  hugo_version: "0.132.2"
+  source_dir: "."
+  preview_domain: web-preview.openrailassociation.org
+  preview_segment: main-pr-${{ github.event.number }}
   uberspace_host: uberspace1.openrailassociation.org
   uberspace_user: openrail
   uberspace_virtual_base: /var/www/virtual
@@ -65,22 +66,22 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3.0.0
         with:
-          hugo-version: "0.132.2"
+          hugo-version: ${{ env.hugo_version }}
           extended: true
 
       - name: Build production site
-        run: hugo
+        run: hugo -s ${{ env.source_dir }}
         if: github.ref == 'refs/heads/main'
 
       - name: Build preview site
-        run: hugo -e staging -b https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/
+        run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b https://${{ env.preview_domain }}/${{ env.preview_segment }}/
         if: ${{ github.event.pull_request }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: public
-          path: ./public
+          path: ${{ env.source_dir }}/public
           include-hidden-files: true
           retention-days: 1
 
@@ -157,7 +158,7 @@ jobs:
           port: 22
           timeout: 1m
           command_timeout: 2m
-          target: ${{ env.uberspace_virtual_base }}/${{ env.uberspace_user }}/${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}
+          target: ${{ env.uberspace_virtual_base }}/${{ env.uberspace_user }}/${{ env.preview_domain }}/${{ env.preview_segment }}
           source: "public/*"
           rm: true
           strip_components: 1
@@ -169,7 +170,7 @@ jobs:
           message: |
             Pull Request Live Preview
             :---:
-            | <p><br />:rocket: View preview at <br />https://${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}/<br /><br /></p>
+            | <p><br />:rocket: View preview at <br />https://${{ env.preview_domain }}/${{ env.preview_segment }}/<br /><br /></p>
             | <p>Last updated: ${{ needs.vars.outputs.datetime }}</p>
 
   remove-preview:
@@ -191,7 +192,7 @@ jobs:
           port: 22
           timeout: 1m
           command_timeout: 2m
-          target: ${{ env.uberspace_virtual_base }}/${{ env.uberspace_user }}/${{ env.preview_subdomain }}.${{ env.domain }}/${{ env.preview_segment }}
+          target: ${{ env.uberspace_virtual_base }}/${{ env.uberspace_user }}/${{ env.preview_domain }}/${{ env.preview_segment }}
           source: "public/*"
           rm: true
           strip_components: 1
