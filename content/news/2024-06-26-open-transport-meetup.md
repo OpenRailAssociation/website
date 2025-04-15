@@ -7,7 +7,7 @@ image:
   class: image-position-center
 ---
 
-Cornelius Schumacher, chair of the Technical Committee of the OpenRail Association, was a guest at the Open Transport Meetup to present the OpenRail Association. He talked about how the organization operates, looking back at the first couple of months since its formal foundation in January 2024, about the first projects, which were onboarded, and what the OpenRail Association strives for in the future. See the [slides]({{< relurl "/presentations/2024-06-26-OpenTransport-OpenRail.pdf" >}}) to get an impression of the presentation.
+Cornelius Schumacher, chair of the Technical Committee of the OpenRail Association, was a guest at the Open Transport Meetup to present the OpenRail Association. He talked about how the organization operates, looking back at the first couple of months since its formal foundation in January 2024, about the first projects, which were onboarded, and what the OpenRail Association strives for in the future. See the [slides]({{< relurl "presentations/2024-06-26-OpenTransport-OpenRail.pdf" >}}) to get an impression of the presentation.
 
 ### About the Open Transport Meetup
 

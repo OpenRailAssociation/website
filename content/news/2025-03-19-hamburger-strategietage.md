@@ -13,7 +13,7 @@ Under the title **"OpenRail Association: Using Open Source to Achieve Greater In
 
 Lively discussions and follow-up questions demonstrated growing interest in Open Source across industries, despite differing requirements and conditions. The shared understanding that major digitalization challenges are best tackled collaboratively resonated with many attendees, making the OpenRail Association’s story particularly well received.
 
-📂 Presentation slides can be [downloaded here]({{< relurl "/presentations/2025-02-21-Hamburger-Strategietage.pdf" >}}).
+📂 Presentation slides can be [downloaded here]({{< relurl "presentations/2025-02-21-Hamburger-Strategietage.pdf" >}}).
 
 ## In the Press
 
