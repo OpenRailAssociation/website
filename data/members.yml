@@ -47,18 +47,18 @@ join_text: |
   We are looking forward to accept new members and make our community grow.
 join_link:
   text: "Learn more about how to join"
-  link: "/about/#join"
+  link: "about/#join"
 
 membership_links:
   - name: Membership form
-    link: "/documents/OpenRail-Membership-Form.pdf"
+    link: "documents/OpenRail-Membership-Form.pdf"
     class: small wide
   - name: Statutes
-    link: "/documents/OpenRail-Association-Statutes.pdf"
+    link: "documents/OpenRail-Association-Statutes.pdf"
     class: small wide
   - name: Compliance and Antitrust Policy
-    link: "/documents/OpenRail-Compliance-and-Antritrust-Policy.pdf"
+    link: "documents/OpenRail-Compliance-and-Antritrust-Policy.pdf"
     class: small wide
   - name: Get in touch
-    link: "/#contact"
+    link: "#contact"
     class: small wide

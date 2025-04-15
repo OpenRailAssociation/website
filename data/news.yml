@@ -3,5 +3,5 @@ style: style1 align-center
 title: Latest News
 
 buttons:
-  - link: /news/
+  - link: news/
     label: See all news
