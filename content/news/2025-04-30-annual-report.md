@@ -8,7 +8,7 @@ image:
 
 *Explore the foundational achievements of the OpenRail Association's first year, as it pioneers open source solutions in the railway industry.*
 
-➡️ [Read the full report (PDF)](/documents/OpenRail-Association-Annual-Report-2024.pdf)
+➡️ [Read the full report (PDF)]({{< relurl "documents/OpenRail-Association-Annual-Report-2024.pdf" >}})
 
 ### Introduction: Pioneering Open Source in the Railway Industry
 
@@ -42,4 +42,4 @@ As the OpenRail Association moves into 2025, the focus is on scaling project ini
 
 OpenRail invites railway operators, infrastructure managers, and innovators to explore the transformative potential of open source methodologies. By providing a framework for sustainable collaboration, the OpenRail Association welcomes new members, contributors, and projects into its vibrant ecosystem.
 
-➡️ [Read the full report (PDF)](/documents/OpenRail-Association-Annual-Report-2024.pdf)
+➡️ [Read the full report (PDF)]({{< relurl "documents/OpenRail-Association-Annual-Report-2024.pdf" >}})
