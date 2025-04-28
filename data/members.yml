@@ -14,7 +14,7 @@ members:
   # Platinum
   - name: UIC
     link: https://uic.org
-    imgsrc: images/members/uic.jpg
+    imgsrc: images/members/uic.png
   - name: Deutsche Bahn
     link: https://deutschebahn.com
     imgsrc: images/members/db.png
