@@ -34,7 +34,7 @@ The Board of Directors is the executive body of the association, vested with thi
   {{< people/person id="peter-franken" img_anchor="Top" >}}
 {{< /people/gallery >}}
 
-### OpenRail Team {#openrail-team}
+#### OpenRail Team {#openrail-team}
 
 The OpenRail Team is a dedicated working body to support and orchestrate the association's activities. It is responsible for expanding the outreach of the OpenRail Association, reducing barriers for effective collaboration, and supports the Board of Directors with implementing its decisions.
 
@@ -49,7 +49,7 @@ The OpenRail Team is a dedicated working body to support and orchestrate the ass
   {{< people/person id="simon-clavier" >}}
 {{< /people/gallery >}}
 
-### Technical Committee {#technical-committee}
+#### Technical Committee {#technical-committee}
 
 The OpenRail Association's Technical Committee (TC) is responsible for selecting and overseeing the association's projects to ensure that they are aligned with the association's goals and values. The committee works in collaboration with the Board of Directors to make informed decisions on which projects to support and provides the necessary guidance to ensure their success.
 
