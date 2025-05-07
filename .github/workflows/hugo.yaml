@@ -37,6 +37,7 @@ env:
   uberspace_host: uberspace1.openrailassociation.org
   uberspace_user: openrail
   uberspace_virtual_base: /var/www/virtual
+  uberspace_prod_dir: html
 
 jobs:
   # Set vars
@@ -110,9 +111,6 @@ jobs:
 
   # Deployment jobs
   deploy-production:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
     needs:
       - vars
@@ -126,14 +124,19 @@ jobs:
           name: public
           path: ./public
 
-      - name: Upload pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Copy website to host
+        uses: appleboy/scp-action@v1.0.0
         with:
-          path: ./public
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          host: ${{ env.uberspace_host }}
+          username: ${{ env.uberspace_user }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          timeout: 1m
+          command_timeout: 2m
+          target: ${{ env.uberspace_virtual_base }}/${{ env.uberspace_user }}/${{ env.uberspace_prod_dir }}/
+          source: "public/*"
+          rm: true
+          strip_components: 1
 
   deploy-preview:
     runs-on: ubuntu-24.04
