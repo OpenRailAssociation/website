@@ -56,3 +56,9 @@ The OpenRail Association's Technical Committee (TC) is responsible for selecting
 The Technical Committee is also responsible for the necessary software and service infrastructure for code hosting and other common tools to facilitate Open Source collaboration. It may delegate operation but shall be responsible for overseeing the overall management of such tools.
 
 All members, material and charters can be found on the [TC's GitHub repository](https://github.com/OpenRailAssociation/technical-committee).
+
+### Annual reports {#annual-reports}
+
+The OpenRail Association publishes annual reports to provide a one-stop resource to learn about activities and highlights of each calendar year. They are available as PDF. Read them for your information and feel free to share them with others to spread the word about what is happening regarding open source in the railway sector.
+
+* [2024: A Year of Collaborative Innovation]({{< relref "/news/2025-04-30-annual-report.md" >}})
