@@ -1,6 +1,10 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# Redirect all secondary (sub)domains to the main domain
+RewriteCond %{HTTP_HOST} !^openrailassociation\.org$ [NC]
+# ...except the web-preview subdomain
+RewriteCond %{HTTP_HOST} !^web-preview\.openrailassociation\.org$ [NC]
+RewriteRule ^(.*)$ https://openrailassociation.org/$1 [R=301,L]
 
 ErrorDocument 404 /404.html
