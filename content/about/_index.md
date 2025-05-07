@@ -34,7 +34,7 @@ The Board of Directors is the executive body of the association, vested with thi
   {{< people/person id="peter-franken" img_anchor="Top" >}}
 {{< /people/gallery >}}
 
-### OpenRail Team {#openrail-team}
+#### OpenRail Team {#openrail-team}
 
 The OpenRail Team is a dedicated working body to support and orchestrate the association's activities. It is responsible for expanding the outreach of the OpenRail Association, reducing barriers for effective collaboration, and supports the Board of Directors with implementing its decisions.
 
@@ -49,10 +49,16 @@ The OpenRail Team is a dedicated working body to support and orchestrate the ass
   {{< people/person id="simon-clavier" >}}
 {{< /people/gallery >}}
 
-### Technical Committee {#technical-committee}
+#### Technical Committee {#technical-committee}
 
 The OpenRail Association's Technical Committee (TC) is responsible for selecting and overseeing the association's projects to ensure that they are aligned with the association's goals and values. The committee works in collaboration with the Board of Directors to make informed decisions on which projects to support and provides the necessary guidance to ensure their success.
 
 The Technical Committee is also responsible for the necessary software and service infrastructure for code hosting and other common tools to facilitate Open Source collaboration. It may delegate operation but shall be responsible for overseeing the overall management of such tools.
 
 All members, material and charters can be found on the [TC's GitHub repository](https://github.com/OpenRailAssociation/technical-committee).
+
+### Annual reports {#annual-reports}
+
+The OpenRail Association publishes annual reports to provide a one-stop resource to learn about activities and highlights of each calendar year. They are available as PDF. Read them for your information and feel free to share them with others to spread the word about what is happening regarding open source in the railway sector.
+
+* [2024: A Year of Collaborative Innovation]({{< relref "/news/2025-04-30-annual-report.md" >}})
