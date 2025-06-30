@@ -10,11 +10,11 @@
       <section>
         {{- $data := dict }}
         {{- $url := .publiccode }}
-        {{- with resources.GetRemote $url }}
+        {{- with try (resources.GetRemote $url) }}
           {{- with .Err }}
             {{- errorf "%s" . }}
           {{- else }}
-            {{- $data = . | transform.Unmarshal }}
+            {{- $data = .Value | transform.Unmarshal }}
           {{- end }}
         {{- else }}
           {{- errorf "Unable to get remote resource %q" $url }}
