@@ -30,7 +30,7 @@ concurrency:
 
 # Set environment variables
 env:
-  hugo_version: "0.132.2"
+  hugo_version: "0.147.9"
   source_dir: "."
   preview_domain: web-preview.openrailassociation.org
   preview_segment: main-pr-${{ github.event.number }}
