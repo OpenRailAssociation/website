@@ -14,14 +14,14 @@
 #     email: first.last@example.com
 
 # Board
-nicole-goebel:
-  name: Nicole Göbel
-  img: nicole-goebel.jpg
+daniel-woithe:
+  name: Daniel Woithe
+  img: daniel-woithe.jpg
   organisation: DB Systel GmbH
-  organisation_role: CEO
+  organisation_role: CTO
   openrail_role: Vice-Chair
   links:
-    linkedin: https://www.linkedin.com/in/nicole-goebel/
+    linkedin: https://www.linkedin.com/in/dwoithe/
 jochen-decker:
   name: Jochen Decker
   img: jochen-decker.jpg
