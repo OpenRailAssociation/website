@@ -22,6 +22,9 @@ buttons:
   - label : "Get In Touch"
     link : "#contact"
     class : button big wide smooth-scroll-middle
+  - label : "Annual Report 2024"
+    link : "/documents/OpenRail-Association-Annual-Report-2024.pdf"
+    class : button big wide smooth-scroll-middle
 image:
   src: "images/aerial-railway-jakub-nawrot-unsplash.jpg"
   alt: Photo by Jakub Nawrot @jacob_lens via Unsplash
