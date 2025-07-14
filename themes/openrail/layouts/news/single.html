@@ -9,8 +9,9 @@
   </div>
   {{ if .Params.image }}
   <div class="image">
+    {{ $alt := .Params.image.alt | default "Image for the news article" }}
     {{- with (resources.Get .Params.image.src).Resize "x600" }}
-    <img src="{{ .RelPermalink }}" alt="{{ .Params.image.alt }}" />
+    <img src="{{ .RelPermalink }}" alt="{{ $alt }}" />
     {{- end }}
   </div>
   {{ end }}
