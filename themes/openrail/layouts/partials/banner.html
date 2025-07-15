@@ -14,7 +14,7 @@
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <ul class="actions stacked"><li>
             {{ range .buttons }}
-                <a href="{{ .link }}" class="{{ .class }}">{{ .label }}</a>&nbsp;
+                <a href="{{ urls.RelURL .link }}" class="{{ .class }}">{{ .label }}</a>&nbsp;
             {{ end }}
         </li></ul>
     </div>
