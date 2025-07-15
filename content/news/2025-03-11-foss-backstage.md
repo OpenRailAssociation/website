@@ -13,6 +13,6 @@ In his presentation, ["Putting the Railway Industry on the Open Source Track"](h
 
 📺 [Watch the recording of the talk](https://www.youtube.com/watch?v=XpZjfgyqTTg)
 
-🖥️ [View the slides](/presentations/2025-03-11-foss-backstage-openrail.pdf)
+🖥️ [View the slides]({{< relurl "presentations/2025-03-11-foss-backstage-openrail.pdf" >}})
 
-*Photo by Jan Michalko under CC BY-SA*
+*Photo by Jan Michalko under CC-BY-SA-2.0*
