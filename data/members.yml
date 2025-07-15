@@ -59,6 +59,9 @@ membership_links:
   - name: Compliance and Antitrust Policy
     link: "documents/OpenRail-Compliance-and-Antritrust-Policy.pdf"
     class: small wide
+  - name: Annual Report 2024
+    link: "documents/OpenRail-Association-Annual-Report-2024.pdf"
+    class: small wide
   - name: Get in touch
     link: "#contact"
     class: small wide
