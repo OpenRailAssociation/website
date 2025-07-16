@@ -51,3 +51,8 @@ module:
   # Make all static content available as assets by default
   - source: static/
     target: assets/
+
+# Privacy Settings
+privacy:
+  youTube:
+    privacyEnhanced: true
