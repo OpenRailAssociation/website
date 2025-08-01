@@ -49,7 +49,7 @@ jobs:
 
       - name: Build production site
         run: hugo -s ${{ env.source_dir }}
-        if: env.condition_production == true
+        if: env.condition_production == 'true'
 
       - name: Build preview site
         run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b ${{ env.domain_preview }}/${{ env.dir_preview_subdir }}/
