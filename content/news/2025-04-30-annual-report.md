@@ -1,5 +1,5 @@
 ---
-title: "OpenRail Association\'s First Annual Report: A Year of Collaborative Innovation"
+title: "OpenRail Association's First Annual Report: A Year of Collaborative Innovation"
 date: 2025-04-30
 summary: "Founded in 2024, the OpenRail Association has embarked on a mission to integrate open source principles into the railway sector, igniting collaboration and innovation among railway operators, infrastructure managers, and developers. The inaugural annual report marks the achievements of OpenRail's founding year, illustrating how open source methodologies can reshape the industry landscape."
 image:
