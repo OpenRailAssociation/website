@@ -299,3 +299,9 @@ div:has(> iframe) {
 section#staging-warning {
   padding: 0;
 }
+
+section.hero div.image {
+  @media screen and (max-width: 886px) {
+    max-height: 25vh;
+  }
+}
