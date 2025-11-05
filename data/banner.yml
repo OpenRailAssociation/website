@@ -1,5 +1,5 @@
 ####################### Banner #########################
-style: "banner style1 orient-left content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+style: "hero style1 orient-left content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "OpenRail Association"
 titleclass : hiddenhead
 titleimage:
