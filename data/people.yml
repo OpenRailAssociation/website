@@ -147,6 +147,15 @@ melanie-wollnik:
   openrail_role: Facilitator/Team Development
   links:
     linkedin: https://www.linkedin.com/in/melanie-wollnik/
+benjamin-lammel:
+  name: Benjamin Lammel
+  img: benjamin-lammel.jpg
+  organisation: SBB CFF FFS
+  organisation_role: Enterprise Architect
+  openrail_role: OpenRail Team Member
+  links:
+    linkedin: https://www.linkedin.com/in/benlammel/
+    github: https://github.com/benlammel/
 
 # Technical Committee
 florian-amsallem:

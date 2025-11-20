@@ -39,9 +39,9 @@ The Board of Directors is the executive body of the association, vested with thi
 The OpenRail Team is a dedicated working body to support and orchestrate the association's activities. It is responsible for expanding the outreach of the OpenRail Association, reducing barriers for effective collaboration, and supports the Board of Directors with implementing its decisions.
 
 {{< people/gallery >}}
+  {{< people/person id="benjamin-lammel" >}}
   {{< people/person id="cornelius-schumacher" >}}
   {{< people/person id="loic-hamelin" >}}
-  {{< people/person id="mahalia-stephan" >}}
   {{< people/person id="max-mehl" >}}
   {{< people/person id="melanie-wollnik" >}}
   {{< people/person id="oana-vlasceanu" >}}
