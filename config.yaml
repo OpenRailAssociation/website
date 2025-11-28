@@ -39,7 +39,7 @@ Params:
   stripe:
     enabled: true
     image: images/openrailday/stripe-2025.png
-    link: https://openrailday.org
+    link: https://day.openrailassociation.org/en
     alt: OpenRail Day 2025
 
   # hugomods-images config
