@@ -48,7 +48,7 @@ Params:
       # Disable WebP
       modern_format:
 permalinks:
-  news: "/news/:2006/:title/"
+  news: "/news/:2006/:slug/"
 
 # Modules
 module:
