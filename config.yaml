@@ -36,6 +36,11 @@ Params:
       - css/fontawesome-all.min.css
     fontawesome_js:
       - js/fontawesome-all.min.js
+  stripe:
+    enabled: true
+    image: images/openrailday/stripe-2025.png
+    link: https://day.openrailassociation.org/en
+    alt: OpenRail Day 2025
 
   # hugomods-images config
   hugomods:

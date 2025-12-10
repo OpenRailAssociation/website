@@ -1,0 +1,8 @@
+{{- if .enabled }}
+<div class="stripe">
+  {{- $img := (resources.Get .image).Resize "300x" }}
+  <a href="{{ .link }}" target="_blank">
+    <img src="{{ $img.RelPermalink }}" alt="{{ .alt }}" />
+  </a>
+</div>
+{{- end }}
