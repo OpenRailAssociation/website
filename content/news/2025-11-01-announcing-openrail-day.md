@@ -1,5 +1,6 @@
 ---
 title: "Announcing OpenRail Day 2025 @ Paris"
+slug: "announcing-openrail-day-2025-at-paris"
 date: 2025-11-01
 summary: "OpenRail Association invites the whole railway community to the first OpenRail Day, taking place on 17 December in Paris. The day will be packed by hands-on and insightful presentation, demos, and workshops."
 image:
