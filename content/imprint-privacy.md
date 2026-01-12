@@ -29,9 +29,9 @@ The association is legally represented by its Chair and Vice-Chairs, who are aut
 ### Hosting provider
 
 Uberspace
-Jonas Pasche
-Kaiserstr. 15
-55116 Mainz
+Jonas Pasche\
+Kaiserstr. 15\
+55116 Mainz\
 Germany
 
 ### Applicable law and jurisdiction
@@ -44,10 +44,10 @@ Any disputes fall under the jurisdiction of the courts of Brussels, Belgium.
 
 ### 1. Data Controller
 
-OpenRail AISBL
-Avenue des Arts 53
-1000 Brussels, Belgium
-Email: [contact@openrailassociation.org](mailto:contact@openrailassociation.org)
+OpenRail AISBL\
+Avenue des Arts 53\
+1000 Brussels, Belgium\
+Email: {{< cloakemail "contact@openrailassociation.org" >}}
 
 No Data Protection Officer (DPO) has been appointed, as none is required.
 
