@@ -1,0 +1,18 @@
+<div class="less-bottom-margin less-top-margin supporting-partners-gallery">
+  {{ range (index .Site.Data "supporting-partners") -}}
+  <section class="supporting-partner">
+    {{- $img := .logo }}
+    {{- $img_resource := resources.Get $img }}
+    {{- if $img_resource }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="logo">
+      <img src="{{ $img_resource.RelPermalink }}" alt="{{ .name }} logo">
+    </a>
+    {{- end }}
+    {{- with .contribution }}
+    <div class="description">
+      <p>{{ . }}</p>
+    </div>
+    {{- end }}
+  </section>
+  {{ end -}}
+</div>
