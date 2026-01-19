@@ -320,6 +320,47 @@ div:has(> iframe) {
 }
 
 // -----------------------------------------------------------------------------
+// SUPPORTING PARTNERS
+
+div.supporting-partners-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 2rem;
+
+  section.supporting-partner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    a.logo {
+      border-bottom: none;
+      flex-shrink: 0;
+    }
+
+    img {
+      max-width: 200px;
+      max-height: 80px;
+      object-fit: contain;
+    }
+
+    div.description {
+      flex: 1;
+
+      p {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
 // SECTIONS
 
 section#staging-warning {
