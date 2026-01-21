@@ -36,4 +36,4 @@ Nearly 1.000 open source railway enthusiasts took part in:
 
 ➡️ See you at the next OpenRail Day.
 
-<img src="../static/images/openrailday/roundtable.jpg" alt="A picture of the roundtable seesion"> <img src="../static/images/openrailday/members.jpg" alt="A picture of the representatives of the OpenRail Association"> 
+<img src="../../static/images/openrailday/roundtable.jpg" alt="A picture of the roundtable seesion" width="45%"> <img src="../../static/images/openrailday/members.jpg" alt="A picture of the representatives of the OpenRail Association" width="45%"> 
