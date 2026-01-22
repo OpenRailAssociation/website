@@ -1,6 +1,6 @@
 ---
-title: "Reviewing OpenRail Day 2025 @ Paris"
-slug: "reviewing-openrail-day-2025-at-paris"
+title: "OpenRail Day @Paris-Highlights from the first edition"
+slug: "openrail-day-at-paris-highlights-from-the-first-edition"
 date: 2025-12-17
 summary: "On December 17, 2025, the OpenRail Association brought together the open-source railway community in Paris for the first edition of OpenRail Day @Paris."
 image:
@@ -19,11 +19,11 @@ Nearly 1.000 open source railway enthusiasts took part in:
 * and numerous meetings between railway, digital and open-source stakeholders from several countries.
  
 🎤 Key insights from the day
-* Jochen Decker outlined common challenges faced by railways everywhere and the potential of open source to address them.
-* François DAVENNE highlighted the importance of open collaboration, interoperability, and the role of the OpenRail Association in enabling them.
-* The European Commission (EC Open Source Programme Office) shared its vision on open source, interoperability and cross-sector collaboration at the European level, represented by Miguel Díez Blanco and Catalin Moruju.
+* **Jochen Decker** outlined common challenges faced by railways everywhere and the potential of open source to address them.
+* **François Davenne** highlighted the importance of open collaboration, interoperability, and the role of the OpenRail Association in enabling them.
+* The European Commission (EC Open Source Programme Office) shared its vision on open source, interoperability and cross-sector collaboration at the European level, represented by **Miguel Díez Blanco** and **Catalin Moruju**.
 
-💬 Panel discussion with Lucian Balea (LF Energy, RTE France), Fatima Zohra EL OUERKHAOUI (ONCF), Daniel Woithe (DB Systel), Peter Franken (Infrabel), Pierre Tane (UIC), and Loïc Hamelin (SNCF), moderated by Amel Charleux (University of Montpellier), the panel explored:
+💬 Panel discussion with **Lucian Balea** (LF Energy, RTE France), **Fatima Zohra EL Ouerkhaoui** (ONCF), **Daniel Woithe** (DB Systel), **Peter Franken** (Infrabel), **Pierre Tane** (UIC), and **Loïc Hamelin** (SNCF), moderated by **Amel Charleux** (University of Montpellier), the panel explored:
 * The value of open source in railways
 * Real-world experiences
 * Ways to shape the future of open collaboration in the sector
@@ -36,4 +36,5 @@ Nearly 1.000 open source railway enthusiasts took part in:
 
 ➡️ See you at the next OpenRail Day.
 
-<img src="../../static/images/openrailday/roundtable.jpg" alt="A picture of the roundtable seesion" width="45%"> <img src="../../static/images/openrailday/members.jpg" alt="A picture of the representatives of the OpenRail Association" width="45%"> 
+![Roundtable](../../static/images/openrailday/roundtable.jpg)  ![Members](../../static/images/openrailday/members.jpg) 
+
