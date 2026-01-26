@@ -13,28 +13,28 @@ On December 17, 2025, the OpenRail Association brought together the open-source 
 This first edition laid the groundwork for a new community-driven event dedicated to open-source railway innovation, focused on collaboration, knowledge sharing and collective action.
  
 Nearly 1.000 open source railway enthusiasts took part in:
-* live demonstrations of open-source railway projects,
+* live demonstrations of [OSRD](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=4&resume=true), [NGE](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=5&resume=true), [LibLRS](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=6&resume=true) , [DAC Migration DSS](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=7&resume=true) and [RCM OSS](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=8&resume=true),
 * technical and strategic discussions,
 * collaborative workshops,
 * and numerous meetings between railway, digital and open-source stakeholders from several countries.
  
-🎤 Key insights from the day
+Key insights from the day
 * **Jochen Decker** outlined common challenges faced by railways everywhere and the potential of open source to address them.
-* **François Davenne** highlighted the importance of open collaboration, interoperability, and the role of the OpenRail Association in enabling them.
-* The European Commission (EC Open Source Programme Office) shared its vision on open source, interoperability and cross-sector collaboration at the European level, represented by **Miguel Díez Blanco** and **Catalin Moruju**.
+* **François Davenne** highlighted the importance of open collaboration, interoperability, and the role of the OpenRail Association in enabling them through an [inspirational Keynote](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=3&resume=true).
+* The European Commission (EC Open Source Programme Office) shared its [vision](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=10&resume=true) on open source, interoperability and cross-sector collaboration at the European level, represented by **Miguel Díez Blanco** and **Catalin Moruju**.
 
-💬 Panel discussion with **Lucian Balea** (LF Energy, RTE France), **Fatima Zohra EL Ouerkhaoui** (ONCF), **Daniel Woithe** (DB Systel), **Peter Franken** (Infrabel), **Pierre Tane** (UIC), and **Loïc Hamelin** (SNCF), moderated by **Amel Charleux** (University of Montpellier), the panel explored:
+[Panel discussion](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=9&resume=true) with **Lucian Balea** (LF Energy, RTE France), **Fatima Zohra EL Ouerkhaoui** (ONCF), **Daniel Woithe** (DB Systel), **Peter Franken** (Infrabel), **Pierre Tane** (UIC), and **Loïc Hamelin** (SNCF), moderated by **Amel Charleux** (University of Montpellier), the panel explored:
 * The value of open source in railways
 * Real-world experiences
 * Ways to shape the future of open collaboration in the sector
 
-🚀 The journey has just begun — we look forward to building this community together!
+The journey has just begun — we look forward to building this community together!
  
-🙏 A special thank you to [Groupe SNCF](https://www.groupe-sncf.com/en) and [UIC - International union of railways #UICrail](https://uic.org/) for their support and for hosting this first edition.
-🙏 Warm thanks as well to all speakers, contributors, partners and participants who helped make this day a success.
-📸 Here are some highlights from a day dedicated to open exchange and cooperation.
+A special gratitude goes to [Groupe SNCF](https://www.groupe-sncf.com/en) and [UIC - International union of railways #UICrail](https://uic.org/) for their support and for hosting this first edition.
+As well we would like to thank all speakers, contributors, partners and participants who helped make this day a success.    
+➡️[Here](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=11&resume=true) are some answers to a variety of interesting questions.
 
-➡️ See you at the next OpenRail Day.
+We look forward to see you at the next OpenRail Day.
 
 ![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg) 
 ![Members](images/openrailday/membersOpenRailDay.jpeg) 
