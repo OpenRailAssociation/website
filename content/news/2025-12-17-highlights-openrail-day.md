@@ -36,5 +36,6 @@ Nearly 1.000 open source railway enthusiasts took part in:
 
 ➡️ See you at the next OpenRail Day.
 
-![Roundtable](../../static/images/openrailday/roundtableOpenRailDay.jpg)  ![Members](../../static/images/openrailday/membersOpenRailDay.jpg) 
+![Roundtable](../images/openrailday/roundtableOpenRailDay.jpg) 
+![Members](../images/openrailday/membersOpenRailDay.jpg) 
 
