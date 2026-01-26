@@ -4,7 +4,7 @@ slug: "openrail-day-at-paris-highlights-from-the-first-edition"
 date: 2025-12-17
 summary: "On December 17, 2025, the OpenRail Association brought together the open-source railway community in Paris for the first edition of OpenRail Day @Paris."
 image:
-  src: images/openrailday/locationOpenRailDay.jpg
+  src: images/openrailday/locationOpenRailDay.jpeg
   alt: "A picture of the building, where the OpenRail Day took place"
 ---
 
@@ -36,6 +36,6 @@ Nearly 1.000 open source railway enthusiasts took part in:
 
 ➡️ See you at the next OpenRail Day.
 
-![Roundtable](/images/openrailday/roundtableOpenRailDay.jpeg) 
-![Members](../images/openrailday/membersOpenRailDay.jpeg) 
+![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg) 
+![Members](images/openrailday/membersOpenRailDay.jpeg) 
 
