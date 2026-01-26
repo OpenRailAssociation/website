@@ -1,5 +1,5 @@
 ---
-title: "OpenRail Day @Paris-Highlights from the first edition"
+title: "OpenRail Day @Paris - Highlights from the first edition"
 slug: "openrail-day-at-paris-highlights-from-the-first-edition"
 date: 2025-12-17
 summary: "On December 17, 2025, the OpenRail Association brought together the open-source railway community in Paris for the first edition of OpenRail Day @Paris."
