@@ -38,14 +38,6 @@ jean-michel-evanghelou:
   openrail_role: Vice-Chair
   links:
     linkedin: https://www.linkedin.com/in/jeanmichelevanghelou/
-frederic-novello:
-  name: Frédéric Novello
-  img: frederic-novello.jpg
-  organisation: SNCF
-  organisation_role: Deputy Group CIO
-  openrail_role: Vice-Chair
-  links:
-    linkedin: https://www.linkedin.com/in/frederic-novello/
 brede-dammen:
   name: Brede Dammen
   img: brede-dammen.jpg
@@ -78,6 +70,14 @@ fatima-zohra-el-ouerkhaoui:
   organisation: ONCF
   organisation_role: Chief Information and Digital Officer, Board member
   openrail_role: Director
+mounir-belhamiti:
+  name: Mounir Belhamiti
+  img: mounir-belhamiti.jpg
+  organisation: SNCF
+  organisation_role: Director of Governance & Technological Transformations
+  openrail_role: Vice-Chair
+  links:
+    linkedin: https://www.linkedin.com/in/mounir-belhamiti-4307937/
 
 # OpenRail Team
 mahalia-stephan:
