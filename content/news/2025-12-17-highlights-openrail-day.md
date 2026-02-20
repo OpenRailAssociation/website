@@ -36,5 +36,4 @@ As well we would like to thank all speakers, contributors, partners and particip
 
 We look forward to see you at the next OpenRail Day.
 
-![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg) 
-![Members](images/openrailday/membersOpenRailDay.jpeg) 
+![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg?width=360&quality=100#float-start)![Members](images/openrailday/membersOpenRailDay.jpeg?width=360&quality=100#float-end) 
