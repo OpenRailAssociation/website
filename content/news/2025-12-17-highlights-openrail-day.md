@@ -30,7 +30,7 @@ Key insights from the day
 
 The journey has just begun — we look forward to building this community together!
  
-A special gratitude goes to [Groupe SNCF](https://www.groupe-sncf.com/en) and [UIC - International union of railways #UICrail](https://uic.org/) for their support and for hosting this first edition.
+A special gratitude goes to SNCF and UIC for hosting and organizing this first edition.
 As well we would like to thank all speakers, contributors, partners and participants who helped make this day a success.    
 ➡️[Here](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=11&resume=true) are some answers to a variety of interesting questions.
 
