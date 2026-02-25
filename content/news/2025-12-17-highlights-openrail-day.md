@@ -23,17 +23,17 @@ Key insights from the day
 * **François Davenne** highlighted the importance of open collaboration, interoperability, and the role of the OpenRail Association in enabling them through an [inspirational Keynote](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=3&resume=true).
 * The European Commission (EC Open Source Programme Office) shared its [vision](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=10&resume=true) on open source, interoperability and cross-sector collaboration at the European level, represented by **Miguel Díez Blanco** and **Catalin Moruju**.
 
+![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg)
 In a [roundtable](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=9&resume=true) with **Lucian Balea** (LF Energy, RTE France), **Fatima Zohra EL Ouerkhaoui** (ONCF), **Daniel Woithe** (DB), **Peter Franken** (Infrabel), **Pierre Tane** (UIC), and **Loïc Hamelin** (SNCF), moderated by **Amel Charleux** (University of Montpellier), the panelists explored:
 * The value of open source in railways
 * Real-world experiences
 * Ways to shape the future of open collaboration in the sector
-
-The journey has just begun — we look forward to building this community together!
  
 A special gratitude goes to SNCF and UIC for hosting and organizing this first edition.
 As well we would like to thank all speakers, contributors, partners and participants who helped make this day a success.    
 ➡️[Here](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=11&resume=true) are some answers to a variety of interesting questions.
 
-We look forward to see you at the next OpenRail Day.
+The journey has just begun - we look forward to see you at the next OpenRail Day.
 
-![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg?width=360&quality=100#float-start)![Members](images/openrailday/membersOpenRailDay.jpeg?width=360&quality=100#float-end) 
+![Members](images/openrailday/membersOpenRailDay.jpeg) 
+
