@@ -23,7 +23,7 @@ Key insights from the day
 * **François Davenne** highlighted the importance of open collaboration, interoperability, and the role of the OpenRail Association in enabling them through an [inspirational Keynote](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=3&resume=true).
 * The European Commission (EC Open Source Programme Office) shared its [vision](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=10&resume=true) on open source, interoperability and cross-sector collaboration at the European level, represented by **Miguel Díez Blanco** and **Catalin Moruju**.
 
-![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg)
+![Roundtable](images/openrailday/roundtableOpenRailDay.jpeg "OpenRail Board at the roundtable")
 In a [roundtable](https://clip.place/w/p/gZ1HFxLxHri8mDABzqpGHC?playlistPosition=9&resume=true) with **Lucian Balea** (LF Energy, RTE France), **Fatima Zohra EL Ouerkhaoui** (ONCF), **Daniel Woithe** (DB), **Peter Franken** (Infrabel), **Pierre Tane** (UIC), and **Loïc Hamelin** (SNCF), moderated by **Amel Charleux** (University of Montpellier), the panelists explored:
 * The value of open source in railways
 * Real-world experiences
@@ -35,5 +35,6 @@ As well we would like to thank all speakers, contributors, partners and particip
 
 The journey has just begun - we look forward to see you at the next OpenRail Day.
 
-![Members](images/openrailday/membersOpenRailDay.jpeg) 
+![Members](images/openrailday/membersOpenRailDay.jpeg "OpenRail Board and Team members at the OpenRail Day in Paris") 
+
 
