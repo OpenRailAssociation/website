@@ -41,6 +41,9 @@ members:
     link: https://www.flatland-association.org/
     imgsrc: images/members/flatland-logo.jpg
     resize: -40px
+  - name: EONA-X
+    link: https://eona-x.eu
+    imgsrc: images/members/eona-x.png
 
 join_title: And how about you?
 join_text: |
