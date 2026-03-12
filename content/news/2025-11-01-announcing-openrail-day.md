@@ -19,5 +19,3 @@ This will be the first physical meeting of the whole international railway commu
 ➡️ **All information about OpenRail Day [on the dedicated event page](https://day.openrailassociation.org)**
 
 We are looking forward to welcome you at a whole day dedicated to Open Source for the railway industry!
-
-[registration]: https://landing-page.diva.numberly.st/lp/e7c7c13e-d904-4d97-b662-c7eb45af1379
