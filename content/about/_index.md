@@ -78,4 +78,5 @@ The OpenRail Association publishes annual reports to provide a one-stop resource
 
 In collaboration with out supporting partner Bitergia we are creating quarterly metrics reports to gather some insight into the activity of the OpenRail open source projects.
 
+* [OpenRail Quarterly Metrics Report 2026-Q1]({{< relurl "documents/OpenRail-Metrics-2026Q1.pdf" >}})
 * [OpenRail Quarterly Metrics Report 2025-Q4]({{< relurl "documents/OpenRail-Metrics-2025Q4.pdf" >}})
