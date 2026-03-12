@@ -23,7 +23,6 @@ concurrency:
 
 # Set environment variables which will be used multiple times in the workflow
 env:
-  hugo_version: "0.147.9"
   source_dir: "."
   artifact_name: "website"
   condition_production: ${{ github.ref == 'refs/heads/main' }}
@@ -39,11 +38,8 @@ jobs:
           submodules: recursive # Get submodules
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
-        with:
-          hugo-version: ${{ env.hugo_version }}
-          extended: true
+      - name: Setup required build tools with mise
+        uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3.6.3
 
       - name: Build production site
         run: hugo -s ${{ env.source_dir }}
