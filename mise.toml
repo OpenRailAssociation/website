@@ -1,0 +1,38 @@
+[tools]
+hugo-extended = "0.147.9"
+lychee = "0.23.0"
+
+[vars]
+build_dir = "public"
+
+[tasks.cleanup]
+description = "Clean up the build destination directory"
+run = "rm -r {{vars.build_dir}} || true"
+
+[tasks.build]
+depends = ["cleanup"]
+description = "Build the static site using Hugo"
+run = "hugo -d {{vars.build_dir}}"
+
+[tasks.build-root]
+depends = ["cleanup"]
+description = "Build the static site using Hugo, not using subdirectory as baseURL"
+run = "hugo --baseURL / -d {{vars.build_dir}}"
+
+[tasks.preview]
+depends = ["cleanup"]
+description = "Preview the site locally using Hugo's built-in server"
+run = "hugo server"
+
+[tasks.linkcheck]
+depends = ["build-root"]
+description = "Check for broken links using lychee"
+run = '''
+lychee \
+  --max-concurrency 5 --cache --max-cache-age 1h \
+  --include-fragments --index-files 'index.html' \
+  --exclude sncf.com --exclude matrix.to --exclude www.linkedin.com --exclude unsplash.com --exclude oncf.ma \
+  --root-dir {{vars.build_dir}}/ \
+  -u 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Apple WebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
+  {{vars.build_dir}}/
+'''

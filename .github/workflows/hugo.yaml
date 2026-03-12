@@ -23,7 +23,6 @@ concurrency:
 
 # Set environment variables which will be used multiple times in the workflow
 env:
-  hugo_version: "0.147.9"
   source_dir: "."
   artifact_name: "website"
   condition_production: ${{ github.ref == 'refs/heads/main' }}
@@ -39,11 +38,8 @@ jobs:
           submodules: recursive # Get submodules
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
-        with:
-          hugo-version: ${{ env.hugo_version }}
-          extended: true
+      - name: Setup required build tools with mise
+        uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3.6.3
 
       - name: Build production site
         run: hugo -s ${{ env.source_dir }}
@@ -66,7 +62,7 @@ jobs:
     needs: build
     runs-on: ubuntu-24.04
     steps:
-      - uses: OpenRailAssociation/web-deployment-action@20b8d1c718a88eb73ccfde8e4fc32a02bc13da74 # v1.1.2
+      - uses: OpenRailAssociation/web-deployment-action@5eec7c629352dfac2c5905d7f1408a26d1951433 # v1.2.0
         with:
           artifact_name: ${{ env.artifact_name }}
           condition_production: ${{ env.condition_production }}
@@ -79,4 +75,5 @@ jobs:
           ssh_host: ${{ vars.WEB_SSH_HOST }}
           ssh_user: ${{ vars.WEB_SSH_USER }}
           ssh_key: ${{ secrets.SSH_KEY }}
-          linkchecker_exclude: "sncf.com,flatland.cloud"
+          linkchecker_exclude: "sncf.com,flatland.cloud,matrix.to,www.linkedin.com,unsplash.com,oncf.ma"
+          linkchecker_extra_args: "--index-files index.html"
