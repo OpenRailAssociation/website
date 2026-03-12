@@ -71,6 +71,7 @@ Support is provided without any commercial marketing agreement and solely to fur
 
 The OpenRail Association publishes annual reports to provide a one-stop resource to learn about activities and highlights of each calendar year. They are available as PDF. Read them for your information and feel free to share them with others to spread the word about what is happening regarding open source in the railway sector.
 
+* [2025: From Collaboration to Impact]({{< relurl "documents/OpenRail-Association-Annual-Report-2025.pdf" >}})
 * [2024: A Year of Collaborative Innovation]({{< relref "/news/2025-04-30-annual-report.md" >}})
 
 ### Metrics reports {#metrics-reports}

@@ -22,8 +22,8 @@ buttons:
   - label : "Get In Touch"
     link : "#contact"
     class : button big wide smooth-scroll-middle
-  - label : "Annual Report 2024"
-    link : "documents/OpenRail-Association-Annual-Report-2024.pdf"
+  - label : "Annual Report 2025"
+    link : "documents/OpenRail-Association-Annual-Report-2025.pdf"
     class : button big wide smooth-scroll-middle
 image:
   src: "images/aerial-railway-jakub-nawrot-unsplash.jpg"
