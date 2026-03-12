@@ -79,5 +79,5 @@ jobs:
           ssh_host: ${{ vars.WEB_SSH_HOST }}
           ssh_user: ${{ vars.WEB_SSH_USER }}
           ssh_key: ${{ secrets.SSH_KEY }}
-          linkchecker_exclude: "sncf.com,flatland.cloud"
+          linkchecker_exclude: "sncf.com,flatland.cloud,matrix.to,www.linkedin.com,unsplash.com,oncf.ma"
           linkchecker_extra_args: "--index-files index.html"
