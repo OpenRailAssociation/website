@@ -1,0 +1,61 @@
+---
+title: "OpenRail Annual Report 2025: From Collaboration to Impact "
+date: 2026-03-30
+summary: "The OpenRail Association has published its Annual Report for 2025, reflecting a year of growing collaboration around open source in the railway sector. The report outlines recent developments across OpenRail projects and shows how collaborative software development is increasingly supporting real operational use, with the Open Source Railway Designer (OSRD) entering production use at SNCF Réseau. It also reflects on the broader role of open source in strengthening digital resilience and interoperability in railway infrastructure."
+image:
+  src: images/railroad-irina-iriser-unsplash.jpg
+  alt: Impression of title of OpenRail Annual Report 2025
+---
+
+*Explore the growing collaboration and impact throughout the OpenRail ecosystem in its second year.*
+
+➡️ [Read the full report (PDF)]({{< relurl "documents/OpenRail-Association-Annual-Report-2025.pdf" >}})
+
+### Introduction: From Collaboration to Impact 
+
+The OpenRail Association has published its Annual Report for 2025, reflecting a year of growing collaboration around open source in the railway sector. The report outlines recent developments across OpenRail projects and shows how collaborative software development is increasingly supporting real operational use, with the Open Source Railway Designer (OSRD) entering production use at SNCF Réseau. It also reflects on the broader role of open source in strengthening digital resilience and interoperability in railway infrastructure. 
+
+“In a rapidly evolving geopolitical environment, digital resilience – grounded in sovereignty and security – has become a strategic necessity for critical infrastructure. Across the rail sector, open source is increasingly recognized as a cornerstone of resilient digital systems. This reinforces the strategic relevance of the OpenRail Association and its mission to advance the collaborative development of open source software for rail.” — Jochen Decker, Chair of the Board of Directors of the OpenRail Association and CIO at SBB 
+
+
+### Looking Back: A Year of Significant Progress and Growing Collaboration
+
+Following its founding year in 2024, the OpenRail Association continued to expand its activities and strengthen its collaborative ecosystem throughout 2025. The organization further developed its governance structures, supported the growth of its open source projects, and facilitated collaboration between railway operators, infrastructure managers, and developers. 
+
+Several projects demonstrated tangible operational impact. The Open Source Railway Designer (OSRD) became the first project to reach the Qualified stage in the OpenRail incubation process and is now used in production at SNCF Réseau. Other projects within the OpenRail portfolio also continued to evolve, illustrating how shared development can address common challenges in railway operations, planning, and infrastructure management. 
+
+The report also highlights how collaboration across organizations and projects continues to grow within the OpenRail ecosystem. By sharing development efforts and building on common software components, participating organizations are able to accelerate innovation and reduce duplicated work across the railway sector. 
+
+
+### OpenRail Projects: Collaborative Software for the Railway Sector
+
+The OpenRail project portfolio continued to grow and mature in 2025. These projects represent practical building blocks for railway software and are developed collaboratively across organizations:
+
+* **Open Source Railway Designer (OSRD)** OSRD is an open source web application for railway infrastructure design, capacity analysis, timetabling, simulation and short-term path requests. 
+* **Netzgrafik-Editor (NGE)** Netzgrafik-Editor is now a mature tool for creating and analyzing regular-interval timetables. It’s versatile for logistics planning in various domains. Features include interactive editing, graphic timetables, trainrun editing, and logistics analysis. 
+* **RCM-DX (RCM Data eXchange)** RCM-DX is an open source data format for railway diagnostic data that enables easy accessibility and visualization. Building on this foundation, **Rail Condition Monitoring (RCM OSS)** by SBB is a suite of products that leverages RCM-DX for comprehensive rail condition monitoring.
+* **DAC Migration DSS** Within the next years around 500 K freight wagons all over Europe owned and operated by various corporations will be converted from screw couplers to digital automatic 
+couplers (DAC). To facilitate the migration process, a decision support system (DSS) is planned under the project. 
+* **Library for Linear Reference Systems (libLRS)** The goal of the library is to have a flexible, high performance and easy to integrate linear referencing systems (LRS) library that can be used in any system to manipulate LRSs. 
+
+Together, these projects demonstrate how open collaboration can create reusable digital building blocks for the railway sector. 
+
+
+### Strengthening the Ecosystem 
+
+Throughout 2025, the OpenRail Association continued to connect developers, railway professionals, and researchers through community activities and collaboration initiatives. Events such as OpenRail Day and Hack4Rail highlighted the growing interest in open source solutions for railway challenges and provided opportunities for contributors to exchange ideas and develop new approaches together. 
+
+These interactions help transform shared code into a vibrant community, enabling organizations to collaborate on common digital infrastructure while maintaining flexibility in their own systems. 
+
+
+### Looking Ahead: Building Resilient Digital Infrastructure 
+
+As digital transformation continues across the railway sector, the role of open source is becoming increasingly important. OpenRail aims to further expand its project ecosystem, encourage cross-organizational collaboration, and support the adoption of open, interoperable digital foundations for railway systems. 
+
+By combining transparent governance, shared development, and practical operational use, the OpenRail Association contributes to strengthening digital resilience and reducing dependencies in critical railway infrastructure. 
+
+### Join Us: Advancing Open Source in Rail 
+
+The OpenRail Association invites railway operators, infrastructure managers, developers, and innovators to participate in its growing ecosystem. By working together through open source collaboration, the railway sector can build interoperable, sustainable, and future-ready digital solutions. 
+
+➡️ [Read the full report (PDF)]({{< relurl "documents/OpenRail-Association-Annual-Report-2025.pdf" >}})
