@@ -1,6 +1,6 @@
 [tools]
 hugo-extended = "0.147.9"
-lychee = "0.23.0"
+lychee = "0.24.1"
 
 [vars]
 build_dir = "public"
