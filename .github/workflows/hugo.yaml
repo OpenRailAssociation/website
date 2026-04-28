@@ -28,6 +28,9 @@ env:
   condition_production: ${{ github.ref == 'refs/heads/main' }}
   dir_preview_subdir: main-pr-${{ github.event.number }}
 
+permissions:
+  contents: read # For checkout
+
 jobs:
   # Build job
   build:
@@ -37,6 +40,7 @@ jobs:
         with:
           submodules: recursive # Get submodules
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+          persist-credentials: false
 
       - name: Setup required build tools with mise
         uses: jdx/mise-action@1648a7812b9aeae629881980618f079932869151 # v4.0.1
@@ -46,7 +50,9 @@ jobs:
         if: env.condition_production == 'true'
 
       - name: Build preview site
-        run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b ${{ vars.WEB_DOMAIN_PREVIEW }}/${{ env.dir_preview_subdir }}/
+        env:
+          VARS_WEB_DOMAIN_PREVIEW: ${{ vars.WEB_DOMAIN_PREVIEW }}
+        run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b ${VARS_WEB_DOMAIN_PREVIEW}/${dir_preview_subdir}/
         if: github.event.pull_request
 
       - name: Upload artifact
