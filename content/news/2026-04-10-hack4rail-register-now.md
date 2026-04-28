@@ -1,6 +1,6 @@
 ---
 title: "Hack4Rail 2026: Driving Innovation in Rail"
-date: 2026-04-30
+date: 2026-04-10
 summary: "Registration for Hack4Rail 2026 is now open, inviting innovators to tackle 18 real-world railway challenges. OpenRail Association facilitates the hackathon by enabling open source collaboration, providing infrastructure, and fostering cross-border innovation. From mobility modeling to infrastructure optimization, participants will shape solutions that advance the future of rail."
 image:
   src: images/hack4rail2026-register-now.png
