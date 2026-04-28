@@ -44,7 +44,7 @@ Hack4Rail 2026 will take place from June 22 to June 24, 2026 in Vienna.
 
 ### Key Dates
 
-*  Registration open until April 30, 2026
+*  Participant registration open until April 30, 2026
 *  Confirmation of participation by May 5, 2026
 
 
