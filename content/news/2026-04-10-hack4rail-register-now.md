@@ -50,9 +50,7 @@ Hack4Rail 2026 will take place from June 22 to June 24, 2026 in Vienna.
 
 ### Registration 
 
-➡️ [Employees of ÖBB, DB, and OpenRail Association members](https://share.openrailassociation.org/apps/forms/s/qakt2CwdYtCyeRFisAYDg5rt)
-
-➡️ [Employees of SBB CFF FFS](https://hack4rail2026.event.sbb.ch/#E3300E)
+➡️ [Register as a participant](https://hack4rail.org/organization/participation/)
 
 
 ### Join the Movement 
