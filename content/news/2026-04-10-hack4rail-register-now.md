@@ -20,16 +20,12 @@ Hack4Rail invites employees from across the OpenRail ecosystem to collaborate in
 
 ### Tackling Real-World Challenges
 
-This year's hackathon features 18 challenges across six key theme tracks:
-
-*  Schedule flexibility and capacity optimization 
-*  Cross-border mobility and logistics 
-*  Efficient disruption and construction site management 
-*  Train stations as mobility hubs 
-*  Green digitalization for environmental protection and sustainability
-*  Mobility and logistics think tank 
-    
-Each theme track is designed to encourage innovative, scalable, and practical solutions that address real industry challenges while supporting long term transformation.
+This year's hackathon features 18 challenges across six key theme tracks, all designed to foster innovative, scalable, and practical solutions addressing real industry challenges while supporting long-term transformation. Explore some of the challenges:
+* **Build an Open Model of Cross‑Border Mobility** Use open data to model cross-border mobility and demonstrate rail-based alternatives, creating a reusable foundation for planning and policy analysis. 
+* **Infrastructure Congestion** Develop decision-support models that proactively identify congestion risks and propose mitigation scenarios to enable earlier, better-informed planning decisions. 
+* **PopUpSim Optimizer** Add an optimization layer that automatically generates, evaluates, and compares PopUpSim scenarios, identifying promising configurations with minimal manual intervention. 
+* **Robust Auto‑Layout Algorithms for the Netzgrafik Editor** Develop fast, robust auto-layout algorithms that preserve network topology while improving visual clarity, enabling scalable, low-effort visualization even for complex and evolving networks. 
+* **Rolling Stock Software Configuration Management** Design a common configuration-management concept for rolling stock software across operators, focusing on versioning, traceability, and alignment with safety-critical railway requirements. 
 
 
 ### Enabling Open Collaboration
