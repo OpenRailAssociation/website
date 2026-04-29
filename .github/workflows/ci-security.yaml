@@ -15,6 +15,7 @@ permissions: {}
 jobs:
   zizmor:
     runs-on: ubuntu-latest
+    if: github.repository == 'OpenRailAssociation/website'
     permissions:
       contents: read
     steps:
