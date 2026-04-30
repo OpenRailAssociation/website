@@ -46,13 +46,13 @@ jobs:
         uses: jdx/mise-action@1648a7812b9aeae629881980618f079932869151 # v4.0.1
 
       - name: Build production site
-        run: hugo -s ${{ env.source_dir }}
+        run: mise run build
         if: env.condition_production == 'true'
 
       - name: Build preview site
         env:
           VARS_WEB_DOMAIN_PREVIEW: ${{ vars.WEB_DOMAIN_PREVIEW }}
-        run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b ${VARS_WEB_DOMAIN_PREVIEW}/${dir_preview_subdir}/
+        run: mise run build-preview -b ${VARS_WEB_DOMAIN_PREVIEW}/${dir_preview_subdir}/
         if: github.event.pull_request
 
       - name: Upload artifact

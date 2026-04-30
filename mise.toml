@@ -3,26 +3,36 @@ hugo-extended = "0.147.9"
 lychee = "0.24.1"
 
 [vars]
+source_dir = "."
 build_dir = "public"
+preview_baseurl = "https://preview.openrailassociation.org/main-pr-9999/"
 
 [tasks.cleanup]
 description = "Clean up the build destination directory"
-run = "rm -r {{vars.build_dir}} || true"
+run = "rm -rf {{vars.source_dir}}/{{vars.build_dir}} || true"
 
 [tasks.build]
 depends = ["cleanup"]
 description = "Build the static site using Hugo"
-run = "hugo -d {{vars.build_dir}}"
+run = "hugo -s {{vars.source_dir}} -d {{vars.build_dir}}"
+
+[tasks.build-preview]
+depends = "cleanup"
+description = "Build the static site using Hugo, using subdirectory as baseURL for previewing"
+usage = '''
+flag "-b --baseurl <baseurl>" help="Hugo baseURL" default="{{vars.preview_baseurl}}"
+'''
+run = "hugo -s {{vars.source_dir}} -e staging --buildFuture --buildDrafts -b {{ usage.baseurl }}"
 
 [tasks.build-root]
 depends = ["cleanup"]
 description = "Build the static site using Hugo, not using subdirectory as baseURL"
-run = "hugo --baseURL / -d {{vars.build_dir}}"
+run = "hugo -s {{vars.source_dir}} -d {{vars.build_dir}} --baseURL /"
 
 [tasks.preview]
 depends = ["cleanup"]
 description = "Preview the site locally using Hugo's built-in server"
-run = "hugo server"
+run = "hugo -s {{vars.source_dir}} server"
 
 [tasks.linkcheck]
 depends = ["build-root"]
@@ -32,7 +42,7 @@ lychee \
   --max-concurrency 5 --cache --max-cache-age 1h \
   --include-fragments --index-files 'index.html' \
   --exclude sncf.com --exclude matrix.to --exclude www.linkedin.com --exclude unsplash.com --exclude oncf.ma \
-  --root-dir {{vars.build_dir}}/ \
+  --root-dir {{vars.source_dir}}/{{vars.build_dir}}/ \
   -u 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Apple WebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
-  {{vars.build_dir}}/
+  {{vars.source_dir}}/{{vars.build_dir}}/
 '''
