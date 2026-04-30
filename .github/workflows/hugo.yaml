@@ -67,6 +67,10 @@ jobs:
     name: Deploy website
     needs: build
     runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pull-requests: write # required unless you explicitly set sticky_comment_enabled: false
+      # deployments: write # required if gh_deployment is set
     steps:
       - uses: OpenRailAssociation/web-deployment-action@ec2b90e1fe811972e5cee9861646360a7a4356ac # v1.3.0
         with:
