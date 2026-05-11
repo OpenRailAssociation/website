@@ -6,21 +6,25 @@ This brand guide defines the visual identity of the OpenRail Association. It ens
 
 ### Logo
 
-The OpenRail Association logo is available in two variants:
+The OpenRail Association logo is available in three layouts, each in color, noir (black), and blanc (white) variants. All logo files have a transparent background.
 
-**Square format** (for social media and icons):
-Dark grey and lavender on transparent background.
+#### Square format
 
-{{< brand-logo src="images/logo-OpenRail-Association.png" alt="OpenRail Association logo (square)" max-width="200px" >}}
+For social media, icons, and square placements. Logo mark above, text below.
 
-Download: [PNG]({{< relurl "images/logo-OpenRail-Association.png" >}}) ·  [JPG]({{< relurl "images/logo-OpenRail-Association.jpg" >}})
+{{< logo-table section="square" >}}
 
-**Wide format** (for headers and documents):
-White logo on transparent background.
+#### Wide format
 
-{{< brand-logo src="images/logo-OpenRail-association.wide.png" alt="OpenRail Association logo (wide)" max-width="400px" bg="#afb1da" >}}
+For headers, documents, and horizontal placements. Logo mark integrated as the "O".
 
-Download: [PNG]({{< relurl "images/logo-OpenRail-association.wide.png" >}})
+{{< logo-table section="wide" >}}
+
+#### Icon mark
+
+For favicons, app icons, and small-space usage. The circular rail mark without text. This file has a white background (not transparent).
+
+{{< logo-table section="mark" >}}
 
 #### Usage rules
 

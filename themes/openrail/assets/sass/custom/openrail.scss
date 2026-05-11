@@ -372,3 +372,17 @@ section.hero div.image {
     max-height: 25vh;
   }
 }
+
+// Logo tables on brand guide page
+.logo-table img {
+  display: block;
+}
+.logo-table-square img {
+  max-width: 150px;
+}
+.logo-table-wide img {
+  max-width: 400px;
+}
+.logo-table-mark img {
+  max-width: 100px;
+}
