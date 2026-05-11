@@ -1,0 +1,11 @@
+{{- $src := urls.RelURL (.Get "src") -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $max_width := .Get "max-width" | default "400px" -}}
+{{- $bg := .Get "bg" -}}
+{{- if $bg }}
+<div style="background: {{ $bg }}; display: inline-block; padding: 1.5rem 2rem; border-radius: 8px; margin: 1rem 0;">
+<img src="{{ $src }}" alt="{{ $alt }}" style="max-width: {{ $max_width }}; display: block;">
+</div>
+{{- else }}
+<img src="{{ $src }}" alt="{{ $alt }}" style="max-width: {{ $max_width }}; margin: 1rem 0;">
+{{- end }}
