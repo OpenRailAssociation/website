@@ -1,6 +1,6 @@
 {{- $group := .Get 0 -}}
 {{- $colors := index $.Site.Data.brand_colors $group -}}
-<table>
+<table class="brand-colors-table">
 <tr><th>Color</th><th>Swatch</th><th>HEX</th><th>Usage</th></tr>
 {{- range $colors }}
 <tr>
