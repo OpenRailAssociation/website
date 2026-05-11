@@ -1,0 +1,23 @@
+{{- $section := .Get "section" -}}
+{{- $rows := index .Site.Data.logos $section -}}
+<table class="uniform logo-table logo-table-{{ $section }}">
+<thead><tr><th>Variant</th><th>Logo</th></tr></thead>
+<tbody>
+{{- range $rows }}
+<tr>
+<td><strong>{{ .name }}</strong> —
+{{- $links := slice -}}
+{{- range .downloads -}}
+{{- $links = $links | append (printf `<a href="%s">%s</a>` (relURL .file) .label) -}}
+{{- end -}}
+{{ delimit $links " · " | safeHTML }}
+</td>
+<td>
+<div style="background: {{ .bg }}; display: inline-block; padding: 1.5rem 2rem; border-radius: 8px; border: 1px solid #ddd;">
+<img src="{{ relURL .file }}" alt="OpenRail Association logo ({{ .name }})">
+</div>
+</td>
+</tr>
+{{- end }}
+</tbody>
+</table>

@@ -1,0 +1,13 @@
+{{- $group := .Get 0 -}}
+{{- $colors := index $.Site.Data.brand_colors $group -}}
+<table class="brand-colors-table">
+<tr><th>Color</th><th>Swatch</th><th>HEX</th><th>Usage</th></tr>
+{{- range $colors }}
+<tr>
+<td>{{ .name }}</td>
+<td><span style="display:inline-block; width:2rem; height:2rem; background:{{ .hex }}; border-radius:4px; vertical-align:middle;{{ if .border }} border:1px solid #ccc;{{ end }}"></span></td>
+<td><code>{{ .hex }}</code></td>
+<td>{{ .usage }}</td>
+</tr>
+{{- end }}
+</table>

@@ -1,0 +1,36 @@
+primary:
+  - name: OpenRail Purple
+    hex: "#6964AA"
+    usage: Primary brand color, headings, key elements
+  - name: Lavender
+    hex: "#AFB0DA"
+    usage: Header backgrounds, accent areas
+  - name: Dark Grey
+    hex: "#54565A"
+    usage: Body text, secondary headings
+
+secondary:
+  - name: Medium Purple
+    hex: "#9B96C8"
+    usage: Supporting accents
+  - name: Light Purple
+    hex: "#7D78C8"
+    usage: Supporting accents
+  - name: Dark Purple
+    hex: "#464178"
+    usage: Dark accents, contrast elements
+  - name: Green
+    hex: "#69A01E"
+    usage: Links, interactive elements
+
+backgrounds:
+  - name: White
+    hex: "#FFFFFF"
+    usage: Default background
+    border: true
+  - name: Light Lavender
+    hex: "#E1E1E6"
+    usage: Alternate sections, subtle backgrounds
+  - name: Black
+    hex: "#000000"
+    usage: Inverted sections, high contrast

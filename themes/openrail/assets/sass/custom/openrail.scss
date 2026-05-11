@@ -372,3 +372,26 @@ section.hero div.image {
     max-height: 25vh;
   }
 }
+
+// Logo tables on brand guide page
+.logo-table img {
+  display: block;
+}
+.logo-table-square img {
+  max-width: 150px;
+}
+.logo-table-wide img {
+  max-width: 400px;
+}
+.logo-table-mark img {
+  max-width: 100px;
+}
+
+// Brand colors tables
+.brand-colors-table {
+  table-layout: fixed;
+  th:nth-child(1), td:nth-child(1) { width: 25%; }
+  th:nth-child(2), td:nth-child(2) { width: 10%; }
+  th:nth-child(3), td:nth-child(3) { width: 15%; }
+  th:nth-child(4), td:nth-child(4) { width: 50%; }
+}

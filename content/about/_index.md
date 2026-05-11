@@ -80,3 +80,7 @@ In collaboration with out supporting partner Bitergia we are creating quarterly 
 
 * [OpenRail Quarterly Metrics Report 2026-Q1]({{< relurl "documents/OpenRail-Metrics-2026Q1.pdf" >}})
 * [OpenRail Quarterly Metrics Report 2025-Q4]({{< relurl "documents/OpenRail-Metrics-2025Q4.pdf" >}})
+
+### Brand guide {#brand-guide}
+
+The [OpenRail Brand Guide]({{< relref "/brand-guide.md" >}}) defines our visual identity: logo usage, color palette, and typography.

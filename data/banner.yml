@@ -3,7 +3,7 @@ style: "hero style1 orient-left content-align-center image-position-right fullsc
 title : "OpenRail Association"
 titleclass : hiddenhead
 titleimage:
-  src: images/logo-OpenRail-Association.png
+  src: images/logo/logo-OpenRail-Association.png
   alt: OpenRail Association logo
   subtitle: An Open Source initiative for Railways
 subtitle: |
