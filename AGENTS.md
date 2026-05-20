@@ -4,11 +4,11 @@ Hugo static site for the OpenRail Association ([openrailassociation.org](https:/
 
 ## Build and preview
 
-Tooling is managed via mise. Commands:
+Submodules must be initialized (`git submodule update --init`). Local dev server:
 
-- `mise run preview` — local dev server
-- `mise run build` — production build to `public/`
-- `mise run linkcheck` — build then check broken links with lychee
+    hugo server
+
+Also available as mise tasks (`mise run preview`, `mise run build`, `mise run linkcheck`). CI uses mise.
 
 ## Repo structure
 
@@ -24,18 +24,14 @@ Tooling is managed via mise. Commands:
 
 ## Key conventions
 
-Read `CONVENTIONS.md` for design rules. The critical ones:
+Read `CONTRIBUTING.md` for full design rules. The critical ones:
 
-- Use `{{</* relurl "path" */>}}` for static file links (never hardcoded absolute paths)
-- Use `{{</* relref "/page" */>}}` for internal page links
+- Use `{{< relurl "path" >}}` for static file links (never hardcoded absolute paths)
+- Use `{{< relref "/page" >}}` for internal page links
 - Complex HTML goes in shortcodes, not inline in content files
 - Data-driven content uses `data/*.yml` + a rendering shortcode
-- Conventional commits: `feat(scope): description`
+- Conventional commits with optional scope: `news`, `members`, `theme`, `ci`, `deps`
 
 ## Themes
 
 `themes/openrail/` is a local fork — edit freely. The other two themes are git submodules tracking upstream; don't modify their contents directly.
-
-## Commit conventions
-
-Conventional commits. Scope is typically the area affected: `content`, `theme`, `data`, `ci`, `static`.
