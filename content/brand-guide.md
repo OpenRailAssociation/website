@@ -53,22 +53,23 @@ The OpenRail Association uses [Source Sans 3](https://fonts.google.com/specimen/
 
 {{< brand-typography >}}
 
-### Key messages
+### Messaging
 
-**What is OpenRail?**
+#### What is OpenRail?
 
-> The OpenRail Association provides a neutral space for collaborative development of Open Source software in the railway sector. It is incorporated as a non-profit organisation according to Belgian law as AISBL.
+**Short:**
 
-**Short version (one sentence):**
+> OpenRail enables shared solutions for shared challenges in rail through open source.
 
-> OpenRail is the non-profit association for Open Source collaboration in the railway sector.
+**Long:**
 
-**Core messages:**
+> OpenRail brings together railway operators, infrastructure managers, and technology providers to collaboratively develop open source software that addresses common challenges across the sector. It provides a neutral platform grounded on open principles, international non-profit incorporation, and best practices from the open source community. This enables railways to share development costs, ship faster, and build interoperable systems across borders, while strengthening digital sovereignty through choice, control, and influence over their shared infrastructure.
 
-- Open source delivers production impact in railway operations, enabling cross-organizational collaboration and strengthening digital resilience
-- Railways across Europe face shared challenges that require shared solutions; open source enables collaboration, innovation, and interoperability across borders
-- Digital sovereignty cannot be achieved without open source; transparency, neutral governance, and collaborative development create the conditions for choice and resilience
-- OpenRail connects member organizations and open source projects within a structured and reliable framework, open to the entire railway ecosystem
+#### Key messages
+
+- OpenRail provides a neutral platform for collaboration of diverse stakeholders, open to the entire railway ecosystem. It is grounded on open principles, the incorporation as international non-profit organization, and best practices from the open source community.
+- OpenRail is how railways realize the value of open source in production: sharing development costs, shipping faster, and building interoperable systems across borders.
+- OpenRail strengthens digital sovereignty by providing choice, control, and influence in the digital infrastructure of railways.
 
 ### Presentation template
 
