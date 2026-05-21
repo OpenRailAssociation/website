@@ -1,0 +1,53 @@
+square:
+  - name: Color
+    file: images/logo/logo-OpenRail-Association.png
+    bg: "#ffffff"
+    downloads:
+      - label: PNG
+        file: images/logo/logo-OpenRail-Association.png
+      - label: JPG
+        file: images/logo/logo-OpenRail-Association.jpg
+      - label: SVG
+        file: images/logo/logo-OpenRail-Association-square.svg
+  - name: Noir
+    file: images/logo/logo-OpenRail-Association-square-noir.png
+    bg: "#f0f0f0"
+    downloads:
+      - label: PNG
+        file: images/logo/logo-OpenRail-Association-square-noir.png
+  - name: Blanc
+    file: images/logo/logo-OpenRail-Association-square-blanc.png
+    bg: "#afb1da"
+    downloads:
+      - label: PNG
+        file: images/logo/logo-OpenRail-Association-square-blanc.png
+
+wide:
+  - name: Color
+    file: images/logo/logo-OpenRail-association.wide.png
+    bg: "#ffffff"
+    downloads:
+      - label: PNG
+        file: images/logo/logo-OpenRail-association.wide.png
+      - label: SVG
+        file: images/logo/logo-OpenRail-Association-wide.svg
+  - name: Noir
+    file: images/logo/logo-OpenRail-Association-wide-noir.png
+    bg: "#f0f0f0"
+    downloads:
+      - label: PNG
+        file: images/logo/logo-OpenRail-Association-wide-noir.png
+  - name: Blanc
+    file: images/logo/logo-OpenRail-Association-wide-blanc.png
+    bg: "#afb1da"
+    downloads:
+      - label: PNG
+        file: images/logo/logo-OpenRail-Association-wide-blanc.png
+
+mark:
+  - name: Color
+    file: images/logo/logo-OpenRail-Association-mark.jpg
+    bg: "#ffffff"
+    downloads:
+      - label: JPG
+        file: images/logo/logo-OpenRail-Association-mark.jpg
