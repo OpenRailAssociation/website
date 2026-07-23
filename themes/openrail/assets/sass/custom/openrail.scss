@@ -22,6 +22,11 @@ p {
   margin-bottom: 1rem;
 }
 
+// Links in paragraphs shall have accent color
+p>a {
+  color: var(--accent-color);
+}
+
 // Hidden headline, esp. h1
 .hiddenhead {
   display: none;
@@ -323,6 +328,7 @@ div:has(> iframe) {
   z-index: 1;
   top: 50px; // height of nav
   right: 0;
+
   img {
     width: 200px;
     height: auto;
@@ -387,12 +393,15 @@ section.hero div.image {
 .logo-table img {
   display: block;
 }
+
 .logo-table-square img {
   max-width: 150px;
 }
+
 .logo-table-wide img {
   max-width: 400px;
 }
+
 .logo-table-mark img {
   max-width: 100px;
 }
@@ -400,8 +409,94 @@ section.hero div.image {
 // Brand colors tables
 .brand-colors-table {
   table-layout: fixed;
-  th:nth-child(1), td:nth-child(1) { width: 25%; }
-  th:nth-child(2), td:nth-child(2) { width: 10%; }
-  th:nth-child(3), td:nth-child(3) { width: 15%; }
-  th:nth-child(4), td:nth-child(4) { width: 50%; }
+
+  th:nth-child(1), td:nth-child(1) {
+    width: 25%;
+  }
+
+  th:nth-child(2), td:nth-child(2) {
+    width: 10%;
+  }
+
+  th:nth-child(3), td:nth-child(3) {
+    width: 15%;
+  }
+
+  th:nth-child(4), td:nth-child(4) {
+    width: 50%;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// EVENTS
+
+.event-list {
+  margin-bottom: 1rem;
+}
+
+details.event-details {
+  margin-bottom: .75rem;
+
+  summary {
+    cursor: pointer;
+
+    &::marker {
+      width: 1rem;
+    }
+  }
+
+  p {
+    font-size: smaller;
+  }
+
+  .event-location {
+
+    p {
+      margin-bottom: 0;
+      padding: .5rem 0;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      margin-left: -.5rem;
+      border-bottom: 1px solid var(--accent-color-light);
+    }
+  }
+
+  .event-description {
+    padding-top: .5rem;
+
+    p {
+      margin-bottom: .5rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+
+  &[open] {
+    &::details-content {
+      border-left: 1px solid var(--accent-color-light);
+      padding-left: .5rem;
+      margin-left: 1rem;
+      padding-bottom: .5rem;
+    }
+  }
+
+  strong {
+    color: var(--accent-color);
+  }
+
+  // Horizontal line after summary
+  &[open]::after {
+    content: "";
+    border-bottom: 1px solid var(--accent-color-light);
+    position: absolute;
+    width: 100px;
+    margin-left: 1rem;
+  }
 }

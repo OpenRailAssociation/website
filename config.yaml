@@ -41,6 +41,14 @@ Params:
     image: images/openrailday/stripe-2025.png
     link: https://day.openrailassociation.org/en
     alt: OpenRail Day 2025
+  calendar:
+    urls:
+      web: https://share.openrailassociation.org/apps/calendar/embed/wsJ9m86JfQyw6tSQ
+      ics: https://share.openrailassociation.org/remote.php/dav/public-calendars/wsJ9m86JfQyw6tSQ?export
+    format_start: "2 Jan 2006, 15:04"
+    format_end: "15:04"
+    format_allday: "2 Jan 2006"
+    format_multiday_start: "2"
 
   # hugomods-images config
   hugomods:

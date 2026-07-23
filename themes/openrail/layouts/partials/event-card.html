@@ -1,0 +1,29 @@
+{{- /* Renders one event: expects a single event map (summary, description, location, start, end, all_day, past) */ -}}
+<article class="event">
+  {{- /*  Prepare event time */}}
+  {{/* Case 1: No all-day event */}}
+  {{- $time := printf "%s-%s" ((time.AsTime .start).Format site.Params.calendar.format_start) ((time.AsTime .end).Format site.Params.calendar.format_end) }}
+  {{- if .all_day -}} {{/* Case 2: All-day event */}}
+    {{- $startday := (time.AsTime .start).Format site.Params.calendar.format_allday }}
+    {{- $endday := (time.AsTime .end).Format site.Params.calendar.format_allday }}
+    {{- if eq $startday $endday -}} {{/* Case 2a: All-day event on one day */}}
+      {{- $time = $startday -}}
+    {{- else -}} {{/* Case 2b: All-day event on multiple days */}}
+      {{- $startday = (time.AsTime .start).Format site.Params.calendar.format_multiday_start -}}
+      {{- $time = printf "%s-%s" $startday $endday -}}
+    {{- end -}}
+  {{- end }}
+  <details class="event-details">
+    <summary>🗓️ <strong>{{ .summary }}</strong> on {{ $time }}</summary>
+    {{- /*  Event location: skip for past events */}}
+    {{- if not .past }}{{- with .location }}
+    <div class="event-location">
+      <p>📍 {{- if hasPrefix . "http" }}<a href="{{ . }}" target="_blank">Online meeting</a>{{ else }}{{ . }}{{ end }}</p>
+    </div>
+    {{- end }}{{ end }}
+    {{- /*  Event description */}}
+    {{- with .description }}
+    <div class="event-description">{{ . | markdownify }}</div>
+    {{- end }}
+  </details>
+</article>
