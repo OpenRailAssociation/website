@@ -7,7 +7,7 @@
 
   <!-- Wrapper -->
   <div id="wrapper" class="divided">
-    {{ partial "nav" site.Data.nav }}
+    {{ partial "nav" hugo.Data.nav }}
     <section class="wrapper style1 align-left">
       <div class="inner medium">
         <h2>Page Not Found</h2>
@@ -15,7 +15,7 @@
         <p>Please feel free to contact us about broken links.</p>
       </div>
     </section>
-    {{ partial "footer" site.Data.footer }}
+    {{ partial "footer" hugo.Data.footer }}
   </div>
 
   {{ partial "scripts" . }}
