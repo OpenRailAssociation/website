@@ -10,7 +10,7 @@
   },
   {
     "uid": "589bec99-d810-415e-a711-539a1c8e4a14",
-    "summary": "test 2",
+    "summary": "Test: event 2",
     "description": "Cool!",
     "location": "https://whatever.com",
     "start": "2026-07-31T10:00:00+02:00",
@@ -19,16 +19,16 @@
   },
   {
     "uid": "475836c7-8717-4c10-aed1-116a0ae2a1a2",
-    "summary": "test_allday",
-    "description": "",
-    "location": "Innotrans Berlin",
+    "summary": "Test: All-day workshop",
+    "description": "This is a great all day event. Be there or be square ;)",
+    "location": "OpenRail office",
     "start": "2026-08-05",
     "end": "2026-08-05",
     "all_day": true
   },
   {
     "uid": "caba175d-d666-43e1-b5b9-d66b1ee41950",
-    "summary": "test 3",
+    "summary": "Test: event 3",
     "description": "Mega\n\nCool\n\nEvent!",
     "location": "https://cool.com",
     "start": "2026-08-08T14:00:00+02:00",
