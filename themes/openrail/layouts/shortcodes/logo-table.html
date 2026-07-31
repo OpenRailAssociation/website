@@ -1,5 +1,5 @@
 {{- $section := .Get "section" -}}
-{{- $rows := index .Site.Data.logos $section -}}
+{{- $rows := index hugo.Data.logos $section -}}
 <table class="uniform logo-table logo-table-{{ $section }}">
 <thead><tr><th>Variant</th><th>Logo</th></tr></thead>
 <tbody>

@@ -1,5 +1,5 @@
 <div class="less-bottom-margin less-top-margin supporting-partners-gallery">
-  {{ range (index .Site.Data "supporting-partners") -}}
+  {{ range (index hugo.Data "supporting-partners") -}}
   <section class="supporting-partner">
     {{- $img := .logo }}
     {{- $img_resource := resources.Get $img }}
