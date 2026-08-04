@@ -1,0 +1,28 @@
+{{ with (index .Site.Data "supporting-partners") }}
+<h3 id="supporting-partners">Supporting partners</h3>
+
+<p>The OpenRail Association gratefully acknowledges the contributions of organizations who support our mission by providing services, expertise, or resources at no cost or reduced rates. These partners are not members of the Association and do not take part in its governance, but their contributions help us build a stronger, more collaborative railway open source ecosystem.</p>
+
+<p>Our current Supporting Partners:</p>
+
+<div class="less-bottom-margin less-top-margin supporting-partners-gallery">
+  {{ range . -}}
+  <section class="supporting-partner">
+    {{- $img := .logo }}
+    {{- $img_resource := resources.Get $img }}
+    {{- if $img_resource }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="logo">
+      <img src="{{ $img_resource.RelPermalink }}" alt="{{ .name }} logo">
+    </a>
+    {{- end }}
+    {{- with .contribution }}
+    <div class="description">
+      <p>{{ . }}</p>
+    </div>
+    {{- end }}
+  </section>
+  {{ end -}}
+</div>
+
+<p>Support is provided without any commercial marketing agreement and solely to further the non-profit purposes of the Association.</p>
+{{ end }}
