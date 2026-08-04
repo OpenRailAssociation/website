@@ -59,7 +59,7 @@ Use `relref` for links between content pages:
 
 - Complex or repeated HTML belongs in shortcodes (`themes/openrail/layouts/shortcodes/`), not inline in markdown files
 - Data-driven content (color palettes, member lists) belongs in `data/*.yml` with a shortcode that renders it
-- Data file names should use underscores (Hugo accesses `data/my_file.yml` as `site.Data.my_file`)
+- Data file names should use underscores (Hugo accesses `data/my_file.yml` as `hugo.Data.my_file`)
 
 ## Images
 

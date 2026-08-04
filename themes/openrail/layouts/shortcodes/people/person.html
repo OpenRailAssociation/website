@@ -1,4 +1,4 @@
-{{ $data := (index .Site.Data.people .Params.id) -}}
+{{ $data := (index hugo.Data.people .Params.id) -}}
 <section class="person" id="{{ .Params.id }}">
   {{- $img := "images/people/default.jpg" }}
   {{- with $data.img }}

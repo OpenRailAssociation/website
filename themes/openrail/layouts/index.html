@@ -2,11 +2,11 @@
 	{{/* Variables with global info to be given via dict to scoped partials */}}
 	{{ $pages := .Site.RegularPages.ByPublishDate.Reverse }}
 
-	{{ partial "banner" site.Data.banner }}
-	{{ partial "spotlight" site.Data.spotlight1 }}
-	{{ partial "spotlight" site.Data.spotlight2 }}
-	{{ partial "news" (dict "news" site.Data.news "pages" $pages) }}
-	{{ partial "projects" site.Data.projects }}
-	{{ partial "members" site.Data.members }}
-	{{ partial "contact" site.Data.contact }}
+	{{ partial "banner" hugo.Data.banner }}
+	{{ partial "spotlight" hugo.Data.spotlight1 }}
+	{{ partial "spotlight" hugo.Data.spotlight2 }}
+	{{ partial "news" (dict "news" hugo.Data.news "pages" $pages) }}
+	{{ partial "projects" hugo.Data.projects }}
+	{{ partial "members" hugo.Data.members }}
+	{{ partial "contact" hugo.Data.contact }}
 {{- end }}

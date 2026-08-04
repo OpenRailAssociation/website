@@ -13,11 +13,11 @@
 
     <!-- Wrapper -->
     <div id="wrapper" class="divided">
-      {{- partial "nav" site.Data.nav }}
+      {{- partial "nav" hugo.Data.nav }}
       {{- partial "stripe" site.Params.stripe }}
       {{- partial "staging-warning" . }}
       {{- block "main" . }}{{- end }}
-      {{- partial "footer" site.Data.footer }}
+      {{- partial "footer" hugo.Data.footer }}
     <!-- Wrapper -->
     </div>
 

@@ -1,42 +1,32 @@
 ####################### Open Source #########################
 style: "spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 id: opensource
-title : "The choice of Open Innovation through Open Source"
+title: "Open Source for Digital Sovereignty in Rail"
 content: |
-  <blockquote>
-    "no matter who you are, most of the smartest people work for someone else"
-  </blockquote>
   <p>
-      According to Joy's Law, attributed to Sun Microsystems co-founder Bill
-      Joy, the brightest people - at the heart of corporate innovation - often
-      work for others.
+      Railway is critical infrastructure. The software that runs it
+      increasingly determines whether organizations can make independent
+      decisions about their own systems, or whether those decisions are
+      constrained by the tools and platforms available to them.
   </p>
 
   <p>
-      To face this situation, the largest companies in the world are adopting
-      so-called open innovation strategies. Open innovation allows both to
-      foster internal innovation thanks to the contribution of resources outside
-      the company (flow called outside - in); and to stimulate innovation within
-      the broader ecosystem by allowing the development of ideas outside the
-      company's borders (flow called inside - out).
+      Open source provides the transparency, interoperability, and shared
+      investment that turn digital sovereignty from a policy goal into
+      operational reality. No lock-in. No opaque supply chains. No single
+      provider controlling the stack.
   </p>
 
   <blockquote>
-      <b>Open Source is a form of open innovation designed for software
-      development and complex systems.</b>
+      <b>Choice. Control. Influence.</b>
   </blockquote>
 
   <p>
-      From Microsoft to IBM, Tesla to Airbus, Open Source methods and solutions
-      are no longer in question. Open Source consists in opening the source code
-      of a software so that everyone can read it, use it, and suggest
-      improvements. Everyone can adapt the software to their own requirements
-      and needs, while sharing their innovations with a large community.
-      Development issues are therefore shared. Bugs, their resolution and the
-      efforts made to fix them are public, as well as the progress of new
-      features.
+      OpenRail gives its members open source alternatives across the rail
+      software stack, governance rights over the projects they depend on,
+      and the freedom to operate, adapt, and switch without permission.
   </p>
-
-  <h2 style="text-align: right;">Reliability / Security /
-      Interoperability</h2>
+button:
+  label: "Read our position paper"
+  link: "/documents/OpenRail-Digital-Sovereignty-Position.pdf"
 image: "images/opentrain-cmophoto-net-unsplash.jpg"
