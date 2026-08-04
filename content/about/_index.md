@@ -74,6 +74,10 @@ The OpenRail Association publishes annual reports to provide a one-stop resource
 * [2025: From Collaboration to Impact]({{< relurl "documents/OpenRail-Association-Annual-Report-2025.pdf" >}})
 * [2024: A Year of Collaborative Innovation]({{< relref "/news/2025-04-30-annual-report.md" >}})
 
+### Position papers {#position-papers}
+
+* [Digital Sovereignty in Rail: OpenRail's Position]({{< relurl "documents/OpenRail-Digital-Sovereignty-Position.pdf" >}})
+
 ### Metrics reports {#metrics-reports}
 
 In collaboration with out supporting partner Bitergia we are creating quarterly metrics reports to gather some insight into the activity of the OpenRail open source projects.
