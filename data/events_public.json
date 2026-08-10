@@ -1,6 +1,7 @@
 [
   {
     "uid": "d5dbc897-a804-4596-a6b1-a52b5bbaf49c",
+    "slug": "2026-07-09-open-rail-community-meeting",
     "summary": "Open Rail Community Meeting",
     "description": "Dear all,\n\nthis is the Link for our Community Meeting on 9.7. 2026 at 14:00-15:00\n\nPlease join here : https://conf.fsfe.org/b/openrail\n\nThanks for joining",
     "location": "https://share.openrailassociation.org/call/mxhwgsqv",
@@ -10,6 +11,7 @@
   },
   {
     "uid": "589bec99-d810-415e-a711-539a1c8e4a14",
+    "slug": "2026-07-31-test-event-2",
     "summary": "Test: event 2",
     "description": "Cool!",
     "location": "https://whatever.com",
@@ -19,6 +21,7 @@
   },
   {
     "uid": "475836c7-8717-4c10-aed1-116a0ae2a1a2",
+    "slug": "2026-08-05-test-all-day-workshop",
     "summary": "Test: All-day workshop",
     "description": "This is a great all day event. Be there or be square ;)",
     "location": "OpenRail office",
@@ -28,6 +31,7 @@
   },
   {
     "uid": "caba175d-d666-43e1-b5b9-d66b1ee41950",
+    "slug": "2026-08-08-test-event-3",
     "summary": "Test: event 3",
     "description": "Mega\n\nCool\n\nEvent!",
     "location": "https://cool.com",
@@ -36,7 +40,18 @@
     "all_day": false
   },
   {
+    "uid": "305f0a0a-9947-4c2a-8423-765076b20b96",
+    "slug": "2026-08-11-test",
+    "summary": "test",
+    "description": "",
+    "location": "https://share.openrailassociation.org/call/ienpmwp3",
+    "start": "2026-08-11T15:00:00+02:00",
+    "end": "2026-08-11T16:00:00+02:00",
+    "all_day": false
+  },
+  {
     "uid": "a6b953ec-ed73-45be-a60d-36efb0badc02",
+    "slug": "2026-09-22-openrail-innotrans",
     "summary": "OpenRail @ Innotrans",
     "description": "We would like to welcome you to visit us at InnoTrans, the International Trade Fair for Transport Technology.\n\nOpenRail will be present with a booth. Our Board and Team members are looking forward to exchanging about Open Source in the railway sector, learning about your use-cases, and explaining how OpenRail can help you.\n\nPlease find more details on our participation and the schedule on our website.",
     "location": "Berlin, Expo Center, Hall 7.1c, Stand 530",

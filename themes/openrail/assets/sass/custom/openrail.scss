@@ -8,6 +8,7 @@
 
 html {
   font-size: 22px;
+  scroll-padding-top: 60px; // Account for the sticky .top-nav (50px) when jumping to anchors
 }
 
 h3 {
@@ -441,12 +442,18 @@ details.event-details {
     cursor: pointer;
 
     &::marker {
+      color: var(--accent-color);
       width: 1rem;
     }
   }
 
-  p {
+  > div {
     font-size: smaller;
+  }
+
+  .event-anchor {
+    // Extra offset on top of the sticky nav so the event title stays visible when jumped to
+    scroll-margin-top: 3rem;
   }
 
   .event-location {
@@ -474,9 +481,12 @@ details.event-details {
       &:last-of-type {
         margin-bottom: 0;
       }
+
+      &.permalink {
+        font-size: small;
+      }
     }
   }
-
 
   &[open] {
     &::details-content {

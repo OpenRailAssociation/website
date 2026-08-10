@@ -1,4 +1,4 @@
-{{- /* Renders one event: expects a single event map (summary, description, location, start, end, all_day, past) */ -}}
+{{- /* Renders one event: expects a single event map (slug, summary, description, location, start, end, all_day, past, open) */ -}}
 <article class="event">
   {{- /*  Prepare event time */}}
   {{/* Case 1: No all-day event */}}
@@ -13,8 +13,10 @@
       {{- $time = printf "%s-%s" $startday $endday -}}
     {{- end -}}
   {{- end }}
-  <details class="event-details">
+  <details class="event-details"{{ if .open }} open{{ end }}>
     <summary>🗓️ <strong>{{ .summary }}</strong> on {{ $time }}</summary>
+    {{- /* id sits inside the collapsible content so browsers auto-expand it when linked via #slug */}}
+    <div id="{{ .slug }}" class="event-anchor">
     {{- /*  Event location: skip for past events */}}
     {{- if not .past }}{{- with .location }}
     <div class="event-location">
@@ -22,8 +24,11 @@
     </div>
     {{- end }}{{ end }}
     {{- /*  Event description */}}
-    {{- with .description }}
-    <div class="event-description">{{ . | markdownify }}</div>
-    {{- end }}
+    <div class="event-description">
+      {{ .description | markdownify }}
+      <p class="permalink"><a href="#{{ .slug }}">🔗 Permalink</a></p>
+    </div>
+
+    </div>
   </details>
 </article>
