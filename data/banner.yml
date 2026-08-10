@@ -19,8 +19,8 @@ buttons:
   - label : "Learn More"
     link : "#why"
     class : button big wide smooth-scroll-middle
-  - label : "Get In Touch"
-    link : "#contact"
+  - label : "Get Involved"
+    link : "community/"
     class : button big wide smooth-scroll-middle
   - label : "Annual Report 2025"
     link : "documents/OpenRail-Association-Annual-Report-2025.pdf"
