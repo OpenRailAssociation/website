@@ -14,14 +14,6 @@
 #     email: first.last@example.com
 
 # Board
-daniel-woithe:
-  name: Daniel Woithe
-  img: daniel-woithe.jpg
-  organisation: DB Systel GmbH
-  organisation_role: CTO
-  openrail_role: Vice-Chair
-  links:
-    linkedin: https://www.linkedin.com/in/dwoithe/
 jochen-decker:
   name: Jochen Decker
   img: jochen-decker.jpg
@@ -78,6 +70,14 @@ mounir-belhamiti:
   openrail_role: Vice-Chair
   links:
     linkedin: https://www.linkedin.com/in/mounir-belhamiti-4307937/
+matthias-haesel:
+  name: Matthias Häsel
+  img: matthias-haesel.jpg
+  organisation: Deutsche Bahn
+  organisation_role: Head of Enterprise Architecture & Technology, Chief Architecture Officer
+  openrail_role: Vice-Chair
+  links:
+    linkedin: https://www.linkedin.com/in/matthiashaesel/
 
 # OpenRail Team
 mahalia-stephan:
