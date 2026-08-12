@@ -1,52 +1,12 @@
 [
   {
-    "uid": "d5dbc897-a804-4596-a6b1-a52b5bbaf49c",
-    "slug": "2026-07-09-open-rail-community-meeting",
-    "summary": "Open Rail Community Meeting",
-    "description": "Dear all,\n\nthis is the Link for our Community Meeting on 9.7. 2026 at 14:00-15:00\n\nPlease join here : https://conf.fsfe.org/b/openrail\n\nThanks for joining",
-    "location": "https://share.openrailassociation.org/call/mxhwgsqv",
-    "start": "2026-07-09T13:50:00+02:00",
+    "uid": "abdc6971-167d-4c1d-8489-643c17417e73",
+    "slug": "2026-07-09-openrail-community-meetup",
+    "summary": "OpenRail Community Meetup",
+    "description": "Welcome to the first OpenRail Community Meetup! This event series takes place every second thursday of a month.\n\nFor this session, we invited two promising projects from Hack4Rail: DBringer and TaxiTetrix. Both tackle the problem of taxi voucher distribution in a different, yet complementary way.\n\nWe welcome everyone to join the meetup, no matter the involvement in OpenRail or area and level of expertise.",
+    "location": "",
+    "start": "2026-07-09T14:00:00+02:00",
     "end": "2026-07-09T15:00:00+02:00",
-    "all_day": false
-  },
-  {
-    "uid": "589bec99-d810-415e-a711-539a1c8e4a14",
-    "slug": "2026-07-31-test-event-2",
-    "summary": "Test: event 2",
-    "description": "Cool!",
-    "location": "https://whatever.com",
-    "start": "2026-07-31T10:00:00+02:00",
-    "end": "2026-07-31T11:00:00+02:00",
-    "all_day": false
-  },
-  {
-    "uid": "475836c7-8717-4c10-aed1-116a0ae2a1a2",
-    "slug": "2026-08-05-test-all-day-workshop",
-    "summary": "Test: All-day workshop",
-    "description": "This is a great all day event. Be there or be square ;)",
-    "location": "OpenRail office",
-    "start": "2026-08-05",
-    "end": "2026-08-05",
-    "all_day": true
-  },
-  {
-    "uid": "caba175d-d666-43e1-b5b9-d66b1ee41950",
-    "slug": "2026-08-08-test-event-3",
-    "summary": "Test: event 3",
-    "description": "Mega\n\nCool\n\nEvent!",
-    "location": "https://cool.com",
-    "start": "2026-08-08T14:00:00+02:00",
-    "end": "2026-08-08T15:00:00+02:00",
-    "all_day": false
-  },
-  {
-    "uid": "305f0a0a-9947-4c2a-8423-765076b20b96",
-    "slug": "2026-08-11-test",
-    "summary": "test",
-    "description": "",
-    "location": "https://share.openrailassociation.org/call/ienpmwp3",
-    "start": "2026-08-11T15:00:00+02:00",
-    "end": "2026-08-11T16:00:00+02:00",
     "all_day": false
   },
   {

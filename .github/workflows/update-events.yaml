@@ -2,7 +2,7 @@ name: Update public events data
 
 on:
   schedule:
-    - cron: "0 */4 * * *" # Every 4 hours
+    - cron: "0 * * * *" # Every hour
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,7 @@ jobs:
         uses: jdx/mise-action@dad1bfd3df957f44999b559dd69dc1671cb4e9ea # v4.2.1
 
       - name: Fetch and convert ICS calendar to JSON
-        run: mise run events_fetch
+        run: mise run events-fetch
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
