@@ -28,5 +28,5 @@ content: |
   </p>
 button:
   label: "Read our position paper"
-  link: "/documents/OpenRail-Digital-Sovereignty-Position.pdf"
+  link: "documents/OpenRail-Digital-Sovereignty-Position.pdf"
 image: "images/opentrain-cmophoto-net-unsplash.jpg"
