@@ -72,7 +72,7 @@ jobs:
       pull-requests: write # required unless you explicitly set sticky_comment_enabled: false
       # deployments: write # required if gh_deployment is set
     steps:
-      - uses: OpenRailAssociation/web-deployment-action@866b5120138b7deddc2c1e3600bc897a39bd8c91 # v1.3.1
+      - uses: OpenRailAssociation/web-deployment-action@15db0cd2a5f995e282b6a59e9c252313ab0337a3 # v1.4.1
         with:
           artifact_name: ${{ env.artifact_name }}
           condition_production: ${{ env.condition_production }}
@@ -86,4 +86,6 @@ jobs:
           ssh_user: ${{ vars.WEB_SSH_USER }}
           ssh_key: ${{ secrets.SSH_KEY }}
           linkchecker_exclude: "sncf.com,flatland.cloud,matrix.to,www.linkedin.com,unsplash.com,oncf.ma"
-          linkchecker_extra_args: "--index-files index.html"
+          linkchecker_cache_age: "1d"
+          linkchecker_max_concurrency: 5
+          linkchecker_extra_args: "--index-files index.html --timeout 10 --max-retries 1"

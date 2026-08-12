@@ -46,7 +46,7 @@ depends = ["build-root"]
 description = "Check for broken links using lychee"
 run = '''
 lychee \
-  --max-concurrency 5 --cache --max-cache-age 1h \
+  --max-concurrency 5 --cache --max-cache-age 1d --timeout 10 --max-retries 1 \
   --include-fragments --index-files 'index.html' \
   --exclude sncf.com --exclude matrix.to --exclude www.linkedin.com --exclude unsplash.com --exclude oncf.ma \
   --root-dir {{vars.source_dir}}/{{vars.build_dir}}/ \
