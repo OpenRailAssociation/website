@@ -1,5 +1,6 @@
 ---
 title: Get involved in the OpenRail community
+linkTitle: Get Involved
 ---
 
 The OpenRail Association greatly depends on a vibrant community of contributors, developers, and enthusiasts. We welcome anyone interested in contributing to the OpenRail ecosystem, whether through code, feedback, networking, or other forms of support.

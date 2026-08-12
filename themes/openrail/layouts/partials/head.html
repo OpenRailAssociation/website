@@ -1,5 +1,17 @@
 <head>
-	<title>{{ .Site.Title }}</title>
+	{{- /*  Define title  */}}
+	{{- $title := "" }}
+	{{- if .IsHome }}
+		{{- $title = .Site.Title }}
+	{{- else }}
+		{{- if .Params.heading }}
+			{{- $title = .Params.heading }}
+		{{- else }}
+			{{- $title = print .LinkTitle " | " .Site.Title }}
+		{{- end }}
+	{{- end }}
+	{{- $title_plain := $title | markdownify | plainify }}
+	<title>{{ $title_plain }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="{{ .Site.Params.description }}">

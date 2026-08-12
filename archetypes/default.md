@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+# linkTitle: optional, shorter title for site title and sidebar
 draft: true
 ---
-
