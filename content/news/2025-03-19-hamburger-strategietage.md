@@ -17,4 +17,4 @@ Lively discussions and follow-up questions demonstrated growing interest in Open
 
 ## In the Press
 
-Jochen and Nicole's keynote has also gained media attention, including coverage in **[CIO Online](https://www.cio-online.com/actualites/lire-sncf-deutsche-bahn-et-ccf-sur-la-voie-de-l-interoperabilite-open-source-16184.html)** (French) and **[CIO.de](https://www.cio.de/article/3830366/open-rail-mit-open-source-in-die-zukunft.html)** (German).
+Jochen and Nicole's keynote has also gained media attention, including coverage in **[CIO Online](https://web.archive.org/web/20260419053949/https://www.cio-online.com/actualites/lire-sncf-deutsche-bahn-et-ccf-sur-la-voie-de-l-interoperabilite-open-source-16184.html)** (French) and **[CIO.de](https://www.cio.de/article/3830366/open-rail-mit-open-source-in-die-zukunft.html)** (German).

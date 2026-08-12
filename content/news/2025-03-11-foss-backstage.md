@@ -9,7 +9,7 @@ image:
 
 At FOSS Backstage 2025, Cornelius gave a talk about the OpenRail Association. FOSS Backstage is one of the leading conferences exploring what happens behind the scenes of open source, covering topics like community, governance, management, and compliance. It has taken place every March in Berlin since 2018.
 
-In his presentation, ["Putting the Railway Industry on the Open Source Track"](https://25.foss-backstage.de/session/putting-the-railway-industry-on-the-open-source-track/), Cornelius introduced the OpenRail Association, its purpose, projects, and how it works. He focused especially on the open source community perspective, discussing open governance, product vs. project thinking, and the challenges of bridging corporate and community cultures.
+In his presentation, "Putting the Railway Industry on the Open Source Track", Cornelius introduced the OpenRail Association, its purpose, projects, and how it works. He focused especially on the open source community perspective, discussing open governance, product vs. project thinking, and the challenges of bridging corporate and community cultures.
 
 📺 [Watch the recording of the talk](https://www.youtube.com/watch?v=XpZjfgyqTTg)
 

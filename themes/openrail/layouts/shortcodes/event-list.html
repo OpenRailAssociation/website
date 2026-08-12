@@ -4,7 +4,7 @@
 {{- $upcoming := slice -}}
 {{- $past := slice -}}
 {{- $events := slice -}}
-{{- range site.Data.events_public -}}
+{{- range hugo.Data.events_public -}}
   {{- if (time.AsTime .start).After $now -}}
     {{- $upcoming = $upcoming | append . -}}
   {{- else -}}

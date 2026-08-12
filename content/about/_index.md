@@ -1,5 +1,6 @@
 ---
 title: About OpenRail Association
+linkTitle: About
 ---
 
 **The OpenRail Association provides a neutral space for collaborative development of Open Source software in the railway sector.\
