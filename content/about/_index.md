@@ -23,8 +23,8 @@ The Board of Directors is the executive body of the association, vested with thi
   <!-- BoD Chair -->
   {{< people/person id="jochen-decker" >}}
   <!-- BoD Vice-Chair(s) -->
-  {{< people/person id="daniel-woithe" >}}
   {{< people/person id="jean-michel-evanghelou" >}}
+  {{< people/person id="matthias-haesel" >}}
   {{< people/person id="mounir-belhamiti" >}}
   <!-- BoD further members -->
   {{< people/person id="brede-dammen">}}
