@@ -10,6 +10,16 @@
     "all_day": false
   },
   {
+    "uid": "ac4efc6b-8413-4ba2-ae65-33345b869789",
+    "slug": "2026-08-13-openrail-community-meetup",
+    "summary": "OpenRail Community Meetup",
+    "description": "Welcome to the second OpenRail Community Meetup! This event series takes place every second thursday of a month.\n\nIn this session, we are talking about machine-readable railway regulations using the OSCAL standard. We will explore how railway regulations can become machine-readable and what this could mean for interoperability, automation, and digital innovation in the rail sector.\n\nWe welcome everyone to join the meetup, no matter the involvement in OpenRail or area and level of expertise.",
+    "location": "https://meet.jit.si/moderated/dc646b19b988ac7b4504904ed4a0e23a4bcc548c2fd70b7028a33482dc25d814",
+    "start": "2026-08-13T14:00:00+02:00",
+    "end": "2026-08-13T15:00:00+02:00",
+    "all_day": false
+  },
+  {
     "uid": "a6b953ec-ed73-45be-a60d-36efb0badc02",
     "slug": "2026-09-22-openrail-innotrans",
     "summary": "OpenRail @ Innotrans",
