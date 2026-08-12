@@ -29,5 +29,5 @@ jobs:
           commit_message: "chore(events): update public events data"
           commit_user_name: "OpenRail Tech"
           commit_user_email: "techadmin@openrailassociation.org"
-          commit_author: "OpenRail Tech <techadmin@openrailassociation.org"
+          commit_author: "OpenRail Tech <techadmin@openrailassociation.org>"
           file_pattern: data/events_public.json
