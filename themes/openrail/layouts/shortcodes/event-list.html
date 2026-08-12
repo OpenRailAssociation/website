@@ -1,0 +1,34 @@
+{{- /* Splits site.Data.events_public (already sorted ascending by start) into upcoming/past by comparing to now */ -}}
+{{- $type := .Get "type" | default "future" -}}
+{{- $now := now -}}
+{{- $upcoming := slice -}}
+{{- $past := slice -}}
+{{- $events := slice -}}
+{{- range site.Data.events_public -}}
+  {{- if (time.AsTime .start).After $now -}}
+    {{- $upcoming = $upcoming | append . -}}
+  {{- else -}}
+    {{- $event := . | merge (dict "past" true) -}}
+    {{- $past = $past | append $event -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="event-list">
+  {{- if eq $type "future" -}}
+    {{- $events = $upcoming -}}
+  {{- else if eq $type "past" -}}
+    {{- $events = $past -}}
+  {{- else -}}
+    {{- errorf "Invalid type: %s" $type -}}
+  {{- end -}}
+
+  {{- if $events }}
+    {{- range $index, $event := sort $events "start" "asc" }}
+      {{- /* First future event is expanded by default, all others start collapsed */ -}}
+      {{- $event = $event | merge (dict "open" (and (eq $type "future") (eq $index 0))) }}
+      {{ partial "event-card.html" $event }}
+    {{- end }}
+  {{- else }}
+    <p>No events.</p>
+  {{- end }}
+</div>

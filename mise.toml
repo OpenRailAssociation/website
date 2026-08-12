@@ -1,15 +1,22 @@
 [tools]
 hugo-extended = "0.164.0"
 lychee = "0.24.2"
+uv = "latest"
 
 [vars]
 source_dir = "."
 build_dir = "public"
 preview_baseurl = "https://preview.openrailassociation.org/main-pr-9999/"
+events_ics_url = "https://share.openrailassociation.org/remote.php/dav/public-calendars/wsJ9m86JfQyw6tSQ?export"
+event_json_path = "data/events_public.json"
 
 [tasks.cleanup]
 description = "Clean up the build destination directory"
 run = "rm -rf {{vars.source_dir}}/{{vars.build_dir}} || true"
+
+[tasks.events-fetch]
+description = "Fetch the public events calendar and regenerate events JSON (for local testing)"
+run = "./scripts/ics_to_data.py '{{vars.events_ics_url}}' '{{vars.event_json_path}}'"
 
 [tasks.build]
 depends = ["cleanup"]

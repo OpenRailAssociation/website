@@ -1,0 +1,22 @@
+[
+  {
+    "uid": "abdc6971-167d-4c1d-8489-643c17417e73",
+    "slug": "2026-07-09-openrail-community-meetup",
+    "summary": "OpenRail Community Meetup",
+    "description": "Welcome to the first OpenRail Community Meetup! This event series takes place every second thursday of a month.\n\nFor this session, we invited two promising projects from Hack4Rail: DBringer and TaxiTetrix. Both tackle the problem of taxi voucher distribution in a different, yet complementary way.\n\nWe welcome everyone to join the meetup, no matter the involvement in OpenRail or area and level of expertise.",
+    "location": "",
+    "start": "2026-07-09T14:00:00+02:00",
+    "end": "2026-07-09T15:00:00+02:00",
+    "all_day": false
+  },
+  {
+    "uid": "a6b953ec-ed73-45be-a60d-36efb0badc02",
+    "slug": "2026-09-22-openrail-innotrans",
+    "summary": "OpenRail @ Innotrans",
+    "description": "We would like to welcome you to visit us at InnoTrans, the International Trade Fair for Transport Technology.\n\nOpenRail will be present with a booth. Our Board and Team members are looking forward to exchanging about Open Source in the railway sector, learning about your use-cases, and explaining how OpenRail can help you.\n\nPlease find more details on our participation and the schedule on our website.",
+    "location": "Berlin, Expo Center, Hall 7.1c, Stand 530",
+    "start": "2026-09-22",
+    "end": "2026-09-25",
+    "all_day": true
+  }
+]
