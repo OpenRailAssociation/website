@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: true # Needed to push the commit below
+          token: ${{ secrets.WEBSITE_UPDATE_TOKEN }} # token by openrail-tech user
 
       - name: Setup required build tools with mise
         uses: jdx/mise-action@dad1bfd3df957f44999b559dd69dc1671cb4e9ea # v4.2.1
@@ -26,4 +27,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
         with:
           commit_message: "chore(events): update public events data"
+          commit_user_name: "OpenRail Tech"
+          commit_user_email: "techadmin@openrailassociation.org"
           file_pattern: data/events_public.json
