@@ -1,5 +1,5 @@
 [tools]
-hugo-extended = "0.164.0"
+hugo-extended = "0.165.0"
 lychee = "0.24.2"
 uv = "latest"
 
