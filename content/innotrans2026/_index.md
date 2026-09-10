@@ -20,3 +20,5 @@ With exhibitors, delegations, and decision-makers from every continent, InnoTran
 *Program details coming soon*
 
 A highlight of our program is a roundtable with leading industry speakers: On Wednesday, 23 September 2026 at 16:00, Jochen Decker (SBB CFF FFS), Loïc Hamelin (SNCF), and Frédéric Novello (EONA-X) will discuss at the Mobility+ Corner in Hall 7.1C, moderated by Max Mehl (DB Systel), under the title "Driving Innovation and Collaboration with Open Source." They will share insights into the founding story of the OpenRail Association, talk about OSRD as a concrete example, and discuss barriers and misconceptions around Open Source, as well as the outlook for OpenRail and Open Source. 
+
+![Mobility+ Corner speaker lineup: Jochen Decker, Loïc Hamelin, Max Mehl, Frédéric Novello]({{< relurl "images/innotrans2026/banner_mobility_corner_openrail_at_innotrans2026.png >}} "OpenRail Association at the Mobility+ Corner, 23 September 2026")
