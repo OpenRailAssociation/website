@@ -30,3 +30,6 @@ Learn more about our projects at a glance, available in German and English:
 * **Netzgrafik-Editor** — [DE]({{< relurl "documents/Netzgrafik-Editor-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/Netzgrafik-Editor-One-Pager-EN.pdf" >}})
 * **LibLRS** — [DE]({{< relurl "documents/LibLRS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/LibLRS-One-Pager-EN.pdf" >}})
 
+Visit us at Booth 530, Hall 7.1C, to see how shared infrastructure, open standards, and collaborative software development reduce fragmentation and strengthen interoperability across organizations and borders, and to learn about our projects. We invite you to explore how Open Source can create tangible value and contribute to a more innovative, interoperable, and future-ready rail system.
+
+See you in Berlin! 
