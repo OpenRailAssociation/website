@@ -24,9 +24,9 @@ A highlight of our program is a roundtable with leading industry speakers: On We
 ![Mobility+ Corner speaker lineup: Jochen Decker, Loïc Hamelin, Max Mehl, Frédéric Novello]({{< relurl "images/innotrans2026/banner_mobility_corner_openrail_at_innotrans2026.png >}} "OpenRail Association at the Mobility+ Corner, 23 September 2026")
 
 Learn more about our projects at a glance, available in German and English:
-* **OSRD** - DE | EN
-* **RCM OSS** - DE | EN
-* **DAC Migration DSS** - DE | EN
-* **Netzgrafik-Editor** - DE | EN
-* **LibLRS** - DE | EN
+* **OSRD** (Open Source Railway Designer) — [DE]({{< relurl "documents/OSRD-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/OSRD-One-Pager-EN.pdf" >}})
+* **RCM-OSS** — [DE]({{< relurl "documents/RCM-OSS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/RCM-OSS-One-Pager-EN.pdf" >}})
+* **DAC-Migration-DSS** — [DE]({{< relurl "documents/DAC-Migration-DSS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/DAC-Migration-DSS-One-Pager-EN.pdf" >}})
+* **Netzgrafik-Editor** — [DE]({{< relurl "documents/Netzgrafik-Editor-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/Netzgrafik-Editor-One-Pager-EN.pdf" >}})
+* **LibLRS** — [DE]({{< relurl "documents/LibLRS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/LibLRS-One-Pager-EN.pdf" >}})
 
