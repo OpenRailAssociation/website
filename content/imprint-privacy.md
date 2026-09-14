@@ -9,8 +9,9 @@ sitemap:
 ---
 
 OpenRail AISBL\
-Avenue des Arts 53\
-1000 Brussels\
+Bastion Tower\
+Pl. du Champ de Mars 5\
+1050 Brussels\
 Belgium
 
 Operating under the name: **OpenRail Association**\
