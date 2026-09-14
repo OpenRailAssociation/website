@@ -48,19 +48,19 @@ peter-franken:
   openrail_role: Director
   links:
     linkedin: https://www.linkedin.com/in/peter-franken-81753b155/
-erik-nygren:
-  name: Erik Nygren
-  img: erik-nygren.jpg
-  organisation: Flatland Association
-  organisation_role: President
+frederic-novello:
+  name: Frédéric Novello
+  img: frederic-novello.jpg
+  organisation: EONA-X
+  organisation_role: CTO
   openrail_role: Director
   links:
-    linkedin: https://www.linkedin.com/in/eriknygrench/
+    linkedin: https://www.linkedin.com/in/frederic-novello/
 fatima-zohra-el-ouerkhaoui:
   name: Fatima Zohra El Ouerkhaoui
   img: fatima-zohra-el-ouerkhaoui.jpg
   organisation: ONCF
-  organisation_role: Chief Information and Digital Officer, Board member
+  organisation_role: Chargé de mission auprès du Directeur Général
   openrail_role: Director
 mounir-belhamiti:
   name: Mounir Belhamiti
