@@ -1,5 +1,5 @@
 ---
-title: Meet OpenRail Association at InnoTrans 2026
+title: Meet OpenRail Association at InnoTrans 2026: 22-25 September 2026, Hall 7.1C Booth 530, Messe Berlin
 linkTitle: InnoTrans 2026
 ---
 
