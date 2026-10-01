@@ -17,10 +17,10 @@ A highlight of our program is a roundtable with leading industry speakers: On We
 
 Learn more about our projects at a glance, available in German and English:
 * **OSRD** (Open Source Railway Designer) — [DE]({{< relurl "documents/OSRD-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/OSRD-One-Pager-EN.pdf" >}})
-* **RCM-OSS** — [DE]({{< relurl "documents/RCM-OSS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/RCM-OSS-One-Pager-EN.pdf" >}})
-* **DAC-Migration-DSS** — [DE]({{< relurl "documents/DAC-Migration-DSS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/DAC-Migration-DSS-One-Pager-EN.pdf" >}})
+* **RCM-OSS** (Rail Condition Monitoring Open Source Software) — [DE]({{< relurl "documents/RCM-OSS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/RCM-OSS-One-Pager-EN.pdf" >}})
+* **DAC-Migration-DSS** (Digital Automatic Coupling Migration Decision Support System) — [DE]({{< relurl "documents/DAC-Migration-DSS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/DAC-Migration-DSS-One-Pager-EN.pdf" >}})
 * **Netzgrafik-Editor** — [DE]({{< relurl "documents/Netzgrafik-Editor-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/Netzgrafik-Editor-One-Pager-EN.pdf" >}})
-* **LibLRS** — [DE]({{< relurl "documents/LibLRS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/LibLRS-One-Pager-EN.pdf" >}})
+* **LibLRS** (Library for Linear Reference Systems) — [DE]({{< relurl "documents/LibLRS-One-Pager-DE.pdf" >}}) | [EN]({{< relurl "documents/LibLRS-One-Pager-EN.pdf" >}})
 
 Visit us at Booth 530, Hall 7.1C, to see how shared infrastructure, open standards, and collaborative software development reduce fragmentation and strengthen interoperability across organizations and borders, and to learn about our projects. We invite you to explore how Open Source can create tangible value and contribute to a more innovative, interoperable, and future-ready rail system.
 
