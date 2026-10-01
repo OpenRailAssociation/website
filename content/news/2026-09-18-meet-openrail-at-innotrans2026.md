@@ -4,7 +4,7 @@ date: 2026-09-18
 summary: "The OpenRail Association is heading to InnoTrans 2026 in Berlin with a full program of talks, presentations, and networking opportunities, including a roundtable on Open Source in rail at the Mobility+ Corner."
 image:
   src: images/news/innotrans-logo.jpg
-  alt: "Meet OpenRail Association at InnoTrans 2026 - 22-25 September 2026, Hall 7.1C Booth 530, Messe Berlin"
+  alt: "InnoTrans 2026 logo"
 ---
 
 ![Meet OpenRail Association at InnoTrans 2026 - 22-25 September 2026, Hall 7.1C Booth 530, Messe Berlin](images/innotrans2026/meet-openrail-at-innotrans2026.jpg#center "Meet OpenRail Association at InnoTrans 2026")
