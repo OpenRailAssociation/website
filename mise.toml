@@ -1,7 +1,7 @@
 [tools]
 hugo-extended = "0.167.0"
 lychee = "0.24.2"
-uv = "latest"
+uv = "0.12"
 
 [vars]
 source_dir = "."
