@@ -28,5 +28,15 @@
     "start": "2026-09-22",
     "end": "2026-09-25",
     "all_day": true
+  },
+  {
+    "uid": "a9228a65-05b6-4bf2-9898-dfd31b249d3c",
+    "slug": "2026-10-08-openrail-community-meetup-nightvision-night-train-timetable-discrepancy-management",
+    "summary": "OpenRail Community Meetup: NightVision – Night Train Timetable Discrepancy Management",
+    "description": "Welcome to the OpenRail Community Meetup! This event series takes place every second Thursday of the month.\n\nIn this session, we are talking about NightVision. We will learn how NightVision helps identify and manage timetable discrepancies for international night trains, improving consistency and supporting seamless cross-border travel.\n\nWe welcome everyone to join the meetup, no matter the involvement in OpenRail or area and level of expertise.",
+    "location": "https://meet.opentalk.eu/room/52906905-3185-4864-8be1-9305ce6d4717?invite=ca3a6295-77ad-4bd1-a269-8fc2f7560ccc",
+    "start": "2026-10-08T14:00:00+02:00",
+    "end": "2026-10-08T15:00:00+02:00",
+    "all_day": false
   }
 ]
