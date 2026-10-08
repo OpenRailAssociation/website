@@ -23,12 +23,13 @@
   {{- end -}}
 
   {{- if $events }}
-    {{- range $index, $event := sort $events "start" "asc" }}
+    {{- $order := cond (eq $type "past") "desc" "asc" }}
+    {{- range $index, $event := sort $events "start" $order }}
       {{- /* First future event is expanded by default, all others start collapsed */ -}}
       {{- $event = $event | merge (dict "open" (and (eq $type "future") (eq $index 0))) }}
       {{ partial "event-card.html" $event }}
     {{- end }}
   {{- else }}
-    <p>No events.</p>
+    <p><em>No upcoming events.</em></p>
   {{- end }}
 </div>
