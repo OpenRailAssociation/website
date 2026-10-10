@@ -41,4 +41,4 @@ InnoTrans 2026 marked an important milestone for the OpenRail Association and de
 
 On behalf of the OpenRail team, a big thank you to all project presenters and speakers, and to everyone who visited the stand and shared inspiring conversations throughout the week.
 
-![OpenRail Board and team members at InnoTrans 2026](images/news/innotrans-2026-openrail-board-and-team.jpg "OpenRail Board and team members at InnoTrans 2026 in Berlin")
+![OpenRail Board and team members at InnoTrans 2026](images/news/innotrans-2026-openrail-board-and-team.jpeg "OpenRail Board and team members at InnoTrans 2026 in Berlin")
