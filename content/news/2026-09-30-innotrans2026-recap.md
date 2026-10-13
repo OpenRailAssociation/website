@@ -37,7 +37,7 @@ Across four days, the OpenRail Association stand in Hall 7.1C offered a full pro
 
 InnoTrans 2026 marked an important milestone for the OpenRail Association and demonstrated the growing interest in Open Source across the railway sector. More and more stakeholders are exploring how open standards, shared infrastructure and collaborative software development can create real value for a more resilient, interoperable and future-ready rail system. The association looks forward to continuing the conversations started in Berlin and turning shared challenges into shared Open Source solutions for the railway sector.
 
-![Visitors at the OpenRail Association stand at InnoTrans 2026](images/news/innotrans-2026-openrail-stand-visitors.jpg "Visitors at the OpenRail Association stand in Hall 7.1C")
+![Visitors at the OpenRail Association stand at InnoTrans 2026](images/news/innotrans-2026-openrail-stand-visitors.jpeg "Visitors at the OpenRail Association stand in Hall 7.1C")
 
 On behalf of the OpenRail team, a big thank you to all project presenters and speakers, and to everyone who visited the stand and shared inspiring conversations throughout the week.
 
