@@ -11,7 +11,7 @@ From 22 to 25 September 2026, InnoTrans brought together 3,190 exhibitors from 5
 
 For the OpenRail Association, it was a double premiere: for the first time, it exhibited with its own stand at the world's largest trade fair for the rail sector. It also proudly presented OSRD, an Official World Innovation and one of the 180 world premieres at InnoTrans 2026.
 
-![Entrance of Messe Berlin with the banner “Welcome to InnoTrans 2026”](images/news/innotrans-2026-messe-berlin.jpg "Messe Berlin welcoming visitors to the 30th anniversary edition of InnoTrans")
+![Entrance of Messe Berlin with the banner “Welcome to InnoTrans 2026”](images/news/innotrans-2026-messe-berlin.jpeg "Messe Berlin welcoming visitors to the 30th anniversary edition of InnoTrans")
 
 ### OSRD: Open Source Recognised as a World Innovation
 
