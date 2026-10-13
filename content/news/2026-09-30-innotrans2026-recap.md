@@ -1,7 +1,7 @@
 ---
 title: "InnoTrans 2026: A Double Premiere for Open Source in Rail"
 date: 2026-09-30
-summary: "InnoTrans 2026 marked a double premiere for the OpenRail Association: its first own stand at the world's largest trade fair for the rail sector and OSRD recognised as an Official World Innovation. Over four days, presentations, a roundtable at the Mobility+ Corner and many conversations showed the growing interest in Open Source across the railway sector."
+summary: "InnoTrans 2026 marked a double premiere for the OpenRail Association: its first stand of its own at the world's largest trade fair for the rail sector and OSRD recognised as an Official World Innovation. Over four days, presentations, a roundtable at the Mobility+ Corner and many conversations showed the growing interest in Open Source across the railway sector."
 image:
   src: images/news/innotrans-2026-world-premiere.png
   alt: "InnoTrans 2026 World Premiere"
