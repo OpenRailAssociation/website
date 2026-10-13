@@ -19,7 +19,7 @@ At the OpenRail Association stand, OSRD (Open Source Railway Designer) was prese
 
 OSRD is the digital twin for railway operations, supporting digital continuity from strategic planning to daily operations. As a web application, it is composed of reusable building blocks tailored to different use cases. Operational at SNCF Réseau since 2023 with around 100 active users, it proves that Open Source can support critical railway infrastructure management. Funded by the European Union, DGITM and SNCF Réseau, OSRD is the first Open Source project hosted by the OpenRail Association and shows that digital rail innovation can be open, collaborative and sovereign.
 
-![Olivier Bancel delivering an address on OSRD at the OpenRail Association stand at InnoTrans 2026](images/news/innotrans-2026-osrd-olivier-bancel-address.jpg "Olivier Bancel delivering an address on OSRD at the OpenRail Association stand, with Loïc Hamelin, Maëlys Dufresne and Arthur Lefebvre")
+![Olivier Bancel delivering an address on OSRD at the OpenRail Association stand at InnoTrans 2026](images/news/innotrans-2026-osrd-olivier-bancel-address.jpeg "Olivier Bancel delivering an address on OSRD at the OpenRail Association stand, with Loïc Hamelin, Maëlys Dufresne and Arthur Lefebvre")
 
 ### Open Source on Rails: Roundtable Points to Collaboration as the Next Innovation Boost
 
