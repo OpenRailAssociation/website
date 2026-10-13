@@ -1,15 +1,15 @@
 ---
 title: "InnoTrans 2026: A Double Premiere for Open Source in Rail"
 date: 2026-09-30
-summary: "InnoTrans 2026 marked a double premiere for the OpenRail Association: its first stand of its own at the world's largest trade fair for the rail sector and OSRD recognised as an Official World Innovation. Over four days, presentations, a roundtable at the Mobility+ Corner and many conversations showed the growing interest in Open Source across the railway sector."
+summary: "InnoTrans 2026 marked a double premiere for the OpenRail Association: its first stand of its own at the world’s largest trade fair for the rail sector and OSRD recognised as an Official World Innovation. Over four days, presentations, a roundtable at the Mobility+ Corner and many conversations showed the growing interest in Open Source across the railway sector."
 image:
   src: images/news/innotrans-2026-world-premiere.png
   alt: "InnoTrans 2026 World Premiere"
 ---
 
-From 22 to 25 September 2026, InnoTrans brought together 3,190 exhibitors from 59 countries, including 753 first-time exhibitors, and welcomed 175,556 trade visitors from 128 countries. With 32 joint stands from 25 countries and 14 international delegation tours, the fairground became a global platform for innovation, exchange and international collaboration. A total of 180 world premieres showcased the industry's power to innovate.
+From 22 to 25 September 2026, InnoTrans brought together 3,190 exhibitors from 59 countries, including 753 first-time exhibitors, and welcomed 175,556 trade visitors from 128 countries. With 32 joint stands from 25 countries and 14 international delegation tours, the fairground became a global platform for innovation, exchange and international collaboration. A total of 180 world premieres showcased the industry’s power to innovate.
 
-For the OpenRail Association, it was a double premiere: for the first time, it exhibited with its own stand at the world's largest trade fair for the rail sector. It also proudly presented OSRD, which was recognised as an Official World Innovation and counted among the 180 world premieres at InnoTrans 2026.
+For the OpenRail Association, it was a double premiere: for the first time, it exhibited with its own stand at the world’s largest trade fair for the rail sector. It also proudly presented OSRD, which was recognised as an Official World Innovation and counted among the 180 world premieres at InnoTrans 2026.
 
 ![Entrance of Messe Berlin with the banner “Welcome to InnoTrans 2026”](images/news/innotrans-2026-messe-berlin.jpeg "Messe Berlin welcoming visitors to the 30th anniversary edition of InnoTrans")
 
@@ -27,13 +27,13 @@ On Wednesday, 23 September, the OpenRail Association co-hosted the roundtable �
 
 OSRD served as a central example. SNCF Réseau initiated the project and made it freely available because other infrastructure managers faced the same problems. Its collaboration with the Netzgrafik-Editor from SBB showed how cooperation across national borders increases the value of software.
 
-From a strategic perspective, the speakers emphasised that cross-border collaboration in Open Source brings together many perspectives, which ultimately strengthens a project's impact. They also made clear that Open Source already follows clear governance, contribution rules and shared decision-making processes, enabling contributors from different organisations to drive improvements and innovation. In this context, the OpenRail Association plays an important role as a neutral collaboration platform, providing the technical and organisational framework for developing innovations as Open Source solutions in the railway sector.
+From a strategic perspective, the speakers emphasised that cross-border collaboration in Open Source brings together many perspectives, which ultimately strengthens a project’s impact. They also made clear that Open Source already follows clear governance, contribution rules and shared decision-making processes, enabling contributors from different organisations to drive improvements and innovation. In this context, the OpenRail Association plays an important role as a neutral collaboration platform, providing the technical and organisational framework for developing innovations as Open Source solutions in the railway sector.
 
 ![Roundtable at the Mobility+ Corner at InnoTrans 2026](images/news/innotrans-2026-roundtable-mobility-corner.png "Loïc Hamelin (SNCF Réseau), Frédéric Novello (EONA-X), Jochen Decker (SBB CFF FFS) and Max Mehl (DB Systel) at the roundtable “Driving Innovation and Collaboration with Open Source”")
 
 ### Open Source at the Centre of the Digital Rail Conversation
 
-Across four days, the OpenRail Association stand in Hall 7.1C offered a full programme of presentations and exchange. Alongside OSRD, further projects such as the Netzgrafik-Editor (NGE), the Library for Linear Reference Systems (LibLRS) and the Digital Automatic Couplers (DAC) Migration DSS were presented, while meet-ups with the OpenRail Technical Committee and the FOSDEM and Hack4Rail community connected visitors directly with the people behind Open Source in rail. The association's aim was to raise the visibility of Open Source and highlight its importance for the future of rail.
+Across four days, the OpenRail Association stand in Hall 7.1C offered a full programme of presentations and exchange. Alongside OSRD, further projects such as the Netzgrafik-Editor (NGE), the Library for Linear Reference Systems (LibLRS) and the Digital Automatic Couplers (DAC) Migration DSS were presented, while meet-ups with the OpenRail Technical Committee and the FOSDEM and Hack4Rail community connected visitors directly with the people behind Open Source in rail. The association’s aim was to raise the visibility of Open Source and highlight its importance for the future of rail.
 
 InnoTrans 2026 marked an important milestone for the OpenRail Association and demonstrated the growing interest in Open Source across the railway sector. More and more stakeholders are exploring how open standards, shared infrastructure and collaborative software development can create real value for a more resilient, interoperable and future-ready rail system. The association looks forward to continuing the conversations started in Berlin and turning shared challenges into shared Open Source solutions for the railway sector.
 
