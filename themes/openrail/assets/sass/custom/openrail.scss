@@ -510,3 +510,111 @@ details.event-details {
     margin-left: 1rem;
   }
 }
+
+// -----------------------------------------------------------------------------
+// NEWSLETTER
+
+// Intro text with subscribe button next to it
+.newsletter-intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 3rem;
+  padding: 1rem 7rem 1rem 7rem;
+
+  .newsletter-intro-text {
+    flex: 1 1 24rem;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul.actions {
+    margin-bottom: 0;
+  }
+}
+
+// List of issues: image left, text right
+.newsletter-list {
+  padding: 1rem 7rem 3rem 7rem;
+}
+
+.newsletter-issue {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+  // The section above already ends with a line
+  &:first-child {
+    border-top: 0;
+    padding-top: 1rem;
+  }
+
+  .newsletter-image {
+    flex: 0 0 20rem;
+    border-bottom: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  }
+
+  .newsletter-text {
+    flex: 1 1 18rem;
+
+    h3 {
+      margin: 0.2rem 0 0.8rem 0;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.newsletter-date {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+// Single issue: title, date, full-width header image, content
+.newsletter-single {
+  padding: 4rem 7rem 3rem 7rem;
+
+  .newsletter-hero img {
+    display: block;
+    width: 100%;
+    max-width: 60rem;
+    margin: 1.5rem 0 2rem 0;
+    border-radius: 6px;
+  }
+
+  .newsletter-body {
+    max-width: 50rem;
+  }
+}
+
+// Smaller screens: stack image above text, reduce side padding
+@media screen and (max-width: 980px) {
+  .newsletter-intro,
+  .newsletter-list,
+  .newsletter-single {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .newsletter-issue {
+    flex-direction: column;
+    gap: 1rem;
+
+    .newsletter-image {
+      flex-basis: auto;
+      width: 100%;
+    }
+  }
+}
