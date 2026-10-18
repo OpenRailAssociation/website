@@ -4,6 +4,8 @@ links:
     link: "about/"
   - name: News
     link: "news/"
+  - name: Newsletter
+    link: "newsletter/"
   - name: Projects
     link: "#projects"
   - name: Members
