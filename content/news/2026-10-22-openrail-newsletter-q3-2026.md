@@ -1,7 +1,7 @@
 ---
 title: "Newsletter Q3 2026: New Project MscViewer, Digital Sovereignty, InnoTrans"
 date: 2026-10-22
-summary: "From July to September 2026, our community met online every month, we published a position paper on digital sovereignty and welcomed a new project."
+summary: "The OpenRail Association has published its first Quarterly Newsletter, bringing together the highlights from July to September 2026. Find out what happened across our projects, events and community."
 image:
   src: images/news/openrail-newsletter-q3-2026.jpeg
   alt: "OpenRail Association Quarterly Newsletter Q3 2026"
