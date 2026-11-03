@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.WEBSITE_UPDATE_TOKEN }} # token by openrail-tech user
 
       - name: Setup required build tools with mise
-        uses: jdx/mise-action@6be3c7ed4c21d4f76b208d351d95aac273ebb76d # v5.2.4
+        uses: jdx/mise-action@6612f0ef07ed2a736cd1e00a94a065522dd41195 # v5.2.5
 
       - name: Fetch and convert ICS calendar to JSON
         run: mise run events-fetch
