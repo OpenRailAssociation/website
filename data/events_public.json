@@ -28,5 +28,15 @@
     "start": "2026-10-08T14:00:00+02:00",
     "end": "2026-10-08T15:00:00+02:00",
     "all_day": false
+  },
+  {
+    "uid": "b734d083-af93-4230-bcaf-61f5a15da44c",
+    "slug": "2026-11-12-openrail-meetup-planning-the-largest-rail-freight-retrofit-with-open-source",
+    "summary": "OpenRail Meetup: Planning the Largest Rail Freight Retrofit with Open Source",
+    "description": "Welcome to the OpenRail Community Meetup! This event series takes place every second Thursday of the month.\n\nIn this session, we are talking about PopUpSim. It is an Open Source simulation tool helping the rail sector plan the migration of 500,000+ freight wagons to the Digital Automatic Coupler (DAC), modelling pop-up workshop operations wagon by wagon to turn guesswork into evidence-based decisions. Born out of a cross-company hackathon with DB, ÖBB and SBB, it’s now open on GitHub under Apache 2.0. Come join us as a contributor, user, or just to explore the code.\n\nWe welcome everyone to join the meetup, no matter the involvement in OpenRail or area and level of expertise.",
+    "location": "https://meet.opentalk.eu/room/97741299-f14b-4519-b681-25cbd3761492?invite=187f80f7-cb19-4473-ae1e-d28048ea3a44",
+    "start": "2026-11-12T14:00:00+01:00",
+    "end": "2026-11-12T15:00:00+01:00",
+    "all_day": false
   }
 ]
