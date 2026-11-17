@@ -72,6 +72,26 @@
 				&:nth-child(#{$size}n + 1) {
 					border-left-width: 0;
 				}
+
+				// A lone item in the last row stays centred at column width,
+				// framed left and right, with a top line across the full row.
+				@if $size > 1 {
+					&:last-child:nth-child(#{$size}n + 1):not(:first-child) {
+						position: relative;
+						border-left-width: _size(border-width);
+						border-right-width: _size(border-width);
+
+						&::before {
+							content: '';
+							position: absolute;
+							top: -(_size(border-width));
+							left: #{-($size - 1) * 50%};
+							right: #{-($size - 1) * 50%};
+							border-top: _size(border-width) solid;
+							border-color: inherit;
+						}
+					}
+				}
 			}
 		}
 	}
@@ -85,6 +105,14 @@
 
 				&:nth-child(#{$size}n + 1) {
 					border-left-width: _size(border-width);
+				}
+
+				&:last-child:nth-child(#{$size}n + 1):not(:first-child) {
+					border-right-width: 0;
+
+					&::before {
+						content: none;
+					}
 				}
 			}
 		}
