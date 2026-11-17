@@ -1,5 +1,6 @@
 [tools]
-hugo-extended = "0.170.0"
+hugo = "0.170.0"
+"github:sass/dart-sass" = "1"
 lychee = "0.24.2"
 uv = "0.12"
 
