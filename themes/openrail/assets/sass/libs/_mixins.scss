@@ -1,3 +1,6 @@
+@use 'sass:list';
+@use 'sass:math';
+
 /// Makes an element's :before pseudoelement a FontAwesome icon.
 /// @param {string} $content Optional content value to use.
 /// @param {string} $category Optional category to use.
@@ -24,7 +27,7 @@
 		@if ($category == brands) {
 			font-family: 'Font Awesome 5 Brands';
 		}
-		@elseif ($category == solid) {
+		@else if ($category == solid) {
 			font-family: 'Font Awesome 5 Pro';
 			font-weight: 900;
 		}
@@ -50,11 +53,11 @@
 
 	$x: 0.1em;
 
-	@if unit(_size(element-margin)) == 'rem' {
+	@if math.unit(_size(element-margin)) == 'rem' {
 		$x: 0.1rem;
 	}
 
-	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max($x, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
+	padding: ($tb + list.nth($pad,1)) ($lr + list.nth($pad,2)) math.max($x, $tb - _size(element-margin) + list.nth($pad,3)) ($lr + list.nth($pad,4)) #{$important};
 
 }
 

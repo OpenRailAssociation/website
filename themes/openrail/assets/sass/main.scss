@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -84,10 +86,10 @@
 	@mixin resize-phone($image-width, $image-factor) {
 		$image-pad-top: 2.5rem;
 		$image-pad-bottom: 3rem;
-		$image-height: ($image-width * (1920 / 1080));
+		$image-height: ($image-width * math.div(1920, 1080));
 
 		width: ($image-width * $image-factor);
-		height: (($image-width * $image-factor) * (1920 / 1080));
+		height: (($image-width * $image-factor) * math.div(1920, 1080));
 		margin-top: ($image-pad-top * $image-factor);
 		margin-bottom: (_size(element-margin) + ($image-pad-bottom * $image-factor));
 
