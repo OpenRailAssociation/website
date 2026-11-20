@@ -28,5 +28,35 @@
     "start": "2026-11-12T14:00:00+01:00",
     "end": "2026-11-12T15:00:00+01:00",
     "all_day": false
+  },
+  {
+    "uid": "995ff97f-2110-400e-ab99-14117f5f0233",
+    "slug": "2026-12-10-openrail-meetup-digital-sovereignty-in-rail",
+    "summary": "OpenRail Meetup: Digital Sovereignty in Rail",
+    "description": "Description coming soon",
+    "location": "Link to participate coming soon",
+    "start": "2026-12-10T14:00:00+01:00",
+    "end": "2026-12-10T15:00:00+01:00",
+    "all_day": false
+  },
+  {
+    "uid": "05ad19cb-f1d5-4f7f-80ae-38f25290457c",
+    "slug": "2027-01-14-openrail-meetup-meetup-topic-currently-being-finalised",
+    "summary": "OpenRail Meetup: Meetup topic currently being finalised",
+    "description": "Description to follow in December",
+    "location": "Link to participate to follow in December",
+    "start": "2027-01-14T14:00:00+01:00",
+    "end": "2027-01-14T15:00:00+01:00",
+    "all_day": false
+  },
+  {
+    "uid": "a9c5d5f1-3647-4ecd-af61-38b8d6957e1b",
+    "slug": "2027-02-11-openrail-meetup-meetup-topic-currently-being-finalised",
+    "summary": "OpenRail Meetup: Meetup topic currently being finalised",
+    "description": "Description to follow in January",
+    "location": "Link to participate to follow in January",
+    "start": "2027-02-11T14:00:00+01:00",
+    "end": "2027-02-11T15:00:00+01:00",
+    "all_day": false
   }
 ]
