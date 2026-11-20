@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 /*
 	Hugo Story by CaressOfSteel
 	A (modular, highly tweakable) responsive one-page theme for Hugo.
@@ -117,7 +119,7 @@
 		border-left: solid (_size(border-width) * 4);
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+		padding: math.div(_size(element-margin), 4) 0 math.div(_size(element-margin), 4) _size(element-margin);
 	}
 
 	code {
