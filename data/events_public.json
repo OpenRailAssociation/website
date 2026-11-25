@@ -1,15 +1,5 @@
 [
   {
-    "uid": "a6b953ec-ed73-45be-a60d-36efb0badc02",
-    "slug": "2026-09-22-openrail-innotrans",
-    "summary": "OpenRail @ Innotrans",
-    "description": "We would like to welcome you to visit us at InnoTrans, the International Trade Fair for Transport Technology.\n\nOpenRail will be present with a booth. Our Board and Team members are looking forward to exchanging about Open Source in the railway sector, learning about your use-cases, and explaining how OpenRail can help you.\n\nPlease find more details on our participation and the schedule on our website.",
-    "location": "Berlin, Expo Center, Hall 7.1c, Stand 530",
-    "start": "2026-09-22",
-    "end": "2026-09-25",
-    "all_day": true
-  },
-  {
     "uid": "a9228a65-05b6-4bf2-9898-dfd31b249d3c",
     "slug": "2026-10-08-openrail-community-meetup-nightvision-night-train-timetable-discrepancy-management",
     "summary": "OpenRail Community Meetup: NightVision – Night Train Timetable Discrepancy Management",
