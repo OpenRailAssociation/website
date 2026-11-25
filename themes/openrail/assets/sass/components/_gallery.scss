@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use 'sass:math';
+
 /*
 	Hugo Story by CaressOfSteel
 	A (modular, highly tweakable) responsive one-page theme for Hugo.
@@ -117,7 +120,7 @@
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-color: transparentize(_palette(invert, bg), 1 - _misc(overlay-opacity));
+				background-color: color.adjust(_palette(invert, bg), $alpha: -(1 - _misc(overlay-opacity)));
 				opacity: 0;
 				padding: 2rem;
 				z-index: 1;
@@ -151,7 +154,7 @@
 
 		@include breakpoint('<=large') {
 			article {
-				width: (100% / 3);
+				width: math.div(100%, 3);
 
 				.caption {
 					padding: 1rem;
@@ -203,7 +206,7 @@
 
 					@include breakpoint('<=medium') {
 						article {
-							width: (100% / 3);
+							width: math.div(100%, 3);
 
 							.caption {
 								padding: 1rem;
@@ -228,7 +231,7 @@
 
 				&.big {
 					article {
-						width: (100% / 3);
+						width: math.div(100%, 3);
 
 						.caption {
 							padding: 3rem;
@@ -368,7 +371,7 @@
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-color: transparentize(_palette(invert, bg), 1 - _misc(overlay-opacity));
+				background-color: color.adjust(_palette(invert, bg), $alpha: -(1 - _misc(overlay-opacity)));
 				opacity: 0;
 				padding: 3rem;
 				z-index: 1;
@@ -508,7 +511,7 @@
 			width: 100%;
 			height: 100%;
 			outline: 0;
-			background-color: transparentize(_palette(invert, bg), 1 - _misc(lightbox-opacity));
+			background-color: color.adjust(_palette(invert, bg), $alpha: -(1 - _misc(lightbox-opacity)));
 			visibility: none;
 			opacity: 0;
 			z-index: 0;
@@ -608,7 +611,7 @@
 		.gallery {
 			article {
 				.image {
-					background-color: transparentize(_palette($p, fg-bold), 0.875);
+					background-color: color.adjust(_palette($p, fg-bold), $alpha: -0.875);
 				}
 			}
 		}

@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 /*
 	Hugo Story by CaressOfSteel
 	A (modular, highly tweakable) responsive one-page theme for Hugo.
@@ -934,13 +936,13 @@
 	@mixin color-banner($p: null) {
 		.banner {
 			.image {
-				background-color: transparentize(_palette($p, fg-bold), 0.875);
+				background-color: color.adjust(_palette($p, fg-bold), $alpha: -0.875);
 			}
 
 			@if ($p != 'invert') {
 				&.invert {
 					.image {
-						background-color: transparentize(_palette(invert, fg-bold), 0.875);
+						background-color: color.adjust(_palette(invert, fg-bold), $alpha: -0.875);
 					}
 				}
 			}
